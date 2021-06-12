@@ -75,7 +75,7 @@ export default function LanguageSelector() {
                         <p className="text-sm font-medium text-gray-900">
                           {item.name}
                         </p>
-                        <p className="text-sm text-gray-500">
+                        <p className="text-sm font-light text-gray-500">
                           {item.description}
                         </p>
                       </div>

@@ -3,18 +3,18 @@ import { ClipboardListIcon, MailIcon } from '@heroicons/react/outline';
 
 export default function Hero() {
   return (
-    <div className=" flex flex-row max-w-5xl mx-auto">
+    <div className="flex flex-row max-w-5xl items-center mx-auto">
       <div className="w-1/2">
         <p className="font-extralight text-3xl text-gray-800">Welcome to</p>
-        <h1 className="font-bold text-5xl text-gray-800 mt-1">
+        <h1 className="font-bold text-6xl text-gray-800 mt-1">
           Bio Etic Goods
         </h1>
-        <p className="font-light text-2xl text-mainGreen mt-1">
+        <p className="font-medium text-xl text-mainGreen mt-1">
           Acquainted with traditions
         </p>
-        <p className="text-base w-3/4 text-gray-600 mt-4">
-          Hello and welcome to Bio Etic Goods. We act as a brokers and
-          distrubutors in the food and beverage sector. We spezialize in frozen
+        <p className="font-light w-3/4 text-gray-600 mt-8">
+          Hello and welcome to Bio Etic Goods. We act as a broker and
+          distrubutor in the food and beverage sector. We spezialize in frozen
           products, spirits, spices and herbs.
         </p>
         <div className="mt-4">
@@ -55,8 +55,14 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className="w-1/2">
-        <p>Sec2</p>
+      <div className="w-1/2 relative">
+        <img className="opacity-0" src="/images/flagtable.png"></img>
+        <img className="absolute top-0" src="/images/flagtable.png"></img>
+        <img className="absolute top-0" src="/images/foodmid1.png"></img>
+        <img className="absolute top-0" src="/images/foodmid2.png"></img>
+        <img className="absolute top-0" src="/images/foodmid3.png"></img>
+        <img className="absolute top-0" src="/images/doughnut.png"></img>
+        <img className="absolute top-0" src="/images/beverages1.png"></img>
       </div>
     </div>
   );

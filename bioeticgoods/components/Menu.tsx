@@ -2,16 +2,15 @@ import React, { useState } from 'react';
 import { Fragment } from 'react';
 import { Popover, Transition } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
-import {} from '@heroicons/react/solid';
 import LanguageSelector from '../components/LanguageSelector';
 
 export default function Menu() {
   return (
-    <Popover className="sticky bg-white">
+    <Popover className="sticky top-0 bg-white border-b-2 border-gray-100 z-50">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-4 sm:px-6">
-            <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
+            <div className="flex justify-between items-center  py-6 md:justify-start md:space-x-10">
               <div className="flex justify-start lg:w-0 lg:flex-1">
                 <a href="#">
                   <span className="sr-only">BioEticGoods</span>

@@ -12,8 +12,8 @@ module.exports = {
       },
       backgroundColor: {
         mainGreen: '#7cc000',
-        secondary: '#ffed4a',
-        danger: '#e3342f',
+        bgColor: '#F7F6F2',
+        header: '#525252',
       },
     },
   },
