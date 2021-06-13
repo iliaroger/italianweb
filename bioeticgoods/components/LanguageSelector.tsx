@@ -43,7 +43,7 @@ export default function LanguageSelector() {
               className="w-4 mr-1 select-none"
               src="/images/united.png"
             ></img>
-            <span className="font-light text-lg select-none">English</span>
+            <span className="font-light text-md select-none">English</span>
             <ChevronDownIcon
               className={`${open ? '' : 'text-opacity-70'}
                   ml-2 h-5 w-5 text-orange-300 group-hover:text-opacity-80 transition ease-in-out duration-150 select-none`}

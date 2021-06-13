@@ -1,9 +1,69 @@
 import React from 'react';
 import Header from '../components/Header';
+import { useState } from 'react';
+import Modal from '../components/Modal';
+
+interface ModalType {
+  [key: string]: {
+    header: string;
+    text: string;
+  };
+}
+
+enum SelectionModal {
+  euea = 'euea',
+  eaeu = 'eaeu',
+  fresh = 'fresh',
+  organic = 'organic',
+  quality = 'quality',
+  natural = 'natural',
+  none = '',
+}
 
 export default function About() {
+  const [currentModal, setCurrentModal] = useState<SelectionModal>(
+    SelectionModal.none
+  );
+  const [triggerModal, setTriggerModal] = useState<boolean>(false);
+
+  const modalInfo: ModalType = {
+    eaeu: {
+      header: 'Import from EAEU to EU',
+      text: 'We import our goods and products from EAEU to EU.',
+    },
+    fresh: {
+      header: 'Fresh from our suppliers',
+      text: 'We picked the best suppliers from all regions to ensure a high standard for all our products.',
+    },
+    organic: {
+      header: '100% organic goods',
+      text: 'Our goods and products obey to a set standard regarding organic production.',
+    },
+    quality: {
+      header: 'Premium quality',
+      text: 'Each month we audit our suppliers and refresh the selection of our goods to ensure premium quality. ',
+    },
+    natural: {
+      header: '100% natural',
+      text: 'Our goods are grown under strict conditions and reviewed by our quality assurance team upon arrival.',
+    },
+    euea: {
+      header: 'Import from EU to EAEU',
+      text: 'We import our goods and products from EU to EAEU.',
+    },
+  };
+
   return (
-    <div className="bg-bgColor pb-20 relative overflow-x-hidden">
+    <div className="bg-bgColor pb-10 relative overflow-x-hidden">
+      {currentModal !== '' ? (
+        <Modal
+          trigger={triggerModal}
+          description={modalInfo[currentModal].header}
+          text={modalInfo[currentModal].text}
+        ></Modal>
+      ) : (
+        ''
+      )}
       <img
         className="absolute left-0 top-1/4 transform -translate-x-2 z-10"
         src="/images/aboutTwig1.png"
@@ -30,7 +90,13 @@ export default function About() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
             <div className="text-center mt-4">
-              <button className="bg-white px-4 py-2 rounded-xl text-gray-400 text-xs tracking-wider shadow-sm uppercase">
+              <button
+                className="bg-white px-4 py-2 rounded-xl text-gray-400 text-xs tracking-wider shadow-sm uppercase"
+                onClick={() => {
+                  setCurrentModal(SelectionModal.fresh);
+                  setTriggerModal(!triggerModal);
+                }}
+              >
                 Read More
               </button>
             </div>
@@ -45,7 +111,13 @@ export default function About() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
             <div className="text-center mt-4">
-              <button className="bg-white px-4 py-2 rounded-xl text-gray-400 text-xs tracking-wider shadow-sm uppercase">
+              <button
+                className="bg-white px-4 py-2 rounded-xl text-gray-400 text-xs tracking-wider shadow-sm uppercase"
+                onClick={() => {
+                  setCurrentModal(SelectionModal.organic);
+                  setTriggerModal(!triggerModal);
+                }}
+              >
                 Read More
               </button>
             </div>
@@ -60,7 +132,13 @@ export default function About() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
             <div className="text-center mt-4">
-              <button className="bg-white px-4 py-2 rounded-xl text-gray-400 text-xs tracking-wider shadow-sm uppercase">
+              <button
+                className="bg-white px-4 py-2 rounded-xl text-gray-400 text-xs tracking-wider shadow-sm uppercase"
+                onClick={() => {
+                  setCurrentModal(SelectionModal.quality);
+                  setTriggerModal(!triggerModal);
+                }}
+              >
                 Read More
               </button>
             </div>
@@ -74,7 +152,13 @@ export default function About() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
             <div className="text-center mt-4">
-              <button className="bg-white px-4 py-2 rounded-xl text-gray-400 text-xs tracking-wider shadow-sm uppercase">
+              <button
+                className="bg-white px-4 py-2 rounded-xl text-gray-400 text-xs tracking-wider shadow-sm uppercase"
+                onClick={() => {
+                  setCurrentModal(SelectionModal.natural);
+                  setTriggerModal(!triggerModal);
+                }}
+              >
                 Read More
               </button>
             </div>
@@ -94,7 +178,13 @@ export default function About() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
             <div className="text-center mt-4">
-              <button className="bg-white px-4 py-2 rounded-xl text-gray-400 text-xs tracking-wider shadow-sm uppercase">
+              <button
+                className="bg-white px-4 py-2 rounded-xl text-gray-400 text-xs tracking-wider shadow-sm uppercase"
+                onClick={() => {
+                  setCurrentModal(SelectionModal.eaeu);
+                  setTriggerModal(!triggerModal);
+                }}
+              >
                 Read More
               </button>
             </div>
@@ -113,7 +203,13 @@ export default function About() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
             <div className="text-center mt-4">
-              <button className="bg-white px-4 py-2 rounded-xl text-gray-400 text-xs tracking-wider shadow-sm uppercase">
+              <button
+                className="bg-white px-4 py-2 rounded-xl text-gray-400 text-xs tracking-wider shadow-sm uppercase"
+                onClick={() => {
+                  setCurrentModal(SelectionModal.euea);
+                  setTriggerModal(!triggerModal);
+                }}
+              >
                 Read More
               </button>
             </div>

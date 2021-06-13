@@ -30,31 +30,31 @@ export default function Menu() {
               <Popover.Group as="nav" className="hidden md:flex space-x-10">
                 <a
                   href="#"
-                  className="text-lg font-light text-gray-600 hover:text-gray-900 select-none"
+                  className="text-md font-light text-gray-600 hover:text-gray-900 select-none"
                 >
                   Start
                 </a>
                 <a
                   href="#"
-                  className="text-lg font-light text-gray-600 hover:text-gray-900 select-none"
+                  className="text-md font-light text-gray-600 hover:text-gray-900 select-none"
                 >
                   About Us
                 </a>
                 <a
                   href="#"
-                  className="text-lg font-light text-gray-600 hover:text-gray-900 select-none"
+                  className="text-md font-light text-gray-600 hover:text-gray-900 select-none"
                 >
                   Our Products
                 </a>
                 <a
                   href="#"
-                  className="text-lg font-light text-gray-600 hover:text-gray-900 select-none"
+                  className="text-md font-light text-gray-600 hover:text-gray-900 select-none"
                 >
                   Questions
                 </a>
                 <a
                   href="#"
-                  className="text-lg font-light text-gray-600 hover:text-gray-900 select-none"
+                  className="text-md font-light text-gray-600 hover:text-gray-900 select-none"
                 >
                   Contact
                 </a>
