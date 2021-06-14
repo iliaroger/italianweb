@@ -54,7 +54,7 @@ export default function About() {
   };
 
   return (
-    <div className="bg-bgColor pb-10 relative overflow-x-hidden">
+    <div className="bg-bgColor relative overflow-x-hidden">
       {currentModal !== '' ? (
         <Modal
           trigger={triggerModal}
@@ -72,7 +72,7 @@ export default function About() {
         className="absolute right-0 top-1/2 transform translate-x-1 z-10"
         src="/images/aboutTwig2.png"
       ></img>
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-6xl mx-auto py-20">
         <Header
           description="Learn more about us"
           text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quod
@@ -83,7 +83,7 @@ export default function About() {
           <div className="w-1/4 p-2 transform translate-y-16">
             <img className="w-1/3 mx-auto" src="/images/aboutImage1.png"></img>
             <p className="text-center mt-4 text-gray-600 font-light">
-              fresh from{' '}
+              Fresh from{' '}
               <span className="font-semibold text-gray-800">our suppliers</span>
             </p>
             <p className="text-center font-light text-sm mt-2 text-gray-600">
@@ -91,7 +91,7 @@ export default function About() {
             </p>
             <div className="text-center mt-4">
               <button
-                className="bg-white px-4 py-2 rounded-xl text-gray-400 text-xs tracking-wider shadow-sm uppercase"
+                className="bg-white px-4 py-2 rounded-xl text-gray-400 text-xs tracking-wider shadow-sm uppercase focus:outline-none"
                 onClick={() => {
                   setCurrentModal(SelectionModal.fresh);
                   setTriggerModal(!triggerModal);
@@ -112,7 +112,7 @@ export default function About() {
             </p>
             <div className="text-center mt-4">
               <button
-                className="bg-white px-4 py-2 rounded-xl text-gray-400 text-xs tracking-wider shadow-sm uppercase"
+                className="bg-white px-4 py-2 rounded-xl text-gray-400 text-xs tracking-wider shadow-sm uppercase focus:outline-none"
                 onClick={() => {
                   setCurrentModal(SelectionModal.organic);
                   setTriggerModal(!triggerModal);
@@ -125,7 +125,7 @@ export default function About() {
           <div className="w-1/4 p-2">
             <img className="w-1/3 mx-auto" src="/images/aboutImage3.png"></img>
             <p className="text-center mt-4 text-gray-600 font-light">
-              premium{' '}
+              Premium{' '}
               <span className="font-semibold text-gray-800">quality</span>
             </p>
             <p className="text-center font-light text-sm mt-2 text-gray-600">
@@ -133,7 +133,7 @@ export default function About() {
             </p>
             <div className="text-center mt-4">
               <button
-                className="bg-white px-4 py-2 rounded-xl text-gray-400 text-xs tracking-wider shadow-sm uppercase"
+                className="bg-white px-4 py-2 rounded-xl text-gray-400 text-xs tracking-wider shadow-sm uppercase focus:outline-none"
                 onClick={() => {
                   setCurrentModal(SelectionModal.quality);
                   setTriggerModal(!triggerModal);
@@ -153,7 +153,7 @@ export default function About() {
             </p>
             <div className="text-center mt-4">
               <button
-                className="bg-white px-4 py-2 rounded-xl text-gray-400 text-xs tracking-wider shadow-sm uppercase"
+                className="bg-white px-4 py-2 rounded-xl text-gray-400 text-xs tracking-wider shadow-sm uppercase focus:outline-none"
                 onClick={() => {
                   setCurrentModal(SelectionModal.natural);
                   setTriggerModal(!triggerModal);
@@ -171,7 +171,7 @@ export default function About() {
               <img className="w-28 p-2" src="/images/eu.png"></img>
             </div>
             <p className="text-center mt-4 text-gray-600 font-light">
-              we import from{' '}
+              We import from{' '}
               <span className="font-semibold text-gray-800">EAEU to EU</span>
             </p>
             <p className="text-center font-light text-sm mt-2 text-gray-600">
@@ -179,7 +179,7 @@ export default function About() {
             </p>
             <div className="text-center mt-4">
               <button
-                className="bg-white px-4 py-2 rounded-xl text-gray-400 text-xs tracking-wider shadow-sm uppercase"
+                className="bg-white px-4 py-2 rounded-xl text-gray-400 text-xs tracking-wider shadow-sm uppercase focus:outline-none"
                 onClick={() => {
                   setCurrentModal(SelectionModal.eaeu);
                   setTriggerModal(!triggerModal);
@@ -196,7 +196,7 @@ export default function About() {
               <img className="w-28 p-2" src="/images/eaeu.png"></img>
             </div>
             <p className="text-center mt-4 text-gray-600 font-light">
-              we import from{' '}
+              We import from{' '}
               <span className="font-semibold text-gray-800">EU to EAEU</span>
             </p>
             <p className="text-center font-light text-sm mt-2 text-gray-600">
@@ -204,7 +204,7 @@ export default function About() {
             </p>
             <div className="text-center mt-4">
               <button
-                className="bg-white px-4 py-2 rounded-xl text-gray-400 text-xs tracking-wider shadow-sm uppercase"
+                className="bg-white px-4 py-2 rounded-xl text-gray-400 text-xs tracking-wider shadow-sm uppercase focus:outline-none"
                 onClick={() => {
                   setCurrentModal(SelectionModal.euea);
                   setTriggerModal(!triggerModal);

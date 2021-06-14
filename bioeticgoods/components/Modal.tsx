@@ -1,5 +1,6 @@
 import { Dialog, Transition } from '@headlessui/react';
 import { Fragment, useState, useEffect } from 'react';
+import Header from '../components/Header';
 
 interface PropTypes {
   trigger: boolean;
@@ -62,18 +63,19 @@ export default function Modal({ trigger, description, text }: PropTypes) {
               <div className="inline-block w-full max-w-md p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl">
                 <Dialog.Title
                   as="h3"
-                  className="text-lg font-medium leading-6 text-gray-900"
+                  className="text-lg font-medium leading-6 text-gray-900 text-center"
                 >
                   {description}
                 </Dialog.Title>
+                <hr className="w-10 mx-auto mt-1"></hr>
                 <div className="mt-2">
-                  <p className="text-sm text-gray-500">{text}</p>
+                  <p className="text-sm text-gray-500 text-center">{text}</p>
                 </div>
 
-                <div className="mt-4">
+                <div className="mt-4 text-center">
                   <button
                     type="button"
-                    className="inline-flex justify-center px-4 py-2 text-sm font-medium text-blue-900 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500"
+                    className="inline-flex justify-center px-4 py-2 text-sm font-medium text-white bg-mainGreen border border-transparent rounded-md hover:bg-mainGreen focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500"
                     onClick={() => setModalState(false)}
                   >
                     Close

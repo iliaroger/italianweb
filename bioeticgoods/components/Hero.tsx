@@ -21,18 +21,18 @@ export default function Hero() {
           <button className="px-8 py-3 text-lg font-light text-white bg-mainGreen rounded select-none">
             <div className="flex flex-row">
               <ClipboardListIcon className="w-5"></ClipboardListIcon>
-              <p className="ml-1 text-lg">About Us</p>
+              <p className="ml-1 text-base">About Us</p>
             </div>
           </button>
           <button className="px-8 py-3 text-lg font-light border border-gray-300 text-gray-400 bg-white rounded ml-4 select-none">
             <div className="flex flex-row">
               <MailIcon className="w-5"></MailIcon>
-              <p className="ml-1 text-lg">Contact</p>
+              <p className="ml-1 text-base">Contact</p>
             </div>
           </button>
         </div>
         <div className="mt-8">
-          <p className="text-gray-600 font-light">
+          <p className="text-gray-600 font-light text-sm">
             We operate in the following regions:
           </p>
           <div className="flex flex-row mt-1">

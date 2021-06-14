@@ -15,11 +15,17 @@ module.exports = {
         bgColor: '#F7F6F2',
         header: '#525252',
       },
+      borderColor: {
+        mainGreen: '#7cc000',
+        bgColor: '#F7F6F2',
+      },
     },
   },
   variants: {
     extend: {
       cursor: ['hover'],
+      borderWidth: ['hover'],
+      borderColor: ['hover'],
     },
   },
   plugins: [],

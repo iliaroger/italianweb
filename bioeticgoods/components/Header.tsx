@@ -2,18 +2,18 @@ import React from 'react';
 
 interface PropTypes {
   description: string;
-  text: string;
+  text?: string;
 }
 
 export default function Header({ description, text }: PropTypes) {
   return (
-    <div className="text-center pt-20">
+    <div className="text-center">
       <div className="relative">
         <img
           className="absolute w-4 left-1/2 transform -translate-y-4"
           src="/images/leaf.png"
         ></img>
-        <h2 className="font-extralight text-3xl text-gray-600">
+        <h2 className="font-extralight text-4xl text-gray-600">
           we are{' '}
           <span className="font-semibold text-gray-800">bio etic goods</span>
         </h2>
