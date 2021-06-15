@@ -32,7 +32,7 @@ export default function Newsletter() {
       </div>
       <div className="text-center mt-4">
         <input
-          className="w-80 text-sm text-gray-600 font-light px-4 py-2 rounded-l-lg"
+          className="w-80 text-sm text-gray-600 font-light px-4 py-2 rounded-l-lg outline-none"
           type="text"
           placeholder="enter your email address"
         />

@@ -6,6 +6,7 @@ import Partners from '../components/Partners';
 import Products from '../components/Products';
 import Questions from '../components/Questions';
 import Newsletter from '../components/Newsletter';
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Products></Products>
       <Questions></Questions>
       <Newsletter></Newsletter>
+      <Footer></Footer>
     </div>
   );
 }
