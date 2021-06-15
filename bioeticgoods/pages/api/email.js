@@ -16,7 +16,7 @@ export default async (req, res) => {
   transporter.sendMail(
     {
       from: {
-        name: 'Praxis Adrian Bühler',
+        name: 'Bio Etic Goods',
         address: 'ilia.roger@outlook.com',
       },
       to: 'ilia.roger@outlook.com, iliailia@me.com',

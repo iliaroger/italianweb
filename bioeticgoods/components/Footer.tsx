@@ -74,14 +74,12 @@ export default function Footer() {
           </p>
           <div className="flex xl:flex-row xsm:flex-col sm:flex-row">
             <div className="xl:w-1/2 mt-4 xsm:w-full">
-              <p className="font-semibold text-gray-800">ООО «Био Этик Гудс»</p>
+              <p className="font-semibold text-gray-800">Bio Etic Goods LLC</p>
               <div className="flex flex-row mt-2">
                 <LocationMarkerIcon className="w-4 h-4 text-gray-600"></LocationMarkerIcon>
                 <div className="ml-1">
-                  <p className="text-gray-600 text-sm">
-                    ул. Могилёвская, д. 19б, Оф. б/Н
-                  </p>
-                  <p className="text-gray-600 text-sm">246010 г. Гомель</p>
+                  <p className="text-gray-600 text-sm">Isufarolo 23a</p>
+                  <p className="text-gray-600 text-sm">6815 Lugano</p>
                 </div>
               </div>
               <div className="flex flex-row mt-2">

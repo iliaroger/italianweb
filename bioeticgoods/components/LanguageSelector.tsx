@@ -27,6 +27,12 @@ const languages = [
     href: '##',
     icon: '/images/germany.png',
   },
+  {
+    name: 'Français',
+    description: 'changer la langue en français',
+    href: '##',
+    icon: '/images/france.png',
+  },
 ];
 
 export default function LanguageSelector() {
@@ -37,7 +43,7 @@ export default function LanguageSelector() {
           <Popover.Button
             className={`
                 ${open ? '' : 'text-opacity-90'}
-                 text-gray-600 hover:text-gray-900 group bg-orange-700 px-3 py-2 rounded-md inline-flex items-center text-base font-medium hover:text-opacity-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75`}
+                 text-gray-600 hover:text-gray-800 bg-orange-700 px-3 py-2 rounded-md inline-flex items-center transition duration-150 text-base font-medium hover:text-opacity-100 focus:outline-none  focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75`}
           >
             <img
               className="w-4 mr-1 select-none"
@@ -46,7 +52,7 @@ export default function LanguageSelector() {
             <span className="font-light text-md select-none">English</span>
             <ChevronDownIcon
               className={`${open ? '' : 'text-opacity-70'}
-                  ml-2 h-5 w-5 text-orange-300 group-hover:text-opacity-80 transition ease-in-out duration-150 select-none`}
+                  ml-2 h-5 w-5 select-none`}
               aria-hidden="true"
             />
           </Popover.Button>
