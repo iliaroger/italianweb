@@ -67,7 +67,7 @@ export default function Modal({ trigger, description, text }: PropTypes) {
                 >
                   {description}
                 </Dialog.Title>
-                <hr className="w-10 mx-auto mt-1"></hr>
+                <hr className="w-6 mx-auto mt-1"></hr>
                 <div className="mt-2">
                   <p className="text-sm text-gray-500 text-center">{text}</p>
                 </div>
