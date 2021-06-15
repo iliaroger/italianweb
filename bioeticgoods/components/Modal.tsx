@@ -1,6 +1,6 @@
 import { Dialog, Transition } from '@headlessui/react';
 import { Fragment, useState, useEffect } from 'react';
-import Header from '../components/Header';
+import { BadgeCheckIcon } from '@heroicons/react/outline';
 
 interface PropTypes {
   trigger: boolean;
@@ -28,7 +28,7 @@ export default function Modal({ trigger, description, text }: PropTypes) {
       <Transition appear show={modalState} as={Fragment}>
         <Dialog
           as="div"
-          className="fixed inset-0 z-10 overflow-y-auto"
+          className="fixed inset-0 z-50 overflow-y-auto bg-gray-100 bg-opacity-80 transition duration-300"
           onClose={() => closeModal()}
         >
           <div className="min-h-screen px-4 text-center">
@@ -61,9 +61,10 @@ export default function Modal({ trigger, description, text }: PropTypes) {
               leaveTo="opacity-0 scale-95"
             >
               <div className="inline-block w-full max-w-md p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl">
+                <BadgeCheckIcon className="w-8 mx-auto text-mainGreen"></BadgeCheckIcon>
                 <Dialog.Title
                   as="h3"
-                  className="text-lg font-medium leading-6 text-gray-900 text-center"
+                  className="text-lg font-medium leading-6 text-gray-900 text-center mt-1"
                 >
                   {description}
                 </Dialog.Title>

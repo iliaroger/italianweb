@@ -81,6 +81,7 @@ export default function Products() {
 
   return (
     <div className="bg-bgColor relative overflow-x-hidden overflow-y-hidden">
+      <div className="transform -translate-y-20" id="products"></div>
       {currentModal !== '' ? (
         <Modal
           trigger={triggerModal}

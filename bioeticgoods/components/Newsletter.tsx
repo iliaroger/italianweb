@@ -36,7 +36,7 @@ export default function Newsletter() {
           type="text"
           placeholder="enter your email address"
         />
-        <button className="px-4 py-2 text-sm font-light text-white bg-mainGreen focus:outline-none">
+        <button className="px-4 py-2 text-sm font-light text-white bg-mainGreen focus:outline-none hover:opacity-80 transition duration-300">
           join the newsletter
         </button>
       </div>

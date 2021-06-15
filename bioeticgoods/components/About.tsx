@@ -55,6 +55,7 @@ export default function About() {
 
   return (
     <div className="bg-bgColor relative overflow-x-hidden">
+      <div className="transform -translate-y-20" id="about"></div>
       {currentModal !== '' ? (
         <Modal
           trigger={triggerModal}
@@ -91,7 +92,7 @@ export default function About() {
             </p>
             <div className="text-center mt-4">
               <button
-                className="bg-white px-4 py-2 rounded-xl text-gray-400 text-xs tracking-wider shadow-sm uppercase focus:outline-none"
+                className="bg-white px-4 py-2 rounded-xl text-gray-400 text-xs tracking-wider shadow-sm uppercase focus:outline-none hover:text-mainGreen transition duration-300"
                 onClick={() => {
                   setCurrentModal(SelectionModal.fresh);
                   setTriggerModal(!triggerModal);
@@ -112,7 +113,7 @@ export default function About() {
             </p>
             <div className="text-center mt-4">
               <button
-                className="bg-white px-4 py-2 rounded-xl text-gray-400 text-xs tracking-wider shadow-sm uppercase focus:outline-none"
+                className="bg-white px-4 py-2 rounded-xl text-gray-400 text-xs tracking-wider shadow-sm uppercase focus:outline-none hover:text-mainGreen transition duration-300"
                 onClick={() => {
                   setCurrentModal(SelectionModal.organic);
                   setTriggerModal(!triggerModal);
@@ -133,7 +134,7 @@ export default function About() {
             </p>
             <div className="text-center mt-4">
               <button
-                className="bg-white px-4 py-2 rounded-xl text-gray-400 text-xs tracking-wider shadow-sm uppercase focus:outline-none"
+                className="bg-white px-4 py-2 rounded-xl text-gray-400 text-xs tracking-wider shadow-sm uppercase focus:outline-none hover:text-mainGreen transition duration-300"
                 onClick={() => {
                   setCurrentModal(SelectionModal.quality);
                   setTriggerModal(!triggerModal);
@@ -153,7 +154,7 @@ export default function About() {
             </p>
             <div className="text-center mt-4">
               <button
-                className="bg-white px-4 py-2 rounded-xl text-gray-400 text-xs tracking-wider shadow-sm uppercase focus:outline-none"
+                className="bg-white px-4 py-2 rounded-xl text-gray-400 text-xs tracking-wider shadow-sm uppercase focus:outline-none hover:text-mainGreen transition duration-300"
                 onClick={() => {
                   setCurrentModal(SelectionModal.natural);
                   setTriggerModal(!triggerModal);
@@ -179,7 +180,7 @@ export default function About() {
             </p>
             <div className="text-center mt-4">
               <button
-                className="bg-white px-4 py-2 rounded-xl text-gray-400 text-xs tracking-wider shadow-sm uppercase focus:outline-none"
+                className="bg-white px-4 py-2 rounded-xl text-gray-400 text-xs tracking-wider shadow-sm uppercase focus:outline-none hover:text-mainGreen transition duration-300"
                 onClick={() => {
                   setCurrentModal(SelectionModal.eaeu);
                   setTriggerModal(!triggerModal);
@@ -204,7 +205,7 @@ export default function About() {
             </p>
             <div className="text-center mt-4">
               <button
-                className="bg-white px-4 py-2 rounded-xl text-gray-400 text-xs tracking-wider shadow-sm uppercase focus:outline-none"
+                className="bg-white px-4 py-2 rounded-xl text-gray-400 text-xs tracking-wider shadow-sm uppercase focus:outline-none hover:text-mainGreen transition duration-300"
                 onClick={() => {
                   setCurrentModal(SelectionModal.euea);
                   setTriggerModal(!triggerModal);

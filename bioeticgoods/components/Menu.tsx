@@ -6,7 +6,7 @@ import LanguageSelector from '../components/LanguageSelector';
 
 export default function Menu() {
   return (
-    <Popover className="sticky top-0 bg-white border-b border-gray-100 z-50">
+    <Popover className="sticky top-0 bg-white border-b border-gray-100 z-40">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-4 sm:px-6">
@@ -29,31 +29,31 @@ export default function Menu() {
               </div>
               <Popover.Group as="nav" className="hidden md:flex space-x-10">
                 <a
-                  href="#"
+                  href="#start"
                   className="text-md font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
                 >
                   Start
                 </a>
                 <a
-                  href="#"
+                  href="#about"
                   className="text-md font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
                 >
                   About Us
                 </a>
                 <a
-                  href="#"
+                  href="#products"
                   className="text-md font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
                 >
                   Our Products
                 </a>
                 <a
-                  href="#"
+                  href="#questions"
                   className="text-md font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
                 >
                   Questions
                 </a>
                 <a
-                  href="#"
+                  href="#contact"
                   className="text-md font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
                 >
                   Contact

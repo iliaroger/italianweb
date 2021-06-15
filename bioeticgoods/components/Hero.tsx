@@ -36,7 +36,8 @@ export default function Hero() {
   };
 
   return (
-    <div id="start">
+    <>
+      <div className="transform -translate-y-20" id="start"></div>
       <div className="flex flex-row max-w-5xl items-center mx-auto">
         <motion.div
           initial={{ opacity: 0 }}
@@ -56,13 +57,25 @@ export default function Hero() {
             products, spirits, spices and herbs.
           </p>
           <div className="mt-4">
-            <button className="px-8 py-3 text-lg font-light text-white bg-mainGreen rounded select-none">
+            <button
+              className="px-8 py-3 text-lg font-light text-white bg-mainGreen rounded select-none focus:outline-none hover:opacity-80 transition duration-300"
+              onClick={(e: any) => {
+                e.preventDefault();
+                window.location.href = '#about';
+              }}
+            >
               <div className="flex flex-row">
                 <ClipboardListIcon className="w-5"></ClipboardListIcon>
                 <p className="ml-1 text-base">About Us</p>
               </div>
             </button>
-            <button className="px-8 py-3 text-lg font-light border border-gray-300 text-gray-400 bg-white rounded ml-4 select-none">
+            <button
+              className="px-8 py-3 text-lg font-light border border-gray-300 text-gray-400 bg-white rounded ml-4 select-none focus:outline-none hover:text-mainGreen hover:border-mainGreen transition duration-300"
+              onClick={(e: any) => {
+                e.preventDefault();
+                window.location.href = '#contact';
+              }}
+            >
               <div className="flex flex-row">
                 <MailIcon className="w-5"></MailIcon>
                 <p className="ml-1 text-base">Contact</p>
@@ -136,6 +149,6 @@ export default function Hero() {
           ></motion.img>
         </motion.div>
       </div>
-    </div>
+    </>
   );
 }

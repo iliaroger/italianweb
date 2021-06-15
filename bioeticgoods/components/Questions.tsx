@@ -6,7 +6,8 @@ import Header from '../components/Header';
 export default function Questions() {
   return (
     <>
-      <div className="max-w-6xl mx-auto py-20" id="fragen">
+      <div className="transform -translate-y-20" id="questions"></div>
+      <div className="max-w-6xl mx-auto py-20">
         <Header
           description="Frequently asked questions"
           text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quod
