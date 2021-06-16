@@ -60,7 +60,7 @@ export default function Hero() {
           </p>
           <div className="mt-4">
             <button
-              className="lg:px-8 lg:py-3 xsm:px-8 xsm:py-3 sm:px-4 sm:py-2 text-lg font-light text-white bg-mainGreen rounded select-none focus:outline-none hover:opacity-80 transition duration-300"
+              className="lg:px-8 lg:py-3 xsm:px-8 xsm:py-3 sm:px-4 sm:py-2 text-lg font-light text-white bg-mainGreen rounded select-none focus:outline-none hover:opacity-80 transition duration-300 items-center"
               onClick={(e: any) => {
                 e.preventDefault();
                 window.location.href = '#about';
@@ -72,7 +72,7 @@ export default function Hero() {
               </div>
             </button>
             <button
-              className="lg:px-8 lg:py-3 xsm:px-8 xsm:py-3 sm:px-4 sm:py-2 text-lg font-light border border-gray-300 text-gray-400 bg-white rounded ml-4 select-none focus:outline-none hover:text-mainGreen hover:border-mainGreen transition duration-300"
+              className="lg:px-8 lg:py-3 xsm:px-8 xsm:py-3 sm:px-4 sm:py-2 text-lg font-light border border-gray-300 text-gray-400 bg-white rounded ml-4 select-none focus:outline-none hover:text-mainGreen hover:border-mainGreen transition duration-300 items-center"
               onClick={(e: any) => {
                 e.preventDefault();
                 window.location.href = '#contact';
