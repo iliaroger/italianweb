@@ -60,25 +60,25 @@ export default function Hero() {
           </p>
           <div className="mt-4">
             <button
-              className="lg:px-8 lg:py-3 xsm:px-8 xsm:py-3 sm:px-4 sm:py-2 text-lg font-light text-white bg-mainGreen rounded select-none focus:outline-none hover:opacity-80 transition duration-300 items-center"
+              className="lg:px-8 lg:py-3 xsm:px-8 xsm:py-3 sm:px-4 sm:py-2 text-lg font-light text-white bg-mainGreen rounded select-none focus:outline-none hover:opacity-80 transition duration-300"
               onClick={(e: any) => {
                 e.preventDefault();
                 window.location.href = '#about';
               }}
             >
-              <div className="flex flex-row">
+              <div className="flex flex-row items-center">
                 <ClipboardListIcon className="xsm:w-4 lg:w-5"></ClipboardListIcon>
                 <p className="ml-1 xsm:text-sm lg:text-base">About Us</p>
               </div>
             </button>
             <button
-              className="lg:px-8 lg:py-3 xsm:px-8 xsm:py-3 sm:px-4 sm:py-2 text-lg font-light border border-gray-300 text-gray-400 bg-white rounded ml-4 select-none focus:outline-none hover:text-mainGreen hover:border-mainGreen transition duration-300 items-center"
+              className="lg:px-8 lg:py-3 xsm:px-8 xsm:py-3 sm:px-4 sm:py-2 text-lg font-light border border-gray-300 text-gray-400 bg-white rounded ml-4 select-none focus:outline-none hover:text-mainGreen hover:border-mainGreen transition duration-300"
               onClick={(e: any) => {
                 e.preventDefault();
                 window.location.href = '#contact';
               }}
             >
-              <div className="flex flex-row">
+              <div className="flex flex-row items-center">
                 <MailIcon className="xsm:w-4 lg:w-5"></MailIcon>
                 <p className="ml-1 xsm:text-sm lg:text-base">Contact</p>
               </div>
