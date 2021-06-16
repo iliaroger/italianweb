@@ -27,6 +27,9 @@ module.exports = {
         mainGreen: '#7cc000',
         bgColor: '#F7F6F2',
       },
+      ringColor: {
+        mainGreen: '#7cc000',
+      },
     },
   },
   variants: {

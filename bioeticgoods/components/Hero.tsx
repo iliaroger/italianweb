@@ -38,47 +38,49 @@ export default function Hero() {
   return (
     <>
       <div className="transform -translate-y-20" id="start"></div>
-      <div className="flex flex-row max-w-5xl items-center mx-auto">
+      <div className="flex lg:flex-row lg:max-w-5xl items-center mx-auto">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1, transition: { duration: 1 } }}
-          className="w-1/2"
+          className="lg:w-1/2 xsm:w-full xsm:pl-8 xsm:py-6 sm:py-0 lg:py-0 md:pl-20"
         >
-          <p className="font-extralight text-3xl text-gray-800">Welcome to</p>
-          <h1 className="font-bold text-6xl text-gray-800 mt-1">
+          <p className="font-extralight xsm:text-xl lg:text-3xl text-gray-800">
+            Welcome to
+          </p>
+          <h1 className="font-bold xsm:text-4xl lg:text-6xl text-gray-800 mt-1">
             Bio Etic Goods
           </h1>
-          <p className="font-medium text-xl text-mainGreen mt-1">
+          <p className="font-medium xsm:text-lg lg:text-xl text-mainGreen mt-1">
             Acquainted with traditions
           </p>
-          <p className="font-light w-3/4 text-gray-600 mt-8">
+          <p className="font-light w-3/4 xsm:text-sm lg:text-base text-gray-600 mt-8">
             Hello and welcome to Bio Etic Goods. We act as a broker and
             distributor in the food and beverage sector. We specialize in frozen
             products, spirits, spices and herbs.
           </p>
           <div className="mt-4">
             <button
-              className="px-8 py-3 text-lg font-light text-white bg-mainGreen rounded select-none focus:outline-none hover:opacity-80 transition duration-300"
+              className="lg:px-8 lg:py-3 xsm:px-8 xsm:py-3 sm:px-4 sm:py-2 text-lg font-light text-white bg-mainGreen rounded select-none focus:outline-none hover:opacity-80 transition duration-300"
               onClick={(e: any) => {
                 e.preventDefault();
                 window.location.href = '#about';
               }}
             >
               <div className="flex flex-row">
-                <ClipboardListIcon className="w-5"></ClipboardListIcon>
-                <p className="ml-1 text-base">About Us</p>
+                <ClipboardListIcon className="xsm:w-4 lg:w-5"></ClipboardListIcon>
+                <p className="ml-1 xsm:text-sm lg:text-base">About Us</p>
               </div>
             </button>
             <button
-              className="px-8 py-3 text-lg font-light border border-gray-300 text-gray-400 bg-white rounded ml-4 select-none focus:outline-none hover:text-mainGreen hover:border-mainGreen transition duration-300"
+              className="lg:px-8 lg:py-3 xsm:px-8 xsm:py-3 sm:px-4 sm:py-2 text-lg font-light border border-gray-300 text-gray-400 bg-white rounded ml-4 select-none focus:outline-none hover:text-mainGreen hover:border-mainGreen transition duration-300"
               onClick={(e: any) => {
                 e.preventDefault();
                 window.location.href = '#contact';
               }}
             >
               <div className="flex flex-row">
-                <MailIcon className="w-5"></MailIcon>
-                <p className="ml-1 text-base">Contact</p>
+                <MailIcon className="xsm:w-4 lg:w-5"></MailIcon>
+                <p className="ml-1 xsm:text-sm lg:text-base">Contact</p>
               </div>
             </button>
           </div>
@@ -110,7 +112,7 @@ export default function Hero() {
           variants={list}
           initial="hidden"
           animate="visible"
-          className="w-1/2 relative"
+          className="lg:w-1/2 relative xsm:hidden sm:block lg:block"
         >
           <img className="opacity-0" src="/images/flagtable.png"></img>
           <motion.img

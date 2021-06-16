@@ -1,7 +1,15 @@
 import React from 'react';
 import { Fragment } from 'react';
 import { Popover, Transition } from '@headlessui/react';
-import { MenuIcon, XIcon } from '@heroicons/react/outline';
+import {
+  MenuIcon,
+  XIcon,
+  HomeIcon,
+  UserGroupIcon,
+  ShoppingBagIcon,
+  QuestionMarkCircleIcon,
+  MailIcon,
+} from '@heroicons/react/outline';
 import LanguageSelector from '../components/LanguageSelector';
 
 export default function Menu() {
@@ -22,7 +30,7 @@ export default function Menu() {
                 </a>
               </div>
               <div className="-mr-2 -my-2 md:hidden">
-                <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-mainGreen">
                   <span className="sr-only">Open menu</span>
                   <MenuIcon className="h-6 w-6" aria-hidden="true" />
                 </Popover.Button>
@@ -30,31 +38,31 @@ export default function Menu() {
               <Popover.Group as="nav" className="hidden md:flex space-x-10">
                 <a
                   href="#start"
-                  className="text-md font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
+                  className="lg:text-md md:text-xs font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
                 >
                   Start
                 </a>
                 <a
                   href="#about"
-                  className="text-md font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
+                  className="lg:text-md md:text-xs font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
                 >
                   About Us
                 </a>
                 <a
                   href="#products"
-                  className="text-md font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
+                  className="lg:text-md md:text-xs font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
                 >
                   Our Products
                 </a>
                 <a
                   href="#questions"
-                  className="text-md font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
+                  className="lg:text-md md:text-xs font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
                 >
                   Questions
                 </a>
                 <a
                   href="#contact"
-                  className="text-md font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
+                  className="lg:text-md md:text-xs font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
                 >
                   Contact
                 </a>
@@ -86,12 +94,12 @@ export default function Menu() {
                     <div>
                       <img
                         className="h-8 w-auto"
-                        src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                        src="/images/beglogo.png"
                         alt="Workflow"
                       />
                     </div>
                     <div className="-mr-2">
-                      <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                      <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-mainGreen">
                         <span className="sr-only">Close menu</span>
                         <XIcon className="h-6 w-6" aria-hidden="true" />
                       </Popover.Button>
@@ -100,36 +108,53 @@ export default function Menu() {
                 </div>
                 <div className="py-6 px-5 space-y-6">
                   <div className="grid grid-cols-2 gap-y-4 gap-x-8">
-                    <a
-                      href="#"
-                      className="text-base font-medium text-gray-900 hover:text-gray-700"
-                    >
-                      Pricing
-                    </a>
-
-                    <a
-                      href="#"
-                      className="text-base font-medium text-gray-900 hover:text-gray-700"
-                    >
-                      Docs
-                    </a>
-                  </div>
-                  <div>
-                    <a
-                      href="#"
-                      className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
-                    >
-                      Sign up
-                    </a>
-                    <p className="mt-6 text-center text-base font-medium text-gray-500">
-                      Existing customer?{' '}
+                    <div className="flex flex-row items-center gap-x-1">
+                      <HomeIcon className="w-4 text-gray-600"></HomeIcon>
                       <a
-                        href="#"
-                        className="text-indigo-600 hover:text-indigo-500"
+                        href="#start"
+                        className="xsm:text-sm font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
                       >
-                        Sign in
+                        Start
                       </a>
-                    </p>
+                    </div>
+                    <div className="flex flex-row items-center gap-x-1">
+                      <UserGroupIcon className="w-4 text-gray-600"></UserGroupIcon>
+                      <a
+                        href="#about"
+                        className="xsm:text-sm font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
+                      >
+                        About Us
+                      </a>
+                    </div>
+                    <div className="flex flex-row items-center gap-x-1">
+                      <ShoppingBagIcon className="w-4 text-gray-600"></ShoppingBagIcon>
+                      <a
+                        href="#products"
+                        className="xsm:text-sm font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
+                      >
+                        Our Products
+                      </a>
+                    </div>
+                    <div className="flex flex-row items-center gap-x-1">
+                      <QuestionMarkCircleIcon className="w-4 text-gray-600"></QuestionMarkCircleIcon>
+                      <a
+                        href="#questions"
+                        className="xsm:text-sm font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
+                      >
+                        Questions
+                      </a>
+                    </div>
+                    <div>
+                      <div className="flex flex-row items-center gap-x-1">
+                        <MailIcon className="w-4 text-gray-600"></MailIcon>
+                        <a
+                          href="#contact"
+                          className="xsm:text-sm font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
+                        >
+                          Contact
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>

@@ -1,6 +1,7 @@
 import { Popover, Transition } from '@headlessui/react';
 import { ChevronDownIcon } from '@heroicons/react/solid';
-import { Fragment } from 'react';
+import { Fragment, useEffect } from 'react';
+import { useRouter } from 'next/router';
 
 const languages = [
   {
@@ -49,7 +50,9 @@ export default function LanguageSelector() {
               className="w-4 mr-1 select-none"
               src="/images/united.png"
             ></img>
-            <span className="font-light text-md select-none">English</span>
+            <span className="font-light md:text-xs lg:text-md select-none">
+              English
+            </span>
             <ChevronDownIcon
               className={`${open ? '' : 'text-opacity-70'}
                   ml-2 h-5 w-5 select-none`}
