@@ -18,12 +18,12 @@ export default function Menu() {
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-4 sm:px-6">
-            <div className="flex justify-between items-center  py-6 md:justify-start md:space-x-10">
+            <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
               <div className="flex justify-start lg:w-0 lg:flex-1">
                 <a href="#">
                   <span className="sr-only">BioEticGoods</span>
                   <img
-                    className="h-8 w-auto sm:h-10 select-none"
+                    className="lg:h-8 xsm:h-8 md:h-6 md:w-20 lg:w-auto sm:h-10 select-none"
                     src="/images/beglogo.png"
                     alt=""
                   />
@@ -38,31 +38,31 @@ export default function Menu() {
               <Popover.Group as="nav" className="hidden md:flex space-x-10">
                 <a
                   href="#start"
-                  className="lg:text-md md:text-xs font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
+                  className="lg:text-base md:text-xs font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
                 >
                   Start
                 </a>
                 <a
                   href="#about"
-                  className="lg:text-md md:text-xs font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
+                  className="lg:text-base md:text-xs font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
                 >
                   About Us
                 </a>
                 <a
                   href="#products"
-                  className="lg:text-md md:text-xs font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
+                  className="lg:text-base md:text-xs font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
                 >
                   Our Products
                 </a>
                 <a
                   href="#questions"
-                  className="lg:text-md md:text-xs font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
+                  className="lg:text-base md:text-xs font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
                 >
                   Questions
                 </a>
                 <a
                   href="#contact"
-                  className="lg:text-md md:text-xs font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
+                  className="lg:text-base md:text-xs font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
                 >
                   Contact
                 </a>

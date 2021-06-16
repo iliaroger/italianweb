@@ -66,11 +66,11 @@ export default function About() {
         ''
       )}
       <img
-        className="absolute left-0 top-1/4 transform -translate-x-2 z-10"
+        className="absolute left-0 top-1/4 transform -translate-x-2 z-10 md:w-20 lg:w-32 xl:w-40 xsm:invisible md:visible"
         src="/images/aboutTwig1.png"
       ></img>
       <img
-        className="absolute right-0 top-1/2 transform translate-x-1 z-10"
+        className="absolute right-0 xsm:top-1/2 lg:top-40 xl:top-1/2 transform translate-x-1 z-10 md:w-20 lg:w-32 xl:w-40 xsm:invisible md:visible"
         src="/images/aboutTwig2.png"
       ></img>
       <div className="max-w-6xl mx-auto py-20">
@@ -80,14 +80,17 @@ export default function About() {
         modi at quae. A, labore. A, voluptatem mollitia nostrum dolores sunt
         odit asperiores. Impedit, pariatur."
         ></Header>
-        <div className="flex flex-row mt-12">
-          <div className="w-1/4 p-2 transform translate-y-16">
-            <img className="w-1/3 mx-auto" src="/images/aboutImage1.png"></img>
-            <p className="text-center mt-4 text-gray-600 font-light">
+        <div className="flex flex-row flex-wrap mt-12">
+          <div className="lg:w-1/4 xsm:w-2/4 p-2 transform lg:translate-y-16">
+            <img
+              className="xsm:w-1/3 sm:w-20 lg:w-1/3 mx-auto"
+              src="/images/aboutImage1.png"
+            ></img>
+            <p className="text-center mt-4 text-gray-600 font-light xsm:text-sm lg:text-base">
               Fresh from{' '}
               <span className="font-semibold text-gray-800">our suppliers</span>
             </p>
-            <p className="text-center font-light text-sm mt-2 text-gray-600">
+            <p className="text-center xsm:w-full sm:w-3/4 lg:w-full mx-auto font-light xsm:text-xs lg:text-sm mt-2 text-gray-600">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
             <div className="text-center mt-4">
@@ -102,13 +105,16 @@ export default function About() {
               </button>
             </div>
           </div>
-          <div className="w-1/4 p-2">
-            <img className="w-1/3 mx-auto" src="/images/aboutImage2.png"></img>
-            <p className="text-center mt-4 text-gray-600 font-light">
+          <div className="lg:w-1/4 xsm:w-2/4 p-2">
+            <img
+              className="xsm:w-1/3 sm:w-20 lg:w-1/3 mx-auto"
+              src="/images/aboutImage2.png"
+            ></img>
+            <p className="text-center mt-4 text-gray-600 font-light xsm:text-sm lg:text-base">
               100%{' '}
               <span className="font-semibold text-gray-800">organic goods</span>
             </p>
-            <p className="text-center font-light text-sm mt-2 text-gray-600">
+            <p className="text-center xsm:w-full sm:w-3/4 lg:w-full mx-auto font-light xsm:text-xs lg:text-sm mt-2 text-gray-600">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
             <div className="text-center mt-4">
@@ -123,13 +129,16 @@ export default function About() {
               </button>
             </div>
           </div>
-          <div className="w-1/4 p-2">
-            <img className="w-1/3 mx-auto" src="/images/aboutImage3.png"></img>
-            <p className="text-center mt-4 text-gray-600 font-light">
+          <div className="lg:w-1/4 xsm:w-2/4 p-2">
+            <img
+              className="xsm:w-1/3 sm:w-20 lg:w-1/3 mx-auto"
+              src="/images/aboutImage3.png"
+            ></img>
+            <p className="text-center mt-4 text-gray-600 font-light xsm:text-sm lg:text-base">
               Premium{' '}
               <span className="font-semibold text-gray-800">quality</span>
             </p>
-            <p className="text-center font-light text-sm mt-2 text-gray-600">
+            <p className="text-center xsm:w-full sm:w-3/4 lg:w-full mx-auto font-light xsm:text-xs lg:text-sm mt-2 text-gray-600">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
             <div className="text-center mt-4">
@@ -144,12 +153,15 @@ export default function About() {
               </button>
             </div>
           </div>
-          <div className="w-1/4 p-2 transform translate-y-16">
-            <img className="w-1/3 mx-auto" src="/images/aboutImage4.png"></img>
-            <p className="text-center mt-4 text-gray-600 font-light">
+          <div className="lg:w-1/4 xsm:w-2/4 p-2 transform lg:translate-y-16">
+            <img
+              className="xsm:w-1/3 sm:w-20 lg:w-1/3 mx-auto"
+              src="/images/aboutImage4.png"
+            ></img>
+            <p className="text-center mt-4 text-gray-600 font-light xsm:text-sm lg:text-base">
               100% <span className="font-semibold text-gray-800">natural</span>
             </p>
-            <p className="text-center font-light text-sm mt-2 text-gray-600">
+            <p className="text-center xsm:w-full sm:w-3/4 lg:w-full mx-auto font-light xsm:text-xs lg:text-sm mt-2 text-gray-600">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
             <div className="text-center mt-4">
@@ -165,17 +177,23 @@ export default function About() {
             </div>
           </div>
         </div>
-        <div className="flex flex-row mt-10">
-          <div className="w-1/4 p-2 self-center transform -translate-x-20">
+        <div className="flex flex-row flex-wrap mt-10">
+          <div className="lg:w-1/4 xsm:w-2/4 p-2 self-center transform xl:-translate-x-20">
             <div className="flex flex-row justify-center">
-              <img className="w-28 p-2" src="/images/eaeu.png"></img>
-              <img className="w-28 p-2" src="/images/eu.png"></img>
+              <img
+                className="xsm:w-1/2 sm:w-1/3 lg:w-28 p-2"
+                src="/images/eaeu.png"
+              ></img>
+              <img
+                className="xsm:w-1/2 sm:w-1/3 lg:w-28 p-2"
+                src="/images/eu.png"
+              ></img>
             </div>
-            <p className="text-center mt-4 text-gray-600 font-light">
+            <p className="text-center mt-4 text-gray-600 font-light xsm:text-sm lg:text-base">
               We import from{' '}
               <span className="font-semibold text-gray-800">EAEU to EU</span>
             </p>
-            <p className="text-center font-light text-sm mt-2 text-gray-600">
+            <p className="text-center xsm:w-full sm:w-3/4 lg:w-full mx-auto font-light xsm:text-xs lg:text-sm mt-2 text-gray-600">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
             <div className="text-center mt-4">
@@ -190,17 +208,26 @@ export default function About() {
               </button>
             </div>
           </div>
-          <img className="w-2/4" src="/images/aboutImage5.png"></img>
-          <div className="w-1/4 p-2 self-center transform translate-x-20">
+          <img
+            className="w-2/4 xsm:hidden lg:block"
+            src="/images/aboutImage5.png"
+          ></img>
+          <div className="lg:w-1/4 xsm:w-2/4 p-2 self-center transform xl:translate-x-20">
             <div className="flex flex-row justify-center">
-              <img className="w-28 p-2" src="/images/eu.png"></img>
-              <img className="w-28 p-2" src="/images/eaeu.png"></img>
+              <img
+                className="xsm:w-1/2 sm:w-1/3 lg:w-28 p-2"
+                src="/images/eu.png"
+              ></img>
+              <img
+                className="xsm:w-1/2 sm:w-1/3 lg:w-28 p-2"
+                src="/images/eaeu.png"
+              ></img>
             </div>
-            <p className="text-center mt-4 text-gray-600 font-light">
+            <p className="text-center mt-4 text-gray-600 font-light xsm:text-sm lg:text-base">
               We import from{' '}
               <span className="font-semibold text-gray-800">EU to EAEU</span>
             </p>
-            <p className="text-center font-light text-sm mt-2 text-gray-600">
+            <p className="text-center xsm:w-full sm:w-3/4 lg:w-full mx-auto font-light xsm:text-xs lg:text-sm mt-2 text-gray-600">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
             <div className="text-center mt-4">

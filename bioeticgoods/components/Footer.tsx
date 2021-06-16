@@ -46,19 +46,19 @@ export default function Footer() {
   return (
     <>
       <div className="transform -translate-y-20" id="contact"></div>
-      <div className="relative py-20 ">
+      <div className="relative py-20">
         <Header
           description="Contact us to get started"
           text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quod
         modi at quae. A, labore. A, voluptatem mollitia nostrum dolores sunt
         odit asperiores. Impedit, pariatur."
         ></Header>
-        <div className="flex xl:flex-row justify-between xsm:flex-col xl:mt-8 xsm:mt-4 max-w-6xl mx-auto">
-          <div className="xl:w-1/2 xsm:w-full">
+        <div className="flex lg:flex-row justify-between xsm:flex-col xl:mt-8 xsm:mt-4 max-w-6xl mx-auto xsm:px-8 xl:px-0">
+          <div className="lg:w-1/2 xsm:w-full">
             <h2 className="xl:text-2xl text-gray-800 font-semibold leading-tight xsm:text-xl">
               Business inquiries, questions or general informations. Write us!
             </h2>
-            <p className="text-gray-600 mt-4 xl:text-sm xsm:text-sm">
+            <p className="text-gray-600 mt-4 font-light xl:text-sm xsm:text-sm">
               Specific questions regarding our products or orders can be
               discussed via email or skype. For all other questions contact us
               via email.
@@ -71,7 +71,7 @@ export default function Footer() {
               src="/images/lugano.jpeg"
               alt="office lugano"
             ></img>
-            <p className="text-gray-600 mt-4 xl:text-sm xsm:text-sm">
+            <p className="text-gray-600 font-light mt-4 xl:text-sm xsm:text-sm">
               You can find our office near the main plazza in Lugano. The
               parking spots are free of charge for all of our customers.
             </p>
@@ -83,19 +83,23 @@ export default function Footer() {
                 <div className="flex flex-row mt-2">
                   <LocationMarkerIcon className="w-4 h-4 text-gray-600"></LocationMarkerIcon>
                   <div className="ml-1">
-                    <p className="text-gray-600 text-sm">Isufarolo 23a</p>
-                    <p className="text-gray-600 text-sm">6815 Lugano</p>
+                    <p className="text-gray-600 text-sm font-light">
+                      Isufarolo 23a
+                    </p>
+                    <p className="text-gray-600 text-sm font-light">
+                      6815 Lugano
+                    </p>
                   </div>
                 </div>
                 <div className="flex flex-row mt-2">
                   <PhoneIcon className="text-gray-600 w-4 h-4 self-center"></PhoneIcon>
-                  <p className="text-gray-600 text-sm ml-1">
+                  <p className="text-gray-600 text-sm ml-1 font-light">
                     Phone: +41 938 28348
                   </p>
                 </div>
                 <div className="flex flex-row mt-2">
                   <MailIcon className="text-gray-600 w-4 h-4 self-center"></MailIcon>
-                  <p className="text-gray-600 text-sm ml-1">
+                  <p className="text-gray-600 text-sm ml-1 font-light">
                     Email: info@bioeticgoods.ch
                   </p>
                 </div>
@@ -107,29 +111,31 @@ export default function Footer() {
                 <div className="flex flex-row mt-2">
                   <LocationMarkerIcon className="w-4 h-4 text-gray-600"></LocationMarkerIcon>
                   <div className="ml-1">
-                    <p className="text-gray-600 text-sm">
+                    <p className="text-gray-600 text-sm font-light">
                       Mogilevskaya, 19B, Ufficio B/N
                     </p>
-                    <p className="text-gray-600 text-sm">246010 Gomel</p>
+                    <p className="text-gray-600 text-sm font-light">
+                      246010 Gomel
+                    </p>
                   </div>
                 </div>
                 <div className="flex flex-row mt-2">
                   <PhoneIcon className="text-gray-600 w-4 h-4 self-center"></PhoneIcon>
-                  <p className="text-gray-600 text-sm ml-1">
+                  <p className="text-gray-600 text-sm ml-1 font-light">
                     Phone: +41 938 28348
                   </p>
                 </div>
                 <div className="flex flex-row mt-2">
                   <MailIcon className="text-gray-600 w-4 h-4 self-center"></MailIcon>
-                  <p className="text-gray-600 text-sm ml-1">
+                  <p className="text-gray-600 text-sm ml-1 font-light">
                     Email: info@bioeticgoods.ch
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="xl:w-8 xl:flex xsm:hidden" />
-          <div className="relative xl:w-1/2 xsm:w-full xl:mt-0 xsm:mt-4">
+          <div className="lg:w-8 lg:flex xsm:hidden" />
+          <div className="relative lg:w-1/2 xsm:w-full xl:mt-0 xsm:mt-4">
             <div
               className={`absolute top-0 bg-mainGreen w-full rounded-t transition duration-150 p-6 ${
                 errorMessage ? 'opacity-100' : 'opacity-0'
@@ -232,7 +238,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-b w-5/6 mx-auto xl:my-20 xsm:my-10"></div>
-        <div className="flex xl:flex-row xsm:flex-col max-w-7xl mx-auto">
+        <div className="flex xl:flex-row xsm:flex-col max-w-7xl mx-auto xsm:px-8 xl:px-0">
           <div className="flex flex-col xl:w-1/2 xsm:w-full">
             <div className="flex flex-row">
               <img
@@ -248,11 +254,13 @@ export default function Footer() {
             </p>
             <div className="flex flex-row mt-4">
               <PhoneIcon className="text-gray-600 w-4 h-4 self-center"></PhoneIcon>
-              <p className="text-gray-600 text-sm ml-1">Phone: +41 938 28348</p>
+              <p className="text-gray-600 font-light text-sm ml-1">
+                Phone: +41 938 28348
+              </p>
             </div>
             <div className="flex flex-row mt-2">
               <MailIcon className="text-gray-600 w-4 h-4 self-center"></MailIcon>
-              <p className="text-gray-600 text-sm ml-1">
+              <p className="text-gray-600 font-light text-sm ml-1">
                 Email: info@bioeticgoods.ch
               </p>
             </div>

@@ -92,11 +92,11 @@ export default function Products() {
         ''
       )}
       <img
-        className="absolute left-0 top-1/2 transform -translate-x-2 z-10"
+        className="absolute left-0 xl:top-1/2 transform -translate-x-2 z-10 lg:block xsm:hidden"
         src="/images/aboutTwig1.png"
       ></img>
       <img
-        className="absolute right-0 top-1/4 transform translate-x-1 z-10"
+        className="absolute right-0 lg:top-1/4 transform translate-x-1 z-10 lg:block xsm:hidden"
         src="/images/aboutTwig2.png"
       ></img>
       <div className="max-w-6xl mx-auto py-20">
@@ -107,7 +107,7 @@ export default function Products() {
         odit asperiores. Impedit, pariatur."
         ></Header>
         <div className="mt-8">
-          <h3 className="text-center font-medium text-gray-800">
+          <h3 className="text-center xsm:text-sm lg:text-base font-medium text-gray-800">
             Change suppliers region
           </h3>
           <hr className="w-10 mx-auto mt-1"></hr>
@@ -135,15 +135,15 @@ export default function Products() {
             ></img>
           </div>
         </div>
-        <div className="flex flex-row mt-10 items-center">
-          <div className="w-1/2 flex flex-row p-1 gap-x-4 justify-center">
+        <div className="flex xsm:flex-col lg:flex-row mt-10 items-center">
+          <div className="xsm:w-full xsm:order-2 lg:order-none lg:w-1/2 flex flex-row p-1 xsm:gap-x-2 lg:gap-x-4 justify-center xsm:mt-4 lg:mt-0 flex-wrap">
             <div className="w-1/4 bg-white rounded border border-mainGreen transition duration-300 hover:border hover:border-mainGreen overflow-hidden hover:shadow-xl h-full">
               <img
                 className="mx-auto w-20 mt-4 mb-4 select-none"
                 src="/images/aboutImage1.png"
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
-              <p className="text-center text-gray-600 mt-4 font-extralight">
+              <p className="text-center xsm:text-sm lg:text-base text-gray-600 mt-4 font-extralight">
                 organic{' '}
                 <span className="text-gray-800 font-semibold">fruits</span>
               </p>
@@ -151,7 +151,7 @@ export default function Products() {
                 50 items
               </p>
               <button
-                className="px-4 py-2 w-full border mt-4 border-mainGreen bg-mainGreen text-white text-xs tracking-wider uppercase focus:outline-none select-none"
+                className="xsm:px-2 lg:px-4 py-2 w-full border mt-4 border-mainGreen bg-mainGreen text-white text-xs tracking-wider uppercase focus:outline-none select-none"
                 onClick={() => {
                   setCurrentModal(SelectionModal.fruits);
                   setTriggerModal(!triggerModal);
@@ -166,8 +166,8 @@ export default function Products() {
                 src="/images/aboutImage2.png"
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
-              <p className="text-center text-gray-600 mt-4 font-extralight">
-                fresh{' '}
+              <p className="text-center lg:p-0 xsm:text-sm lg:text-base text-gray-600 mt-4 font-extralight">
+                fresh{''}
                 <span className="text-gray-800 font-semibold px-1">
                   vegetables
                 </span>
@@ -176,7 +176,7 @@ export default function Products() {
                 32 items
               </p>
               <button
-                className="px-4 py-2 w-full border mt-4 border-mainGreen  bg-mainGreen text-white text-xs tracking-wider uppercase focus:outline-none select-none"
+                className="xsm:px-2 lg:px-4 py-2 w-full border mt-4 border-mainGreen  bg-mainGreen text-white text-xs tracking-wider uppercase focus:outline-none select-none"
                 onClick={() => {
                   setCurrentModal(SelectionModal.vegetables);
                   setTriggerModal(!triggerModal);
@@ -191,7 +191,7 @@ export default function Products() {
                 src="/images/aboutImage3.png"
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
-              <p className="text-center text-gray-600 mt-4 font-extralight">
+              <p className="text-center xsm:text-sm lg:text-base text-gray-600 mt-4 font-extralight">
                 organic{' '}
                 <span className="text-gray-800 font-semibold">breads</span>
               </p>
@@ -199,7 +199,7 @@ export default function Products() {
                 20 items
               </p>
               <button
-                className="px-4 py-2 w-full border mt-4 border-mainGreen  bg-mainGreen text-white text-xs tracking-wider uppercase focus:outline-none select-none"
+                className="xsm:px-2 lg:px-4 py-2 w-full border mt-4 border-mainGreen  bg-mainGreen text-white text-xs tracking-wider uppercase focus:outline-none select-none"
                 onClick={() => {
                   setCurrentModal(SelectionModal.breads);
                   setTriggerModal(!triggerModal);
@@ -209,17 +209,17 @@ export default function Products() {
               </button>
             </div>
           </div>
-          <div className="w-1/2 pl-10">
+          <div className="xsm:w-5/6 lg:w-1/2 lg:pl-10 xsm:order-1 lg:order-none">
             <p className="uppercase text-xs text-gray-600 tracking-widest">
               {CountryText[countrySelected].subheader}
             </p>
-            <p className="text-3xl text-gray-600 font-light">
+            <p className=" xsm:text-2xl lg:text-3xl text-gray-600 font-light">
               {CountryText[countrySelected].headerPart1}
               <span className="text-gray-800 font-semibold">
                 {CountryText[countrySelected].headerPart2}
               </span>
             </p>
-            <p className="mt-4 w-3/4 text-sm text-gray-600 leading-relaxed">
+            <p className="mt-4 xsm:w-full lg:w-3/4 xsm:text-xs font-light lg:text-sm text-gray-600 leading-relaxed">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam
               dignissimos, quos, enim dolores asperiores expedita harum quam
               eaque fugiat repellendus incidunt ea corrupti distinctio quae
@@ -227,32 +227,32 @@ export default function Products() {
             </p>
           </div>
         </div>
-        <div className="flex flex-row mt-20 items-center">
-          <div className="w-1/2 text-left pl-10">
+        <div className="flex xsm:flex-col lg:flex-row xsm:mt-10 lg:mt-20 items-center">
+          <div className="xsm:w-full lg:w-1/2 text-left pl-10">
             <p className="uppercase text-xs text-gray-600 tracking-widest">
               {CountryText[countrySelected].subheader}
             </p>
-            <p className="text-3xl text-gray-600 font-light">
+            <p className="xsm:text-2xl lg:text-3xl text-gray-600 font-light">
               {CountryText[countrySelected].headerPart3}
               <span className="text-gray-800 font-semibold">
                 {CountryText[countrySelected].headerPart4}
               </span>
             </p>
-            <p className="mt-4 w-3/4 text-sm text-gray-600 leading-relaxed">
+            <p className="mt-4 w-3/4 xsm:text-xs lg:text-sm font-light text-gray-600 leading-relaxed">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam
               dignissimos, quos, enim dolores asperiores expedita harum quam
               eaque fugiat repellendus incidunt ea corrupti distinctio quae
               praesentium nobis animi laudantium amet.
             </p>
           </div>
-          <div className="w-1/2 flex flex-row p-1 gap-x-4 justify-center">
+          <div className="xsm:w-full lg:w-1/2 flex flex-row p-1 gap-x-4 justify-center xsm:mt-4 lg:mt-0">
             <div className="w-1/4 bg-white rounded border border-mainGreen transition duration-300 hover:border hover:border-mainGreen overflow-hidden hover:shadow-xl h-full">
               <img
                 className="mx-auto w-20 mt-4 mb-4 select-none"
                 src="/images/tequila.png"
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
-              <p className="text-center text-gray-600 mt-4 font-extralight">
+              <p className="text-center text-gray-600 xsm:text-sm lg:text-base mt-4 font-extralight">
                 original{' '}
                 <span className="text-gray-800 font-semibold">sprites</span>
               </p>
@@ -260,7 +260,7 @@ export default function Products() {
                 50 items
               </p>
               <button
-                className="px-4 py-2 w-full border mt-4 border-mainGreen  bg-mainGreen text-white text-xs tracking-wider uppercase focus:outline-none select-none"
+                className="xsm:px-2 lg:px-4 py-2 w-full border mt-4 border-mainGreen  bg-mainGreen text-white text-xs tracking-wider uppercase focus:outline-none select-none"
                 onClick={() => {
                   setCurrentModal(SelectionModal.sprites);
                   setTriggerModal(!triggerModal);
@@ -275,7 +275,7 @@ export default function Products() {
                 src="/images/herbs.png"
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
-              <p className="text-center text-gray-600 mt-4 font-extralight">
+              <p className="text-center xsm:text-sm lg:text-base text-gray-600 mt-4 font-extralight">
                 fresh{' '}
                 <span className="text-gray-800 font-semibold px-1">herbs</span>
               </p>
@@ -283,7 +283,7 @@ export default function Products() {
                 32 items
               </p>
               <button
-                className="px-4 py-2 w-full border mt-4 border-mainGreen  bg-mainGreen text-white text-xs tracking-wider uppercase focus:outline-none select-none"
+                className="xsm:px-2 lg:px-4 py-2 w-full border mt-4 border-mainGreen  bg-mainGreen text-white text-xs tracking-wider uppercase focus:outline-none select-none"
                 onClick={() => {
                   setCurrentModal(SelectionModal.herbs);
                   setTriggerModal(!triggerModal);
@@ -298,7 +298,7 @@ export default function Products() {
                 src="/images/spices.png"
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
-              <p className="text-center text-gray-600 mt-4 font-extralight">
+              <p className="text-center xsm:text-sm lg:text-base text-gray-600 mt-4 font-extralight">
                 organic{' '}
                 <span className="text-gray-800 font-semibold">spices</span>
               </p>

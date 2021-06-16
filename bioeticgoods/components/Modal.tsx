@@ -64,19 +64,21 @@ export default function Modal({ trigger, description, text }: PropTypes) {
                 <BadgeCheckIcon className="w-8 mx-auto text-mainGreen"></BadgeCheckIcon>
                 <Dialog.Title
                   as="h3"
-                  className="text-lg font-medium leading-6 text-gray-900 text-center mt-1"
+                  className="xsm:text-base lg:text-lg font-medium leading-6 text-gray-900 text-center mt-1"
                 >
                   {description}
                 </Dialog.Title>
                 <hr className="w-6 mx-auto mt-1"></hr>
                 <div className="mt-2">
-                  <p className="text-sm text-gray-500 text-center">{text}</p>
+                  <p className="xsm:text-xs lg:text-sm text-gray-500 text-center">
+                    {text}
+                  </p>
                 </div>
 
                 <div className="mt-4 text-center">
                   <button
                     type="button"
-                    className="inline-flex justify-center px-4 py-2 text-sm font-medium text-white bg-mainGreen border border-transparent rounded-md hover:bg-mainGreen focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500"
+                    className="inline-flex justify-center px-4 py-2 text-xs uppercase font-medium text-white bg-mainGreen border border-transparent rounded-md hover:bg-mainGreen focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500"
                     onClick={() => setModalState(false)}
                   >
                     Close

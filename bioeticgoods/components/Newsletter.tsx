@@ -4,11 +4,11 @@ export default function Newsletter() {
   return (
     <div className="bg-bgColor py-20 relative overflow-hidden">
       <img
-        className="absolute w-52 left-0 bottom-0 transform -translate-x-3 translate-y-2"
+        className="absolute xsm:w-20 sm:w-32 md:w-40 lg:w-52 left-0 bottom-0 transform -translate-x-3 translate-y-2"
         src="/images/cta1.png"
       ></img>
       <img
-        className="absolute top-0 right-0 w-52 transform translate-x-10"
+        className="absolute top-0 right-0 xsm:w-24 sm:w-32 md:w-40 lg:w-52 transform translate-x-10"
         src="/images/cta2.png"
       ></img>
       <div className="text-center">
@@ -17,7 +17,7 @@ export default function Newsletter() {
             className="absolute w-4 left-1/2 transform -translate-y-4 translate-x-6"
             src="/images/leaf.png"
           ></img>
-          <h2 className="font-extralight text-2xl text-gray-600">
+          <h2 className="font-extralight xsm:text-xl lg:text-2xl text-gray-600">
             subscribe to{' '}
             <span className="font-semibold text-gray-800">bio etic goods</span>
           </h2>
@@ -32,11 +32,11 @@ export default function Newsletter() {
       </div>
       <div className="text-center mt-4">
         <input
-          className="w-80 text-sm text-gray-600 font-light px-4 py-2 rounded-l-lg outline-none"
+          className="xsm:w-40 sm:w-48 md:w-60 lg:w-80 xl:w-96 xsm:text-xs lg:text-sm text-gray-600 font-light px-4 py-2 rounded-l-lg outline-none"
           type="text"
           placeholder="enter your email address"
         />
-        <button className="px-4 py-2 text-sm font-light text-white bg-mainGreen focus:outline-none hover:opacity-80 transition duration-300">
+        <button className="px-4 py-2 xsm:text-xs lg:text-sm font-light text-white bg-mainGreen focus:outline-none hover:opacity-80 transition duration-300">
           join the newsletter
         </button>
       </div>

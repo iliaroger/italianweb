@@ -50,7 +50,7 @@ export default function LanguageSelector() {
               className="w-4 mr-1 select-none"
               src="/images/united.png"
             ></img>
-            <span className="font-light md:text-xs lg:text-md select-none">
+            <span className="font-light md:text-xs lg:text-base select-none">
               English
             </span>
             <ChevronDownIcon
@@ -84,7 +84,7 @@ export default function LanguageSelector() {
                         <p className="text-sm font-medium text-gray-900">
                           {item.name}
                         </p>
-                        <p className="text-sm font-light text-gray-500">
+                        <p className="md:text-xs lg:text-sm font-light text-gray-500">
                           {item.description}
                         </p>
                       </div>
