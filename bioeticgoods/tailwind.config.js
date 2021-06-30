@@ -13,11 +13,8 @@ module.exports = {
       '2xl': '1536px',
     },
     extend: {
-      fontWeight: {
-        light: 300,
-      },
       fontFamily: {
-        sans: ['Helvetica Neue', ...defaultTheme.fontFamily.sans],
+        sans: ['SF UI Display', ...defaultTheme.fontFamily.sans],
       },
       textColor: {
         mainGreen: '#7cc000',
