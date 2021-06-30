@@ -40,7 +40,7 @@ export default function Questions() {
                         />
                       </Disclosure.Button>
                       <Disclosure.Panel className="px-6 pb-4">
-                        <p className="xsm:text-xs lg:text-sm text-gray-600">
+                        <p className="xsm:text-xs lg:text-sm tracking-normal text-gray-600">
                           Lorem ipsum dolor sit amet consectetur adipisicing
                           elit. Consequuntur, vero similique aperiam quo
                           deserunt sapiente dolorem natus sequi voluptate
@@ -74,7 +74,7 @@ export default function Questions() {
                         />
                       </Disclosure.Button>
                       <Disclosure.Panel className="px-6 pb-4">
-                        <p className="xsm:text-xs lg:text-sm text-gray-600">
+                        <p className="xsm:text-xs lg:text-sm tracking-normal text-gray-600">
                           Lorem ipsum dolor sit amet consectetur, adipisicing
                           elit. Iusto iure fuga aliquam accusantium omnis
                           voluptates reprehenderit nobis, veniam, doloribus non
@@ -110,7 +110,7 @@ export default function Questions() {
                         />
                       </Disclosure.Button>
                       <Disclosure.Panel className="px-6 pb-4">
-                        <p className="xsm:text-xs lg:text-sm text-gray-600">
+                        <p className="xsm:text-xs lg:text-sm tracking-normal text-gray-600">
                           Lorem ipsum dolor sit amet consectetur, adipisicing
                           elit. Iusto iure fuga aliquam accusantium omnis
                           voluptates reprehenderit nobis, veniam, doloribus non
@@ -146,7 +146,7 @@ export default function Questions() {
                         />
                       </Disclosure.Button>
                       <Disclosure.Panel className="px-6 pb-4">
-                        <p className="xsm:text-xs lg:text-sm text-gray-600">
+                        <p className="xsm:text-xs lg:text-sm tracking-normal text-gray-600">
                           Lorem ipsum dolor sit amet consectetur, adipisicing
                           elit. Iusto iure fuga aliquam accusantium omnis
                           voluptates reprehenderit nobis, veniam, doloribus non
@@ -181,7 +181,7 @@ export default function Questions() {
                         />
                       </Disclosure.Button>
                       <Disclosure.Panel className="px-6 pb-4">
-                        <p className="xsm:text-xs lg:text-sm text-gray-600">
+                        <p className="xsm:text-xs lg:text-sm tracking-normal text-gray-600">
                           Lorem ipsum dolor sit amet consectetur, adipisicing
                           elit. Iusto iure fuga aliquam accusantium omnis
                           voluptates reprehenderit nobis, veniam, doloribus non

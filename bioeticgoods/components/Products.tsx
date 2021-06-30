@@ -113,21 +113,21 @@ export default function Products() {
           <hr className="w-10 mx-auto mt-1"></hr>
           <div className="flex flex-row justify-center mt-2 gap-x-2">
             <img
-              className={`w-8 filter ${
+              className={`w-8 filter select-none ${
                 countrySelected === 'swiss' ? 'saturate-100' : 'grayscale'
               }  cursor-pointer`}
               onClick={() => setCountrySelected(CountrySelected.swiss)}
               src="/images/swiss.png"
             ></img>
             <img
-              className={`w-8 filter ${
+              className={`w-8 filter select-none ${
                 countrySelected === 'italy' ? 'saturate-100' : 'grayscale'
               } cursor-pointer`}
               onClick={() => setCountrySelected(CountrySelected.italy)}
               src="/images/italy.png"
             ></img>
             <img
-              className={`w-8 filter ${
+              className={`w-8 filter select-none ${
                 countrySelected === 'uk' ? 'saturate-100' : 'grayscale'
               } cursor-pointer`}
               onClick={() => setCountrySelected(CountrySelected.uk)}
