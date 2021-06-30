@@ -2,10 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('http://fonts.cdnfonts.com/css/sf-ui-text-2');
-
 @layer base {
   body {
-    font-family: 'SF UI Text';
+    font-family: 'Arial';
   }
 }

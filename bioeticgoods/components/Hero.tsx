@@ -44,7 +44,7 @@ export default function Hero() {
           animate={{ opacity: 1, transition: { duration: 1 } }}
           className="lg:w-1/2 xsm:w-full xsm:pl-8 xsm:py-6 sm:py-0 lg:py-0 md:pl-20"
         >
-          <p className="font-extralight xsm:text-xl lg:text-3xl text-gray-800">
+          <p className="font-extralight xsm:text-xl lg:text-3xl text-gray-600">
             Welcome to
           </p>
           <h1 className="font-bold xsm:text-4xl lg:text-6xl text-gray-800 mt-1">
