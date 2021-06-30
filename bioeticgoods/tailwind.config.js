@@ -13,8 +13,11 @@ module.exports = {
       '2xl': '1536px',
     },
     extend: {
+      fontWeight: {
+        light: 300,
+      },
       fontFamily: {
-        sans: ['-apple-system', ...defaultTheme.fontFamily.sans],
+        sans: ['Helvetica Neue', ...defaultTheme.fontFamily.sans],
       },
       textColor: {
         mainGreen: '#7cc000',
