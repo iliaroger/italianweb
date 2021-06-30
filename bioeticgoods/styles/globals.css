@@ -6,7 +6,7 @@
   @font-face {
     font-family: 'SF-Extralight';
     font-display: swap;
-    src: url('/fonts/sf-ultralight.woff') format('woff');
+    src: url('/fonts/sf-light.woff') format('woff');
   }
   @font-face {
     font-family: 'SF-Light';
