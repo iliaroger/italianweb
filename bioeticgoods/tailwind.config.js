@@ -13,6 +13,9 @@ module.exports = {
       '2xl': '1536px',
     },
     extend: {
+      fontFamily: {
+        sans: ['-apple-system', ...defaultTheme.fontFamily.sans],
+      },
       textColor: {
         mainGreen: '#7cc000',
         secondary: '#ffed4a',
