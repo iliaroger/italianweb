@@ -52,10 +52,6 @@ export default function Home() {
           href="/images/favicons/safari-pinned-tab.svg"
           color="#5bbad5"
         />
-        <link
-          href="http://fonts.cdnfonts.com/css/yantramanav"
-          rel="stylesheet"
-        />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
       </Head>
