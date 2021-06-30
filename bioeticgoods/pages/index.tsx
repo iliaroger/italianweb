@@ -52,6 +52,7 @@ export default function Home() {
           href="/images/favicons/safari-pinned-tab.svg"
           color="#5bbad5"
         />
+        <link rel="stylesheet" href="styles/tailwind.css"></link>
         <link
           href="http://fonts.cdnfonts.com/css/sf-ui-display"
           rel="stylesheet"
