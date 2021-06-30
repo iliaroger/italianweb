@@ -54,7 +54,7 @@ export default function Home() {
         />
         <link rel="stylesheet" href="styles/tailwind.css"></link>
         <link
-          href="http://fonts.cdnfonts.com/css/sf-ui-display"
+          href="http://fonts.cdnfonts.com/css/sf-ui-text-2"
           rel="stylesheet"
         />
         <meta name="msapplication-TileColor" content="#da532c" />

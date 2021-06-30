@@ -14,7 +14,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        sans: ['SF UI Display'],
+        sans: ['SF UI Text'],
       },
       textColor: {
         mainGreen: '#7cc000',
