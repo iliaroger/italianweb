@@ -1,8 +1,40 @@
-@import url('http://fonts.cdnfonts.com/css/sf-ui-display');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'SF-Extralight';
+    font-display: swap;
+    src: url('/fonts/sf-ultralight.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'SF-Light';
+    font-display: swap;
+    src: url('/fonts/sf-light.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'SF-Medium';
+    font-display: swap;
+    src: url('/fonts/sf-medium.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'SF-Base';
+    font-display: swap;
+    src: url('/fonts/sf-medium.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'SF-Semibold';
+    font-display: swap;
+    src: url('/fonts/sf-semibold.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'SF-Bold';
+    font-display: swap;
+    src: url('/fonts/sf-bold.woff') format('woff');
+  }
+}
 
 html,
 body {

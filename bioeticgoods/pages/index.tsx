@@ -52,6 +52,37 @@ export default function Home() {
           href="/images/favicons/safari-pinned-tab.svg"
           color="#5bbad5"
         />
+        {/* font preloading */}
+        <link
+          rel="preload"
+          href="/fonts/sf-ultralight.woff"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/sf-light.woff"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/sf-medium.woff"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/sf-semibold.woff"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/sf-bold.woff"
+          as="font"
+          crossOrigin=""
+        />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
       </Head>

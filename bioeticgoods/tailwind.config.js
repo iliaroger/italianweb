@@ -4,6 +4,14 @@ module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fontFamily: {
+      extralight: ['SF-Extralight', ...defaultTheme.fontFamily.sans],
+      light: ['SF-Light', ...defaultTheme.fontFamily.sans],
+      medium: ['SF-Medium', ...defaultTheme.fontFamily.sans],
+      base: ['SF-Medium', ...defaultTheme.fontFamily.sans],
+      semibold: ['SF-Semibold', ...defaultTheme.fontFamily.sans],
+      bold: ['SF-Bold', ...defaultTheme.fontFamily.sans],
+    },
     screens: {
       xsm: '320px',
       sm: '640px',
@@ -13,9 +21,6 @@ module.exports = {
       '2xl': '1536px',
     },
     extend: {
-      fontFamily: {
-        sans: ['SF UI Display', ...defaultTheme.fontFamily.sans],
-      },
       textColor: {
         mainGreen: '#7cc000',
         secondary: '#ffed4a',
