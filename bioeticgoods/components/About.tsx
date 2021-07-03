@@ -66,11 +66,11 @@ export default function About() {
         ''
       )}
       <img
-        className="absolute left-0 top-1/4 transform -translate-x-2 z-10 md:w-20 lg:w-32 xl:w-40 xsm:invisible md:visible"
+        className="absolute left-0 top-1/4 transform -translate-x-2 z-10 md:w-20 lg:w-32 xl:w-36 xsm:invisible md:visible"
         src="/images/aboutTwig1.png"
       ></img>
       <img
-        className="absolute right-0 xsm:top-1/2 lg:top-40 xl:top-1/2 transform translate-x-1 z-10 md:w-20 lg:w-32 xl:w-40 xsm:invisible md:visible"
+        className="absolute right-0 xsm:top-1/2 lg:top-40 xl:top-1/2 transform translate-x-1 z-10 md:w-20 lg:w-32 xl:w-36 xsm:invisible md:visible"
         src="/images/aboutTwig2.png"
       ></img>
       <div className="max-w-6xl mx-auto py-20">
@@ -81,7 +81,7 @@ export default function About() {
         odit asperiores. Impedit, pariatur."
         ></Header>
         <div className="flex flex-row flex-wrap mt-12">
-          <div className="lg:w-1/4 xsm:w-2/4 p-2 transform lg:translate-y-16">
+          <div className="lg:w-1/4 xsm:w-2/4 p-2 transform lg:translate-y-24">
             <img
               className="xsm:w-1/3 sm:w-20 lg:w-1/3 mx-auto"
               src="/images/aboutImage1.png"
@@ -156,7 +156,7 @@ export default function About() {
               </button>
             </div>
           </div>
-          <div className="lg:w-1/4 xsm:w-2/4 p-2 transform lg:translate-y-16">
+          <div className="lg:w-1/4 xsm:w-2/4 p-2 transform lg:translate-y-24">
             <img
               className="xsm:w-1/3 sm:w-20 lg:w-1/3 mx-auto"
               src="/images/aboutImage4.png"
@@ -213,8 +213,8 @@ export default function About() {
             </div>
           </div>
           <img
-            className="w-2/4 xsm:hidden lg:block"
-            src="/images/aboutImage5.png"
+            className="w-2/4 h-96 xsm:hidden lg:block"
+            src="/images/foodBg1.png"
           ></img>
           <div className="lg:w-1/4 xsm:w-2/4 p-2 self-center transform xl:translate-x-20">
             <div className="flex flex-row justify-center">

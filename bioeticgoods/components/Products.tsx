@@ -4,28 +4,44 @@ import { useState } from 'react';
 import Modal from '../components/Modal';
 
 enum CountrySelected {
-  swiss = 'swiss',
-  italy = 'italy',
-  uk = 'uk',
+  swiss = 'ch',
+  italy = 'it',
+  france = 'fr',
+  germany = 'de',
+  belarus = 'by',
 }
 
 const CountryText = {
-  swiss: {
+  ch: {
     subheader: 'Fresh from our swiss suppliers',
     headerPart1: '220+ ',
     headerPart2: 'divers frozen products',
     headerPart3: '115+ ',
     headerPart4: 'spirits, spices and herbs',
   },
-  italy: {
+  it: {
     subheader: 'Fresh from our italian suppliers',
     headerPart1: '320+ ',
     headerPart2: 'divers frozen products',
     headerPart3: '80+ ',
     headerPart4: 'spirits, spices and herbs',
   },
-  uk: {
-    subheader: 'Fresh from our uk suppliers',
+  fr: {
+    subheader: 'Fresh from our french suppliers',
+    headerPart1: '190+ ',
+    headerPart2: 'divers frozen products',
+    headerPart3: '340+ ',
+    headerPart4: 'spirits, spices and herbs',
+  },
+  de: {
+    subheader: 'Fresh from our german suppliers',
+    headerPart1: '190+ ',
+    headerPart2: 'divers frozen products',
+    headerPart3: '340+ ',
+    headerPart4: 'spirits, spices and herbs',
+  },
+  by: {
+    subheader: 'Fresh from our belarus suppliers',
     headerPart1: '190+ ',
     headerPart2: 'divers frozen products',
     headerPart3: '340+ ',
@@ -34,29 +50,135 @@ const CountryText = {
 };
 
 const modalInfo = {
-  fruits: {
-    header: 'We have the best fruits available.',
-    text: 'Our fruits are the very juicy and sweet.',
+  ch: {
+    fruits: {
+      header: 'We have the best fruits available.',
+      text: 'Our fruits are the very juicy and sweet.',
+    },
+    vegetables: {
+      header: 'We have the best vegetables available.',
+      text: 'Our vegetables are the very juicy and sweet.',
+    },
+    breads: {
+      header: 'We have the best breads available.',
+      text: 'Our breads are the very juicy and sweet.',
+    },
+    sprites: {
+      header: 'We have the best sprites available.',
+      text: 'Our sprites are the very juicy and sweet.',
+    },
+    herbs: {
+      header: 'We have the best herbs available.',
+      text: 'Our herbs are the very juicy and sweet.',
+    },
+    spices: {
+      header: 'We have the best spices available.',
+      text: 'Our spices are the very juicy and sweet.',
+    },
   },
-  vegetables: {
-    header: 'We have the best vegetables available.',
-    text: 'Our vegetables are the very juicy and sweet.',
+  it: {
+    fruits: {
+      header: 'We have the best fruits available.',
+      text: 'Our fruits are the very juicy and sweet.',
+    },
+    vegetables: {
+      header: 'We have the best vegetables available.',
+      text: 'Our vegetables are the very juicy and sweet.',
+    },
+    breads: {
+      header: 'We have the best breads available.',
+      text: 'Our breads are the very juicy and sweet.',
+    },
+    sprites: {
+      header: 'We have the best sprites available.',
+      text: 'Our sprites are the very juicy and sweet.',
+    },
+    herbs: {
+      header: 'We have the best herbs available.',
+      text: 'Our herbs are the very juicy and sweet.',
+    },
+    spices: {
+      header: 'We have the best spices available.',
+      text: 'Our spices are the very juicy and sweet.',
+    },
   },
-  breads: {
-    header: 'We have the best breads available.',
-    text: 'Our breads are the very juicy and sweet.',
+  fr: {
+    fruits: {
+      header: 'We have the best fruits available.',
+      text: 'Our fruits are the very juicy and sweet.',
+    },
+    vegetables: {
+      header: 'We have the best vegetables available.',
+      text: 'Our vegetables are the very juicy and sweet.',
+    },
+    breads: {
+      header: 'We have the best breads available.',
+      text: 'Our breads are the very juicy and sweet.',
+    },
+    sprites: {
+      header: 'We have the best sprites available.',
+      text: 'Our sprites are the very juicy and sweet.',
+    },
+    herbs: {
+      header: 'We have the best herbs available.',
+      text: 'Our herbs are the very juicy and sweet.',
+    },
+    spices: {
+      header: 'We have the best spices available.',
+      text: 'Our spices are the very juicy and sweet.',
+    },
   },
-  sprites: {
-    header: 'We have the best sprites available.',
-    text: 'Our sprites are the very juicy and sweet.',
+  de: {
+    fruits: {
+      header: 'We have the best fruits available.',
+      text: 'Our fruits are the very juicy and sweet.',
+    },
+    vegetables: {
+      header: 'We have the best vegetables available.',
+      text: 'Our vegetables are the very juicy and sweet.',
+    },
+    breads: {
+      header: 'We have the best breads available.',
+      text: 'Our breads are the very juicy and sweet.',
+    },
+    sprites: {
+      header: 'We have the best sprites available.',
+      text: 'Our sprites are the very juicy and sweet.',
+    },
+    herbs: {
+      header: 'We have the best herbs available.',
+      text: 'Our herbs are the very juicy and sweet.',
+    },
+    spices: {
+      header: 'We have the best spices available.',
+      text: 'Our spices are the very juicy and sweet.',
+    },
   },
-  herbs: {
-    header: 'We have the best herbs available.',
-    text: 'Our herbs are the very juicy and sweet.',
-  },
-  spices: {
-    header: 'We have the best spices available.',
-    text: 'Our spices are the very juicy and sweet.',
+  by: {
+    fruits: {
+      header: 'We have the best fruits available.',
+      text: 'Our fruits are the very juicy and sweet.',
+    },
+    vegetables: {
+      header: 'We have the best vegetables available.',
+      text: 'Our vegetables are the very juicy and sweet.',
+    },
+    breads: {
+      header: 'We have the best breads available.',
+      text: 'Our breads are the very juicy and sweet.',
+    },
+    sprites: {
+      header: 'We have the best sprites available.',
+      text: 'Our sprites are the very juicy and sweet.',
+    },
+    herbs: {
+      header: 'We have the best herbs available.',
+      text: 'Our herbs are the very juicy and sweet.',
+    },
+    spices: {
+      header: 'We have the best spices available.',
+      text: 'Our spices are the very juicy and sweet.',
+    },
   },
 };
 
@@ -85,8 +207,8 @@ export default function Products() {
       {currentModal !== '' ? (
         <Modal
           trigger={triggerModal}
-          description={modalInfo[currentModal].header}
-          text={modalInfo[currentModal].text}
+          description={modalInfo[countrySelected][currentModal].header}
+          text={modalInfo[countrySelected][currentModal].text}
         ></Modal>
       ) : (
         ''
@@ -113,25 +235,39 @@ export default function Products() {
           <hr className="w-10 mx-auto mt-1"></hr>
           <div className="flex flex-row justify-center mt-2 gap-x-2">
             <img
-              className={`w-8 filter select-none ${
-                countrySelected === 'swiss' ? 'saturate-100' : 'grayscale'
+              className={`w-8 h-6 self-center filter select-none ${
+                countrySelected === 'ch' ? 'saturate-100' : 'grayscale'
               }  cursor-pointer`}
               onClick={() => setCountrySelected(CountrySelected.swiss)}
               src="/images/swiss.png"
             ></img>
             <img
-              className={`w-8 filter select-none ${
-                countrySelected === 'italy' ? 'saturate-100' : 'grayscale'
+              className={`w-8 h-6 self-center filter select-none ${
+                countrySelected === 'it' ? 'saturate-100' : 'grayscale'
               } cursor-pointer`}
               onClick={() => setCountrySelected(CountrySelected.italy)}
               src="/images/italy.png"
             ></img>
             <img
-              className={`w-8 filter select-none ${
-                countrySelected === 'uk' ? 'saturate-100' : 'grayscale'
+              className={`w-8 h-6 self-center filter select-none ${
+                countrySelected === 'fr' ? 'saturate-100' : 'grayscale'
               } cursor-pointer`}
-              onClick={() => setCountrySelected(CountrySelected.uk)}
-              src="/images/united.png"
+              onClick={() => setCountrySelected(CountrySelected.france)}
+              src="/images/france.png"
+            ></img>
+            <img
+              className={`w-8 h-6 self-center filter select-none ${
+                countrySelected === 'de' ? 'saturate-100' : 'grayscale'
+              } cursor-pointer`}
+              onClick={() => setCountrySelected(CountrySelected.germany)}
+              src="/images/germany.png"
+            ></img>
+            <img
+              className={`w-8 h-6 self-center filter select-none ${
+                countrySelected === 'by' ? 'saturate-100' : 'grayscale'
+              } cursor-pointer`}
+              onClick={() => setCountrySelected(CountrySelected.belarus)}
+              src="/images/belarus.png"
             ></img>
           </div>
         </div>
