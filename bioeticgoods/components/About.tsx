@@ -28,8 +28,8 @@ export default function About() {
 
   const modalInfo: ModalType = {
     eaeu: {
-      header: 'Import from EAEU to EU',
-      text: 'We import our goods and products from EAEU to EU.',
+      header: 'Import from EAEU to EU/CH',
+      text: 'We are involved in the import, wholesale and promotion of products from EAEU manufacturers to European and Swiss markets. We create partnerships, provide regulatory and procedural, logistical and marketing support for products and for all business activities up to the final consumer. Manufacturers use us to distribute their brands effectively and easily.',
     },
     fresh: {
       header: 'Fresh from our suppliers',
@@ -48,8 +48,8 @@ export default function About() {
       text: 'Our goods are grown under strict conditions and reviewed by our quality assurance team upon arrival.',
     },
     euea: {
-      header: 'Import from EU to EAEU',
-      text: 'We import our goods and products from EU to EAEU.',
+      header: 'Import from EU/CH to EAEU',
+      text: 'We are involved in the import, wholesale and promotion of products from Swiss and European manufacturers to EAEU market. We create partnerships, provide regulatory and procedural, logistical and marketing support for products and for all business activities up to the final consumer. Manufacturers use us to distribute their brands effectively and easily.',
     },
   };
 
@@ -91,7 +91,8 @@ export default function About() {
               <span className="font-semibold text-gray-800">our suppliers</span>
             </p>
             <p className="text-center xsm:w-full sm:w-3/4 lg:w-full mx-auto font-light xsm:text-xs lg:text-sm mt-2 text-gray-600">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              We picking the best suppliers from all regions to ensure a high
+              standard for all our products.
             </p>
             <div className="text-center mt-4">
               <button
@@ -115,7 +116,8 @@ export default function About() {
               <span className="font-semibold text-gray-800">organic goods</span>
             </p>
             <p className="text-center xsm:w-full sm:w-3/4 lg:w-full mx-auto font-light xsm:text-xs lg:text-sm mt-2 text-gray-600">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Our 100% organic-marked goods obey to a set standard regarding
+              organic production.
             </p>
             <div className="text-center mt-4">
               <button
@@ -139,7 +141,8 @@ export default function About() {
               <span className="font-semibold text-gray-800">quality</span>
             </p>
             <p className="text-center xsm:w-full sm:w-3/4 lg:w-full mx-auto font-light xsm:text-xs lg:text-sm mt-2 text-gray-600">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              We constantly audit our suppliers and refresh the selection of our
+              goods to ensure premium quality.
             </p>
             <div className="text-center mt-4">
               <button
@@ -162,7 +165,8 @@ export default function About() {
               100% <span className="font-semibold text-gray-800">natural</span>
             </p>
             <p className="text-center xsm:w-full sm:w-3/4 lg:w-full mx-auto font-light xsm:text-xs lg:text-sm mt-2 text-gray-600">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Our 100% natural-marked goods are produced under strict conditions
+              and reviewed by our quality assurance team upon arrival.
             </p>
             <div className="text-center mt-4">
               <button
@@ -186,15 +190,15 @@ export default function About() {
               ></img>
               <img
                 className="xsm:w-1/2 sm:w-1/3 lg:w-28 p-2"
-                src="/images/eu.png"
+                src="/images/euSwiss.png"
               ></img>
             </div>
             <p className="text-center mt-4 text-gray-600 font-light xsm:text-sm lg:text-base">
-              We import from{' '}
-              <span className="font-semibold text-gray-800">EAEU to EU</span>
+              Import from{' '}
+              <span className="font-semibold text-gray-800">EAEU to EU/CH</span>
             </p>
             <p className="text-center xsm:w-full sm:w-3/4 lg:w-full mx-auto font-light xsm:text-xs lg:text-sm mt-2 text-gray-600">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              We import our goods and products from EAEU to EU/CH.
             </p>
             <div className="text-center mt-4">
               <button
@@ -216,7 +220,7 @@ export default function About() {
             <div className="flex flex-row justify-center">
               <img
                 className="xsm:w-1/2 sm:w-1/3 lg:w-28 p-2"
-                src="/images/eu.png"
+                src="/images/euSwiss.png"
               ></img>
               <img
                 className="xsm:w-1/2 sm:w-1/3 lg:w-28 p-2"
@@ -224,11 +228,11 @@ export default function About() {
               ></img>
             </div>
             <p className="text-center mt-4 text-gray-600 font-light xsm:text-sm lg:text-base">
-              We import from{' '}
-              <span className="font-semibold text-gray-800">EU to EAEU</span>
+              Import from{' '}
+              <span className="font-semibold text-gray-800">EU/CH to EAEU</span>
             </p>
             <p className="text-center xsm:w-full sm:w-3/4 lg:w-full mx-auto font-light xsm:text-xs lg:text-sm mt-2 text-gray-600">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              We import our goods and products from EU/CH to EAEU.
             </p>
             <div className="text-center mt-4">
               <button

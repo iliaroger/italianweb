@@ -30,7 +30,7 @@ const languages = [
   },
   {
     name: 'Français',
-    description: 'changer la langue en français',
+    description: 'Changer la langue en français',
     href: '##',
     icon: '/images/france.png',
   },

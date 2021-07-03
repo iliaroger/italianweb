@@ -55,8 +55,8 @@ export default function Hero() {
           </p>
           <p className="font-light w-3/4 xsm:text-sm lg:text-base text-gray-600 mt-8">
             Hello and welcome to Bio Etic Goods. We act as a broker and
-            distributor in the food and beverage sector. We specialize in frozen
-            products, spirits, spices and herbs.
+            distributor in the food and beverage sector. We specialize in dry,
+            fresh and frozen products, wine and spirits, spices and herbs.
           </p>
           <div className="mt-4">
             <button
@@ -89,10 +89,6 @@ export default function Hero() {
               We operate in the following regions:
             </p>
             <div className="flex flex-row mt-1">
-              <img
-                className="w-10 border border-white select-none"
-                src="/images/united.png"
-              ></img>
               <img
                 className="w-10  border border-white ml-1 select-none"
                 src="/images/swiss.png"
@@ -127,27 +123,32 @@ export default function Hero() {
           <motion.img
             variants={item}
             className="absolute top-0"
-            src="/images/foodmid1.png"
+            src="/images/tableItem1.png"
           ></motion.img>
           <motion.img
             variants={item2}
             className="absolute top-0"
-            src="/images/foodmid2.png"
+            src="/images/tableItem2.png"
           ></motion.img>
           <motion.img
             variants={item}
             className="absolute top-0"
-            src="/images/foodmid3.png"
+            src="/images/tableItem3.png"
           ></motion.img>
           <motion.img
             variants={item2}
             className="absolute top-0"
-            src="/images/doughnut.png"
+            src="/images/tableItem4.png"
           ></motion.img>
           <motion.img
             variants={item}
             className="absolute top-0"
-            src="/images/beverages1.png"
+            src="/images/tableItem5.png"
+          ></motion.img>
+          <motion.img
+            variants={item}
+            className="absolute top-0"
+            src="/images/tableItem6.png"
           ></motion.img>
         </motion.div>
       </div>

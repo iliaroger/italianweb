@@ -24,7 +24,7 @@ export default function Menu() {
                   <span className="sr-only">BioEticGoods</span>
                   <img
                     className="lg:h-8 xsm:h-8 md:h-6 md:w-20 lg:w-auto sm:h-10 select-none"
-                    src="/images/beglogo.png"
+                    src="/images/beglogo.svg"
                     alt=""
                   />
                 </a>

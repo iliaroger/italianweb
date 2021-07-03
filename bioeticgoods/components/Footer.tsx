@@ -243,7 +243,7 @@ export default function Footer() {
             <div className="flex flex-row">
               <img
                 className="h-8 w-auto self-center"
-                src="/images/beglogo.png"
+                src="/images/beglogo.svg"
                 alt="Logo"
               />
             </div>
