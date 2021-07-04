@@ -15,41 +15,76 @@ const CountryText = {
   ch: {
     subheader: 'Fresh from our swiss suppliers',
     headerPart1: '220+ ',
-    headerPart2: 'divers frozen products',
+    headerPart2: 'divers food products',
     headerPart3: '115+ ',
-    headerPart4: 'spirits, spices and herbs',
+    headerPart4: `alcohol free, wine & champagne, spirits`,
+    headerPart5: '115+ ',
+    headerPart6: 'spices and herbs',
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorum commodi ducimus. Nemo perspiciatis maxime commodi hic eum accusantium, esse quos voluptas sunt, sit culpa nihil animi reprehenderit rerum suscipit?',
+    text2:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorum commodi ducimus. Nemo perspiciatis maxime commodi hic eum accusantium, esse quos voluptas sunt, sit culpa nihil animi reprehenderit rerum suscipit?',
+    text3:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorum commodi ducimus. Nemo perspiciatis maxime commodi hic eum accusantium, esse quos voluptas sunt, sit culpa nihil animi reprehenderit rerum suscipit?',
   },
   it: {
     subheader: 'Fresh from our italian suppliers',
     headerPart1: '320+ ',
-    headerPart2: 'divers frozen products',
+    headerPart2: 'divers food products',
     headerPart3: '80+ ',
     headerPart4: 'spirits, spices and herbs',
+    headerPart5: '115+ ',
+    headerPart6: 'spices and herbs',
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorum commodi ducimus. Nemo perspiciatis maxime commodi hic eum accusantium, esse quos voluptas sunt, sit culpa nihil animi reprehenderit rerum suscipit?',
+    text2:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorum commodi ducimus. Nemo perspiciatis maxime commodi hic eum accusantium, esse quos voluptas sunt, sit culpa nihil animi reprehenderit rerum suscipit?',
+    text3:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorum commodi ducimus. Nemo perspiciatis maxime commodi hic eum accusantium, esse quos voluptas sunt, sit culpa nihil animi reprehenderit rerum suscipit?',
   },
   fr: {
     subheader: 'Fresh from our french suppliers',
     headerPart1: '190+ ',
-    headerPart2: 'divers frozen products',
+    headerPart2: 'divers food products',
     headerPart3: '340+ ',
     headerPart4: 'spirits, spices and herbs',
+    headerPart5: '115+ ',
+    headerPart6: 'spices and herbs',
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorum commodi ducimus. Nemo perspiciatis maxime commodi hic eum accusantium, esse quos voluptas sunt, sit culpa nihil animi reprehenderit rerum suscipit?',
+    text2:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorum commodi ducimus. Nemo perspiciatis maxime commodi hic eum accusantium, esse quos voluptas sunt, sit culpa nihil animi reprehenderit rerum suscipit?',
+    text3:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorum commodi ducimus. Nemo perspiciatis maxime commodi hic eum accusantium, esse quos voluptas sunt, sit culpa nihil animi reprehenderit rerum suscipit?',
   },
   de: {
     subheader: 'Fresh from our german suppliers',
     headerPart1: '190+ ',
-    headerPart2: 'divers frozen products',
+    headerPart2: 'divers food products',
     headerPart3: '340+ ',
     headerPart4: 'spirits, spices and herbs',
+    headerPart5: '115+ ',
+    headerPart6: 'spices and herbs',
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorum commodi ducimus. Nemo perspiciatis maxime commodi hic eum accusantium, esse quos voluptas sunt, sit culpa nihil animi reprehenderit rerum suscipit?',
+    text2:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorum commodi ducimus. Nemo perspiciatis maxime commodi hic eum accusantium, esse quos voluptas sunt, sit culpa nihil animi reprehenderit rerum suscipit?',
+    text3:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorum commodi ducimus. Nemo perspiciatis maxime commodi hic eum accusantium, esse quos voluptas sunt, sit culpa nihil animi reprehenderit rerum suscipit?',
   },
   by: {
-    subheader: 'Fresh from our belarus suppliers',
+    subheader: 'Fresh from our belarusian suppliers',
     headerPart1: '190+ ',
-    headerPart2: 'divers frozen products',
+    headerPart2: 'divers food products',
     headerPart3: '340+ ',
     headerPart4: 'spirits, spices and herbs',
+    headerPart5: '115+ ',
+    headerPart6: 'spices and herbs',
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorum commodi ducimus. Nemo perspiciatis maxime commodi hic eum accusantium, esse quos voluptas sunt, sit culpa nihil animi reprehenderit rerum suscipit?',
+    text2:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorum commodi ducimus. Nemo perspiciatis maxime commodi hic eum accusantium, esse quos voluptas sunt, sit culpa nihil animi reprehenderit rerum suscipit?',
+    text3:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorum commodi ducimus. Nemo perspiciatis maxime commodi hic eum accusantium, esse quos voluptas sunt, sit culpa nihil animi reprehenderit rerum suscipit?',
   },
 };
 
-const modalInfo = {
+const ModalInfo = {
   ch: {
     fruits: {
       header: 'We have the best fruits available.',
@@ -207,8 +242,8 @@ export default function Products() {
       {currentModal !== '' ? (
         <Modal
           trigger={triggerModal}
-          description={modalInfo[countrySelected][currentModal].header}
-          text={modalInfo[countrySelected][currentModal].text}
+          description={ModalInfo[countrySelected][currentModal].header}
+          text={ModalInfo[countrySelected][currentModal].text}
         ></Modal>
       ) : (
         ''
@@ -219,6 +254,10 @@ export default function Products() {
       ></img>
       <img
         className="absolute right-0 lg:top-1/4 transform translate-x-1 z-10 lg:block xsm:hidden"
+        src="/images/aboutTwig2.png"
+      ></img>
+      <img
+        className="absolute right-0 lg:top-3/4 transform translate-x-1 z-10 lg:block xsm:hidden"
         src="/images/aboutTwig2.png"
       ></img>
       <div className="max-w-6xl mx-auto py-20">
@@ -276,12 +315,12 @@ export default function Products() {
             <div className="w-1/4 bg-white rounded border border-mainGreen transition duration-300 hover:border hover:border-mainGreen overflow-hidden hover:shadow-xl h-full">
               <img
                 className="mx-auto w-20 mt-4 mb-4 select-none"
-                src="/images/aboutImage1.png"
+                src="/images/dry.png"
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
-              <p className="text-center xsm:text-sm lg:text-base text-gray-600 mt-4 font-extralight">
-                organic{' '}
-                <span className="text-gray-800 font-semibold">fruits</span>
+              <p className="text-center xsm:text-sm lg:text-sm text-gray-600 whitespace-nowrap mt-4 font-extralight">
+                dry{' '}
+                <span className="text-gray-800 font-semibold">products</span>
               </p>
               <p className="mt-1 text-center font-light text-xs text-mainGreen italic">
                 50 items
@@ -299,13 +338,13 @@ export default function Products() {
             <div className="w-1/4 bg-white rounded border border-mainGreen transition duration-300 hover:border hover:border-mainGreen overflow-hidden hover:shadow-xl h-full">
               <img
                 className="mx-auto w-20 mt-4 mb-4 select-none"
-                src="/images/aboutImage2.png"
+                src="/images/fresh.png"
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
-              <p className="text-center lg:p-0 xsm:text-sm lg:text-base text-gray-600 mt-4 font-extralight">
+              <p className="text-center lg:p-0 xsm:text-sm lg:text-sm text-gray-600 whitespace-nowrap mt-4 font-extralight">
                 fresh{''}
                 <span className="text-gray-800 font-semibold px-1">
-                  vegetables
+                  products
                 </span>
               </p>
               <p className="mt-1 text-center font-light text-xs text-mainGreen italic">
@@ -324,12 +363,12 @@ export default function Products() {
             <div className="w-1/4 bg-white rounded border border-mainGreen transition duration-300 hover:border hover:border-mainGreen overflow-hidden hover:shadow-xl h-full">
               <img
                 className="mx-auto w-20 mt-4 mb-4 select-none"
-                src="/images/aboutImage3.png"
+                src="/images/frozen.png"
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
-              <p className="text-center xsm:text-sm lg:text-base text-gray-600 mt-4 font-extralight">
-                organic{' '}
-                <span className="text-gray-800 font-semibold">breads</span>
+              <p className="text-center xsm:text-sm lg:text-sm text-gray-600 whitespace-nowrap mt-4 font-extralight">
+                frozen{' '}
+                <span className="text-gray-800 font-semibold">products</span>
               </p>
               <p className="mt-1 text-center font-light text-xs text-mainGreen italic">
                 20 items
@@ -349,17 +388,14 @@ export default function Products() {
             <p className="uppercase text-xs text-gray-600 tracking-widest">
               {CountryText[countrySelected].subheader}
             </p>
-            <p className=" xsm:text-2xl lg:text-3xl text-gray-600 font-light">
+            <p className=" xsm:text-2xl lg:text-3xl w-3/4 text-gray-600 font-light">
               {CountryText[countrySelected].headerPart1}
               <span className="text-gray-800 font-semibold">
                 {CountryText[countrySelected].headerPart2}
               </span>
             </p>
             <p className="mt-4 xsm:w-full lg:w-3/4 xsm:text-xs font-light lg:text-sm text-gray-600 leading-relaxed">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam
-              dignissimos, quos, enim dolores asperiores expedita harum quam
-              eaque fugiat repellendus incidunt ea corrupti distinctio quae
-              praesentium nobis animi laudantium amet.
+              {CountryText[countrySelected].text}
             </p>
           </div>
         </div>
@@ -368,29 +404,26 @@ export default function Products() {
             <p className="uppercase text-xs text-gray-600 tracking-widest">
               {CountryText[countrySelected].subheader}
             </p>
-            <p className="xsm:text-2xl lg:text-3xl text-gray-600 font-light">
+            <p className="xsm:text-2xl lg:text-3xl w-3/4 text-gray-600 font-light">
               {CountryText[countrySelected].headerPart3}
               <span className="text-gray-800 font-semibold">
                 {CountryText[countrySelected].headerPart4}
               </span>
             </p>
             <p className="mt-4 w-3/4 xsm:text-xs lg:text-sm font-light text-gray-600 leading-relaxed">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam
-              dignissimos, quos, enim dolores asperiores expedita harum quam
-              eaque fugiat repellendus incidunt ea corrupti distinctio quae
-              praesentium nobis animi laudantium amet.
+              {CountryText[countrySelected].text2}
             </p>
           </div>
           <div className="xsm:w-full lg:w-1/2 flex flex-row p-1 gap-x-4 justify-center xsm:mt-4 lg:mt-0">
             <div className="w-1/4 bg-white rounded border border-mainGreen transition duration-300 hover:border hover:border-mainGreen overflow-hidden hover:shadow-xl h-full">
               <img
                 className="mx-auto w-20 mt-4 mb-4 select-none"
-                src="/images/tequila.png"
+                src="/images/alcoholFree.png"
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
-              <p className="text-center text-gray-600 xsm:text-sm lg:text-base mt-4 font-extralight">
-                original{' '}
-                <span className="text-gray-800 font-semibold">sprites</span>
+              <p className="text-center text-gray-600 xsm:text-sm whitespace-nowrap lg:text-sm mt-4 font-extralight">
+                alcohol{' '}
+                <span className="text-gray-800 font-semibold">free</span>
               </p>
               <p className="mt-1 text-center font-light text-xs text-mainGreen italic">
                 50 items
@@ -408,12 +441,14 @@ export default function Products() {
             <div className="w-1/4 bg-white rounded border border-mainGreen transition duration-300 hover:border hover:border-mainGreen overflow-hidden hover:shadow-xl h-full">
               <img
                 className="mx-auto w-20 mt-4 mb-4 select-none"
-                src="/images/herbs.png"
+                src="/images/wineChampagne.png"
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
-              <p className="text-center xsm:text-sm lg:text-base text-gray-600 mt-4 font-extralight">
-                fresh{' '}
-                <span className="text-gray-800 font-semibold px-1">herbs</span>
+              <p className="text-center xsm:text-sm lg:text-sm whitespace-nowrap text-gray-600 mt-4 font-extralight">
+                wine
+                <span className="text-gray-800 font-semibold pl-1">
+                  &amp; champagne
+                </span>
               </p>
               <p className="mt-1 text-center font-light text-xs text-mainGreen italic">
                 32 items
@@ -431,12 +466,12 @@ export default function Products() {
             <div className="w-1/4 bg-white rounded border border-mainGreen transition duration-300 hover:border hover:border-mainGreen overflow-hidden hover:shadow-xl h-full">
               <img
                 className="mx-auto w-20 mt-4 mb-4 select-none"
-                src="/images/spices.png"
+                src="/images/spirits.png"
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
-              <p className="text-center xsm:text-sm lg:text-base text-gray-600 mt-4 font-extralight">
-                organic{' '}
-                <span className="text-gray-800 font-semibold">spices</span>
+              <p className="text-center xsm:text-sm lg:text-sm text-gray-600 whitespace-nowrap mt-4 font-extralight">
+                original{' '}
+                <span className="text-gray-800 font-semibold">spirits</span>
               </p>
               <p className="mt-1 text-center font-light text-xs text-mainGreen italic">
                 20 items
@@ -451,6 +486,71 @@ export default function Products() {
                 Read more
               </button>
             </div>
+          </div>
+        </div>
+        <div className="flex xsm:flex-col lg:flex-row mt-20 items-center">
+          <div className="xsm:w-full xsm:order-2 lg:order-none lg:w-1/2 flex flex-row p-1  xsm:gap-x-2 lg:gap-x-4 justify-center xsm:mt-4 lg:mt-0 flex-wrap">
+            <div className="w-1/4"></div>
+            <div className="w-1/4 bg-white rounded border border-mainGreen transition duration-300 hover:border hover:border-mainGreen overflow-hidden hover:shadow-xl h-full">
+              <img
+                className="mx-auto w-20 mt-4 mb-4 select-none"
+                src="/images/spices.png"
+              ></img>
+              <hr className="mx-auto w-1/4 mt-2"></hr>
+              <p className="text-center xsm:text-sm lg:text-sm whitespace-nowrap text-gray-600 mt-4 font-extralight">
+                fresh{' '}
+                <span className="text-gray-800 font-semibold">spices</span>
+              </p>
+              <p className="mt-1 text-center font-light text-xs text-mainGreen italic">
+                50 items
+              </p>
+              <button
+                className="xsm:px-2 lg:px-4 py-2 w-full border mt-4 border-mainGreen bg-mainGreen text-white text-xs tracking-wider uppercase focus:outline-none select-none"
+                onClick={() => {
+                  setCurrentModal(SelectionModal.fruits);
+                  setTriggerModal(!triggerModal);
+                }}
+              >
+                Read more
+              </button>
+            </div>
+            <div className="w-1/4 bg-white rounded border border-mainGreen transition duration-300 hover:border hover:border-mainGreen overflow-hidden hover:shadow-xl h-full">
+              <img
+                className="mx-auto w-20 mt-4 mb-4 select-none"
+                src="/images/herbs.png"
+              ></img>
+              <hr className="mx-auto w-1/4 mt-2"></hr>
+              <p className="text-center lg:p-0 xsm:text-sm lg:text-sm whitespace-nowrap text-gray-600 mt-4 font-extralight">
+                fresh{''}
+                <span className="text-gray-800 font-semibold px-1">herbs</span>
+              </p>
+              <p className="mt-1 text-center font-light text-xs text-mainGreen italic">
+                32 items
+              </p>
+              <button
+                className="xsm:px-2 lg:px-4 py-2 w-full border mt-4 border-mainGreen  bg-mainGreen text-white text-xs tracking-wider uppercase focus:outline-none select-none"
+                onClick={() => {
+                  setCurrentModal(SelectionModal.vegetables);
+                  setTriggerModal(!triggerModal);
+                }}
+              >
+                Read more
+              </button>
+            </div>
+          </div>
+          <div className="xsm:w-5/6 lg:w-1/2 lg:pl-10 xsm:order-1 lg:order-none">
+            <p className="uppercase text-xs text-gray-600 tracking-widest">
+              {CountryText[countrySelected].subheader}
+            </p>
+            <p className=" xsm:text-2xl lg:text-3xl w-3/4 text-gray-600 font-light">
+              {CountryText[countrySelected].headerPart5}
+              <span className="text-gray-800 font-semibold">
+                {CountryText[countrySelected].headerPart6}
+              </span>
+            </p>
+            <p className="mt-4 xsm:w-full lg:w-3/4 xsm:text-xs font-light lg:text-sm text-gray-600 leading-relaxed">
+              {CountryText[countrySelected].text3}
+            </p>
           </div>
         </div>
       </div>

@@ -64,37 +64,34 @@ export default function Footer() {
               via email.
             </p>
             <p className="text-gray-800 xl:text-lg self-center font-semibold mt-4 xsm:text-lg">
-              Our office - Lugano
+              Our headquater - London, UK (Shelton Street 71-75)
             </p>
             <img
               className="w-full xl:h-80 object-cover rounded mt-4"
-              src="/images/lugano.jpeg"
+              src="/images/headquarter.jpeg"
               alt="office lugano"
             ></img>
             <p className="text-gray-600 font-light mt-4 xl:text-sm xsm:text-sm">
-              You can find our office near the main plazza in Lugano. The
-              parking spots are free of charge for all of our customers.
+              Contact us via email or phone. Our business operates under the
+              following weekly hours (except holidays): 08:00 - 17:00 (CET)
+              monday till friday.
             </p>
             <div className="flex xl:flex-row xsm:flex-col sm:flex-row">
               <div className="xl:w-1/2 mt-4 xsm:w-full">
                 <p className="font-semibold text-gray-800">
-                  Bio Etic Goods LLC
+                  Bio Etic Goods (CH) GmbH
                 </p>
                 <div className="flex flex-row mt-2">
                   <LocationMarkerIcon className="w-4 h-4 text-gray-600"></LocationMarkerIcon>
                   <div className="ml-1">
-                    <p className="text-gray-600 text-sm font-light">
-                      Isufarolo 23a
-                    </p>
-                    <p className="text-gray-600 text-sm font-light">
-                      6815 Lugano
-                    </p>
+                    <p className="text-gray-600 text-sm font-light">TBA</p>
+                    <p className="text-gray-600 text-sm font-light">TBA</p>
                   </div>
                 </div>
                 <div className="flex flex-row mt-2">
                   <PhoneIcon className="text-gray-600 w-4 h-4 self-center"></PhoneIcon>
                   <p className="text-gray-600 text-sm ml-1 font-light">
-                    Phone: +41 938 28348
+                    Phone: TBA
                   </p>
                 </div>
                 <div className="flex flex-row mt-2">
@@ -106,7 +103,7 @@ export default function Footer() {
               </div>
               <div className="xl:w-1/2 mt-4 xsm:w-full">
                 <p className="font-semibold text-gray-800">
-                  Bio Etic Goods LLC
+                  Bio Etic Goods (BY) LLC
                 </p>
                 <div className="flex flex-row mt-2">
                   <LocationMarkerIcon className="w-4 h-4 text-gray-600"></LocationMarkerIcon>
@@ -148,7 +145,7 @@ export default function Footer() {
             <div className="w-full h-full xl:p-8 rounded shadow-xl bg-white xsm:p-4 xl:mt-0 xsm:mt-4">
               <div className="flex xl:flex-row justify-center xsm:flex-col">
                 <div className="xl:w-1/2 xsm:w-full">
-                  <p className="text-gray-800 xl:text-sm font-normal xsm:text-base sm:text-lg">
+                  <p className="text-gray-800 xl:text-sm font-normal xsm:text-base sm:text-lg tracking-normal">
                     Name<span className="text-red-500 select-none"> *</span>
                   </p>
                   <input
@@ -160,7 +157,7 @@ export default function Footer() {
                   ></input>
                 </div>
                 <div className="xl:w-1/2 xl:ml-8 xl:mt-0 xsm:mt-4">
-                  <p className="text-gray-800 xl:text-sm xsm:text-base font-normal sm:text-lg">
+                  <p className="text-gray-800 xl:text-sm xsm:text-base font-normal sm:text-lg tracking-normal">
                     Last Name
                     <span className="text-red-500 select-none"> *</span>
                   </p>
@@ -174,7 +171,7 @@ export default function Footer() {
                 </div>
               </div>
               <div className="w-full xl:mt-8 xsm:mt-4">
-                <p className="text-gray-800 xl:text-sm font-normal xsm:text-base sm:text-lg">
+                <p className="text-gray-800 xl:text-sm font-normal xsm:text-base sm:text-lg tracking-normal">
                   Email Address
                   <span className="text-red-500 select-none"> *</span>
                 </p>
@@ -187,7 +184,7 @@ export default function Footer() {
                 ></input>
               </div>
               <div className="w-full xl:mt-8 xsm:mt-4">
-                <p className="text-gray-800 xl:text-sm font-normal xsm:text-base sm:text-lg">
+                <p className="text-gray-800 xl:text-sm font-normal xsm:text-base sm:text-lg tracking-normal">
                   Phone number
                 </p>
                 <input
@@ -199,7 +196,7 @@ export default function Footer() {
                 ></input>
               </div>
               <div className="w-full xl:mt-8 xsm:mt-4">
-                <p className="text-gray-800 xl:text-sm font-normal xsm:text-base sm:text-lg">
+                <p className="text-gray-800 xl:text-sm font-normal xsm:text-base sm:text-lg tracking-normal">
                   Inquiry
                   <span className="text-red-500 select-none"> *</span>
                 </p>
@@ -212,7 +209,7 @@ export default function Footer() {
                 ></input>
               </div>
               <div className="w-full xl:mt-8 xsm:mt-4">
-                <p className="text-gray-800 xl:text-sm font-normal xsm:text-base sm:text-lg">
+                <p className="text-gray-800 xl:text-sm font-normal xsm:text-base sm:text-lg tracking-normal">
                   Message<span className="text-red-500 select-none"> *</span>
                 </p>
                 <textarea
@@ -247,7 +244,7 @@ export default function Footer() {
                 alt="Logo"
               />
             </div>
-            <p className="text-gray-600 mt-4 font-normal xl:w-3/4 xsm:w-full xl:text-sm xsm:text-sm">
+            <p className="text-gray-600 mt-4 font-normal xl:w-3/4 xsm:w-full xl:text-sm xsm:text-sm tracking-normal">
               We act as a broker and distrubutor in the food and beverage
               sector. We spezialize in frozen products, spirits, spices and
               herbs.
@@ -272,7 +269,7 @@ export default function Footer() {
               </h6>
               <div className="mt-2 xl:text-sm xsm:text-sm">
                 <a
-                  className="text-gray-600 hover:text-mainGreen transition duration-150"
+                  className="text-gray-600 hover:text-mainGreen transition duration-150 tracking-normal"
                   href="#"
                 >
                   Start
@@ -280,7 +277,7 @@ export default function Footer() {
               </div>
               <div className="mt-2 xl:text-sm xsm:text-sm">
                 <a
-                  className="text-gray-600 hover:text-mainGreen transition duration-150"
+                  className="text-gray-600 hover:text-mainGreen transition duration-150 tracking-normal"
                   href="#"
                 >
                   About Us
@@ -288,7 +285,7 @@ export default function Footer() {
               </div>
               <div className="mt-2 xl:text-sm xsm:text-sm">
                 <a
-                  className="text-gray-600 hover:text-mainGreen transition duration-150"
+                  className="text-gray-600 hover:text-mainGreen transition duration-150 tracking-normal"
                   href="#"
                 >
                   Our Products
@@ -296,7 +293,7 @@ export default function Footer() {
               </div>
               <div className="mt-2 xl:text-sm xsm:text-sm">
                 <a
-                  className="text-gray-600 hover:text-mainGreen transition duration-150"
+                  className="text-gray-600 hover:text-mainGreen transition duration-150 tracking-normal"
                   href="#"
                 >
                   Questions
@@ -304,7 +301,7 @@ export default function Footer() {
               </div>
               <div className="mt-2 xl:text-sm xsm:text-sm">
                 <a
-                  className="text-gray-600 hover:text-mainGreen transition duration-150"
+                  className="text-gray-600 hover:text-mainGreen transition duration-150 tracking-normal"
                   href="#"
                 >
                   Contact
@@ -317,7 +314,7 @@ export default function Footer() {
               </h6>
               <div className="mt-2 xl:text-sm xsm:text-sm">
                 <a
-                  className="text-gray-600 hover:text-mainGreen transition duration-150"
+                  className="text-gray-600 hover:text-mainGreen transition duration-150 tracking-normal"
                   href="#"
                 >
                   English
@@ -325,7 +322,7 @@ export default function Footer() {
               </div>
               <div className="mt-2 xl:text-sm xsm:text-sm">
                 <a
-                  className="text-gray-600 hover:text-mainGreen transition duration-150"
+                  className="text-gray-600 hover:text-mainGreen transition duration-150 tracking-normal"
                   href="#"
                 >
                   Deutsch
@@ -333,7 +330,7 @@ export default function Footer() {
               </div>
               <div className="mt-2 xl:text-sm xsm:text-sm">
                 <a
-                  className="text-gray-600 hover:text-mainGreen transition duration-150"
+                  className="text-gray-600 hover:text-mainGreen transition duration-150 tracking-normal"
                   href="#"
                 >
                   Italiano
@@ -341,7 +338,7 @@ export default function Footer() {
               </div>
               <div className="mt-2 xl:text-sm xsm:text-sm">
                 <a
-                  className="text-gray-600 hover:text-mainGreen transition duration-150"
+                  className="text-gray-600 hover:text-mainGreen transition duration-150 tracking-normal"
                   href="#"
                 >
                   Pусский
@@ -349,7 +346,7 @@ export default function Footer() {
               </div>
               <div className="mt-2 xl:text-sm xsm:text-sm">
                 <a
-                  className="text-gray-600 hover:text-mainGreen transition duration-150"
+                  className="text-gray-600 hover:text-mainGreen transition duration-150 tracking-normal"
                   href="#"
                 >
                   Français
@@ -362,7 +359,7 @@ export default function Footer() {
               </h6>
               <div className="mt-2 xl:text-sm xsm:text-sm">
                 <a
-                  className="text-gray-600 hover:text-mainGreen transition duration-150"
+                  className="text-gray-600 hover:text-mainGreen transition duration-150 tracking-normal"
                   href="#"
                 >
                   Legal Disclosure
@@ -370,7 +367,7 @@ export default function Footer() {
               </div>
               <div className="mt-2 xl:text-sm xsm:text-sm">
                 <a
-                  className="text-gray-600 hover:text-mainGreen transition duration-150"
+                  className="text-gray-600 hover:text-mainGreen transition duration-150 tracking-normal"
                   href="#"
                 >
                   Data Protection
@@ -378,7 +375,7 @@ export default function Footer() {
               </div>
               <div className="mt-2 xl:text-sm xsm:text-sm">
                 <a
-                  className="text-gray-600 hover:text-mainGreen transition duration-150"
+                  className="text-gray-600 hover:text-mainGreen transition duration-150 tracking-normal"
                   href="#"
                 >
                   Sitemap

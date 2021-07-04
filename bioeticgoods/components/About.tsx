@@ -76,9 +76,7 @@ export default function About() {
       <div className="max-w-6xl mx-auto py-20">
         <Header
           description="Learn more about us"
-          text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quod
-        modi at quae. A, labore. A, voluptatem mollitia nostrum dolores sunt
-        odit asperiores. Impedit, pariatur."
+          text="We are engaged in export-import activities and we take care of making the traditional products of each country known to the world. We supply foodstuffs products to commercial enterprises of all categories (Large-scale retail trade, Retails, Ho.Re.Ca. sector)."
         ></Header>
         <div className="flex flex-row flex-wrap mt-12">
           <div className="lg:w-1/4 xsm:w-2/4 p-2 transform lg:translate-y-24">

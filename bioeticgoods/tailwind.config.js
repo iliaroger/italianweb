@@ -45,6 +45,7 @@ module.exports = {
       cursor: ['hover'],
       borderWidth: ['hover'],
       borderColor: ['hover'],
+      filter: ['hover'],
     },
   },
   plugins: [],
