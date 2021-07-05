@@ -151,7 +151,7 @@ export default function Footer() {
               <div className="w-full h-full xl:p-8 rounded shadow-xl bg-white xsm:p-4 xl:mt-0 xsm:mt-4">
                 <div className="flex xl:flex-row justify-center xsm:flex-col">
                   <div className="xl:w-1/2 xsm:w-full">
-                    <p className="text-gray-800 xl:text-sm font-normal xsm:text-base sm:text-lg tracking-normal">
+                    <p className="text-gray-800 text-sm font-normal tracking-normal">
                       Name<span className="text-red-500 select-none"> *</span>
                     </p>
                     <input
@@ -164,7 +164,7 @@ export default function Footer() {
                     ></input>
                   </div>
                   <div className="xl:w-1/2 xl:ml-8 xl:mt-0 xsm:mt-4">
-                    <p className="text-gray-800 xl:text-sm xsm:text-base font-normal sm:text-lg tracking-normal">
+                    <p className="text-gray-800 text-sm font-normal tracking-normal">
                       Last Name
                       <span className="text-red-500 select-none"> *</span>
                     </p>
@@ -179,7 +179,7 @@ export default function Footer() {
                   </div>
                 </div>
                 <div className="w-full xl:mt-8 xsm:mt-4">
-                  <p className="text-gray-800 xl:text-sm font-normal xsm:text-base sm:text-lg tracking-normal">
+                  <p className="text-gray-800 text-sm font-normal tracking-normal">
                     Email Address
                     <span className="text-red-500 select-none"> *</span>
                   </p>
@@ -193,7 +193,7 @@ export default function Footer() {
                   ></input>
                 </div>
                 <div className="w-full xl:mt-8 xsm:mt-4">
-                  <p className="text-gray-800 xl:text-sm font-normal xsm:text-base sm:text-lg tracking-normal">
+                  <p className="text-gray-800 text-sm font-normal tracking-normal">
                     Phone number
                   </p>
                   <input
@@ -207,7 +207,7 @@ export default function Footer() {
                   ></input>
                 </div>
                 <div className="w-full xl:mt-8 xsm:mt-4">
-                  <p className="text-gray-800 xl:text-sm font-normal xsm:text-base sm:text-lg tracking-normal">
+                  <p className="text-gray-800 text-sm font-normal tracking-normal">
                     Inquiry
                     <span className="text-red-500 select-none"> *</span>
                   </p>
@@ -221,7 +221,7 @@ export default function Footer() {
                   ></input>
                 </div>
                 <div className="w-full xl:mt-8 xsm:mt-4">
-                  <p className="text-gray-800 xl:text-sm font-normal xsm:text-base sm:text-lg tracking-normal">
+                  <p className="text-gray-800 text-sm font-normal tracking-normal">
                     Message<span className="text-red-500 select-none"> *</span>
                   </p>
                   <textarea
