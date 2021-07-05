@@ -11,7 +11,9 @@ import {
   MailIcon,
 } from '@heroicons/react/outline';
 import LanguageSelector from '../components/LanguageSelector';
-
+{
+  //TODO: add next js image optimization
+}
 export default function Menu() {
   return (
     <Popover className="sticky top-0 bg-white border-b border-gray-100 z-40">
