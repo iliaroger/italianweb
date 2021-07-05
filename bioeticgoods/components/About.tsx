@@ -33,19 +33,19 @@ export default function About() {
     },
     fresh: {
       header: 'Fresh from our suppliers',
-      text: 'We picked the best suppliers from all regions to ensure a high standard for all our products.',
+      text: 'We take care of our customers. All products comply with all necessary standards and are carefully checked. We work with the best logistics companies so that your orders arrive to you in the best possible way!',
     },
     organic: {
-      header: '100% organic goods',
-      text: 'Our goods and products obey to a set standard regarding organic production.',
+      header: '100% Exclusivity',
+      text: 'All our products are sold only by us. We have exclusive supply contracts with all our manufacturers. Thus, we care about quality and can guarantee it!',
     },
     quality: {
       header: 'Premium quality',
-      text: 'Each month we audit our suppliers and refresh the selection of our goods to ensure premium quality. ',
+      text: 'Everything we put on our store shelves is of exceptional quality. We conclude contracts only with the best manufacturers. Take our word for it or just try yourself!',
     },
     natural: {
-      header: '100% natural',
-      text: 'Our goods are grown under strict conditions and reviewed by our quality assurance team upon arrival.',
+      header: 'The best ingredients',
+      text: 'All our products are made not only by professionals in their field, but also from the best ingredients. Flour or cheese, vegetables or fruits - everything that you find in the composition will delight you with its taste and quality.',
     },
     euea: {
       header: 'Import from EU/CH to EAEU',
@@ -111,7 +111,7 @@ export default function About() {
             ></img>
             <p className="text-center mt-4 text-gray-600 font-light xsm:text-sm lg:text-base">
               100%{' '}
-              <span className="font-semibold text-gray-800">organic goods</span>
+              <span className="font-semibold text-gray-800">Exclusivity</span>
             </p>
             <p className="text-center xsm:w-full sm:w-3/4 lg:w-full mx-auto font-light xsm:text-xs lg:text-sm mt-2 text-gray-600">
                  Our 100% organic-marked goods obey to a set standard regarding
@@ -160,7 +160,8 @@ export default function About() {
               src="/images/aboutImage4.png"
             ></img>
             <p className="text-center mt-4 text-gray-600 font-light xsm:text-sm lg:text-base">
-              100% <span className="font-semibold text-gray-800">natural</span>
+              The best{' '}
+              <span className="font-semibold text-gray-800">ingredients</span>
             </p>
             <p className="text-center xsm:w-full sm:w-3/4 lg:w-full mx-auto font-light xsm:text-xs lg:text-sm mt-2 text-gray-600">
               Our 100% natural-marked goods are produced under strict conditions
@@ -212,7 +213,7 @@ export default function About() {
           </div>
           <img
             className="w-2/4 h-96 xsm:hidden lg:block"
-            src="/images/foodBg1.png"
+            src="/images/foodBg1.webp"
           ></img>
           <div className="lg:w-1/4 xsm:w-2/4 p-2 self-center transform xl:translate-x-20">
             <div className="flex flex-row justify-center">

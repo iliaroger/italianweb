@@ -1,7 +1,7 @@
 const nodemailer = require('nodemailer');
 
 export default async (req, res) => {
-  const { from, to, subject, text } = req.body;
+  const { firstName, lastName, email, inquiry, text, phone } = req.body;
 
   let transporter = nodemailer.createTransport({
     host: 'smtp-mail.outlook.com',
@@ -19,9 +19,9 @@ export default async (req, res) => {
         name: 'Bio Etic Goods',
         address: 'ilia.roger@outlook.com',
       },
-      to: 'ilia.roger@outlook.com, iliailia@me.com',
-      subject,
-      text,
+      to: `ilia.roger@outlook.com, iliailia@me.com`,
+      subject: inquiry,
+      text: `First Name: ${firstName} \nLast Name: ${lastName} \nEmail: ${email} \nPhone: ${phone} \nMessage: ${text}`,
     },
     (err, info) => {
       console.log(info);

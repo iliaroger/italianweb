@@ -10,9 +10,7 @@ export default function Questions() {
       <div className="max-w-6xl mx-auto py-20">
         <Header
           description="Frequently asked questions"
-          text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quod
-        modi at quae. A, labore. A, voluptatem mollitia nostrum dolores sunt
-        odit asperiores. Impedit, pariatur."
+          text="In this section you can find answers to frequently asked questions regarding our products, suppliers or other general topics."
         ></Header>
         <div className="w-full flex flex-col mt-10">
           <div className="w-full xl:px-4">
@@ -29,7 +27,7 @@ export default function Questions() {
                               : 'text-left font-light text-gray-600 py-6 px-2 xl:text-base xsm:text-sm'
                           }
                         >
-                          Who are suppliers and how is QA managed?
+                          Can I see the current listing of your products?
                         </span>
                         <ChevronUpIcon
                           className={`${
@@ -41,10 +39,9 @@ export default function Questions() {
                       </Disclosure.Button>
                       <Disclosure.Panel className="px-6 pb-4">
                         <p className="xsm:text-xs lg:text-sm tracking-normal text-gray-600">
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Consequuntur, vero similique aperiam quo
-                          deserunt sapiente dolorem natus sequi voluptate
-                          perferendis.
+                          Sure! All our products are presented in the "Our
+                          Products" section, where you can familiarize yourself
+                          with them in more detail.
                         </p>
                       </Disclosure.Panel>
                     </div>
@@ -63,7 +60,7 @@ export default function Questions() {
                               : 'text-left font-light text-gray-600 py-6 px-2 xl:text-base xsm:text-sm'
                           }
                         >
-                          Can I have a list of your current products?
+                          In which regions are you represented?
                         </span>
                         <ChevronUpIcon
                           className={`${
@@ -75,11 +72,8 @@ export default function Questions() {
                       </Disclosure.Button>
                       <Disclosure.Panel className="px-6 pb-4">
                         <p className="xsm:text-xs lg:text-sm tracking-normal text-gray-600">
-                          Lorem ipsum dolor sit amet consectetur, adipisicing
-                          elit. Iusto iure fuga aliquam accusantium omnis
-                          voluptates reprehenderit nobis, veniam, doloribus non
-                          ratione facere, minus odit illo nihil modi voluptatum
-                          atque unde!
+                          At the moment we work exclusively in the EU/Swiss and
+                          the EAEU.
                         </p>
                       </Disclosure.Panel>
                     </div>
@@ -98,8 +92,7 @@ export default function Questions() {
                               : 'text-left font-light text-gray-600 py-6 px-2 xl:text-base xsm:text-sm'
                           }
                         >
-                          How fast is the shippment and will fronzen products
-                          arrive on time?
+                          How can I contact you?
                         </span>
                         <ChevronUpIcon
                           className={`${
@@ -111,11 +104,9 @@ export default function Questions() {
                       </Disclosure.Button>
                       <Disclosure.Panel className="px-6 pb-4">
                         <p className="xsm:text-xs lg:text-sm tracking-normal text-gray-600">
-                          Lorem ipsum dolor sit amet consectetur, adipisicing
-                          elit. Iusto iure fuga aliquam accusantium omnis
-                          voluptates reprehenderit nobis, veniam, doloribus non
-                          ratione facere, minus odit illo nihil modi voluptatum
-                          atque unde!
+                          You can fill out the form in the "Contact" section,
+                          write to our mail or call the phone number indicated
+                          there.
                         </p>
                       </Disclosure.Panel>
                     </div>
@@ -134,8 +125,8 @@ export default function Questions() {
                               : 'text-left font-light text-gray-600 py-6 px-2 xl:text-base xsm:text-sm'
                           }
                         >
-                          Are you operating in Asia and the South Pacific
-                          region?
+                          What should I do if I want to promptly receive
+                          information about your company?
                         </span>
                         <ChevronUpIcon
                           className={`${
@@ -147,11 +138,9 @@ export default function Questions() {
                       </Disclosure.Button>
                       <Disclosure.Panel className="px-6 pb-4">
                         <p className="xsm:text-xs lg:text-sm tracking-normal text-gray-600">
-                          Lorem ipsum dolor sit amet consectetur, adipisicing
-                          elit. Iusto iure fuga aliquam accusantium omnis
-                          voluptates reprehenderit nobis, veniam, doloribus non
-                          ratione facere, minus odit illo nihil modi voluptatum
-                          atque unde!
+                          In this case, you can subscribe to the newsletter in
+                          the column below or ask us about your specific topic
+                          via email.
                         </p>
                       </Disclosure.Panel>
                     </div>
@@ -170,7 +159,7 @@ export default function Questions() {
                               : 'text-left font-light text-gray-600 py-6 px-2 xl:text-base xsm:text-sm'
                           }
                         >
-                          Can customs delay an order or is it properly handled?
+                          How fast will my inquiry be processed?
                         </span>
                         <ChevronUpIcon
                           className={`${
@@ -182,11 +171,8 @@ export default function Questions() {
                       </Disclosure.Button>
                       <Disclosure.Panel className="px-6 pb-4">
                         <p className="xsm:text-xs lg:text-sm tracking-normal text-gray-600">
-                          Lorem ipsum dolor sit amet consectetur, adipisicing
-                          elit. Iusto iure fuga aliquam accusantium omnis
-                          voluptates reprehenderit nobis, veniam, doloribus non
-                          ratione facere, minus odit illo nihil modi voluptatum
-                          atque unde!
+                          Our customer support will contact you within 1-3
+                          business days via email.
                         </p>
                       </Disclosure.Panel>
                     </div>

@@ -1,11 +1,13 @@
 import axios from 'axios';
 export const sendEmail = async (
-  from: string,
-  to: string,
-  subject: string,
-  text: string
+  firstName: string,
+  lastName: string,
+  email: string,
+  inquiry: string,
+  text: string,
+  phone: string
 ) => {
-  const data = { from, to, subject, text };
+  const data = { firstName, lastName, email, inquiry, text, phone };
   try {
     const res = await axios({
       method: 'post',

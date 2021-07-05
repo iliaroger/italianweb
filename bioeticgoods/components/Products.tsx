@@ -17,213 +17,255 @@ const CountryText = {
     headerPart1: '220+ ',
     headerPart2: 'divers food products',
     headerPart3: '115+ ',
-    headerPart4: `alcohol free, wine & champagne, spirits`,
+    headerPart4: 'alcohol free, wine & champagne, spirits',
     headerPart5: '115+ ',
     headerPart6: 'spices and herbs',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorum commodi ducimus. Nemo perspiciatis maxime commodi hic eum accusantium, esse quos voluptas sunt, sit culpa nihil animi reprehenderit rerum suscipit?',
+    text: 'Try our sortiment which ranges from dry foods, fresh vegetables and fruits to frozen goods like fish and ice cream. We evaluate the catalog of our suppliers every month to guarantee an always changing experience for our customers. ',
     text2:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorum commodi ducimus. Nemo perspiciatis maxime commodi hic eum accusantium, esse quos voluptas sunt, sit culpa nihil animi reprehenderit rerum suscipit?',
+      'New brands and new drinks hit the world stage monthly. In order not to lose track of what beverage or drink is up-and-coming we evaluate together with our suppliers the next catalog of products that our customers will certainly enjoy.',
     text3:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorum commodi ducimus. Nemo perspiciatis maxime commodi hic eum accusantium, esse quos voluptas sunt, sit culpa nihil animi reprehenderit rerum suscipit?',
+      'With the ever changing world market we ensure the quickest delivery of sensible products like spices and herbs. By ordering directly from the producers themselves, we reduce not only the cost for our customers but also ensure that the product will arrive in time.',
   },
   it: {
     subheader: 'Fresh from our italian suppliers',
     headerPart1: '320+ ',
     headerPart2: 'divers food products',
     headerPart3: '80+ ',
-    headerPart4: 'spirits, spices and herbs',
+    headerPart4: 'alcohol free, wine & champagne, spirits',
     headerPart5: '115+ ',
     headerPart6: 'spices and herbs',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorum commodi ducimus. Nemo perspiciatis maxime commodi hic eum accusantium, esse quos voluptas sunt, sit culpa nihil animi reprehenderit rerum suscipit?',
+    text: 'Try our sortiment which ranges from dry foods, fresh vegetables and fruits to frozen goods like fish and ice cream. We evaluate the catalog of our suppliers every month to guarantee an always changing experience for our customers. ',
     text2:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorum commodi ducimus. Nemo perspiciatis maxime commodi hic eum accusantium, esse quos voluptas sunt, sit culpa nihil animi reprehenderit rerum suscipit?',
+      'New brands and new drinks hit the world stage monthly. In order not to lose track of what beverage or drink is up-and-coming we evaluate together with our suppliers the next catalog of products that our customers will certainly enjoy.',
     text3:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorum commodi ducimus. Nemo perspiciatis maxime commodi hic eum accusantium, esse quos voluptas sunt, sit culpa nihil animi reprehenderit rerum suscipit?',
+      'With the ever changing world market we ensure the quickest delivery of sensible products like spices and herbs. By ordering directly from the producers themselves, we reduce not only the cost for our customers but also ensure that the product will arrive in time.',
   },
   fr: {
     subheader: 'Fresh from our french suppliers',
     headerPart1: '190+ ',
     headerPart2: 'divers food products',
     headerPart3: '340+ ',
-    headerPart4: 'spirits, spices and herbs',
+    headerPart4: 'alcohol free, wine & champagne, spirits',
     headerPart5: '115+ ',
     headerPart6: 'spices and herbs',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorum commodi ducimus. Nemo perspiciatis maxime commodi hic eum accusantium, esse quos voluptas sunt, sit culpa nihil animi reprehenderit rerum suscipit?',
+    text: 'Try our sortiment which ranges from dry foods, fresh vegetables and fruits to frozen goods like fish and ice cream. We evaluate the catalog of our suppliers every month to guarantee an always changing experience for our customers. ',
     text2:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorum commodi ducimus. Nemo perspiciatis maxime commodi hic eum accusantium, esse quos voluptas sunt, sit culpa nihil animi reprehenderit rerum suscipit?',
+      'New brands and new drinks hit the world stage monthly. In order not to lose track of what beverage or drink is up-and-coming we evaluate together with our suppliers the next catalog of products that our customers will certainly enjoy.',
     text3:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorum commodi ducimus. Nemo perspiciatis maxime commodi hic eum accusantium, esse quos voluptas sunt, sit culpa nihil animi reprehenderit rerum suscipit?',
+      'With the ever changing world market we ensure the quickest delivery of sensible products like spices and herbs. By ordering directly from the producers themselves, we reduce not only the cost for our customers but also ensure that the product will arrive in time.',
   },
   de: {
     subheader: 'Fresh from our german suppliers',
     headerPart1: '190+ ',
     headerPart2: 'divers food products',
     headerPart3: '340+ ',
-    headerPart4: 'spirits, spices and herbs',
+    headerPart4: 'alcohol free, wine & champagne, spirits',
     headerPart5: '115+ ',
     headerPart6: 'spices and herbs',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorum commodi ducimus. Nemo perspiciatis maxime commodi hic eum accusantium, esse quos voluptas sunt, sit culpa nihil animi reprehenderit rerum suscipit?',
+    text: 'Try our sortiment which ranges from dry foods, fresh vegetables and fruits to frozen goods like fish and ice cream. We evaluate the catalog of our suppliers every month to guarantee an always changing experience for our customers. ',
     text2:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorum commodi ducimus. Nemo perspiciatis maxime commodi hic eum accusantium, esse quos voluptas sunt, sit culpa nihil animi reprehenderit rerum suscipit?',
+      'New brands and new drinks hit the world stage monthly. In order not to lose track of what beverage or drink is up-and-coming we evaluate together with our suppliers the next catalog of products that our customers will certainly enjoy.',
     text3:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorum commodi ducimus. Nemo perspiciatis maxime commodi hic eum accusantium, esse quos voluptas sunt, sit culpa nihil animi reprehenderit rerum suscipit?',
+      'With the ever changing world market we ensure the quickest delivery of sensible products like spices and herbs. By ordering directly from the producers themselves, we reduce not only the cost for our customers but also ensure that the product will arrive in time.',
   },
   by: {
     subheader: 'Fresh from our belarusian suppliers',
     headerPart1: '190+ ',
     headerPart2: 'divers food products',
     headerPart3: '340+ ',
-    headerPart4: 'spirits, spices and herbs',
+    headerPart4: 'alcohol free, wine & champagne, spirits',
     headerPart5: '115+ ',
     headerPart6: 'spices and herbs',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorum commodi ducimus. Nemo perspiciatis maxime commodi hic eum accusantium, esse quos voluptas sunt, sit culpa nihil animi reprehenderit rerum suscipit?',
+    text: 'Try our sortiment which ranges from dry foods, fresh vegetables and fruits to frozen goods like fish and ice cream. We evaluate the catalog of our suppliers every month to guarantee an always changing experience for our customers. ',
     text2:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorum commodi ducimus. Nemo perspiciatis maxime commodi hic eum accusantium, esse quos voluptas sunt, sit culpa nihil animi reprehenderit rerum suscipit?',
+      'New brands and new drinks hit the world stage monthly. In order not to lose track of what beverage or drink is up-and-coming we evaluate together with our suppliers the next catalog of products that our customers will certainly enjoy.',
     text3:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorum commodi ducimus. Nemo perspiciatis maxime commodi hic eum accusantium, esse quos voluptas sunt, sit culpa nihil animi reprehenderit rerum suscipit?',
+      'With the ever changing world market we ensure the quickest delivery of sensible products like spices and herbs. By ordering directly from the producers themselves, we reduce not only the cost for our customers but also ensure that the product will arrive in time.',
   },
 };
 
 const ModalInfo = {
   ch: {
-    fruits: {
-      header: 'We have the best fruits available.',
-      text: 'Our fruits are the very juicy and sweet.',
+    dry: {
+      header: 'We have the best dry products available.',
+      text: 'TBA',
     },
-    vegetables: {
-      header: 'We have the best vegetables available.',
-      text: 'Our vegetables are the very juicy and sweet.',
+    fresh: {
+      header: 'We have the best fresh products available.',
+      text: 'TBA',
     },
-    breads: {
-      header: 'We have the best breads available.',
-      text: 'Our breads are the very juicy and sweet.',
+    frozen: {
+      header: 'We have the best frozen products available.',
+      text: 'TBA',
     },
-    sprites: {
-      header: 'We have the best sprites available.',
-      text: 'Our sprites are the very juicy and sweet.',
+    alcoholFree: {
+      header: 'We have the best alcohol free drinks available.',
+      text: 'TBA',
     },
-    herbs: {
-      header: 'We have the best herbs available.',
-      text: 'Our herbs are the very juicy and sweet.',
+    wineChamp: {
+      header: 'We have the best wine and champagne available.',
+      text: 'TBA',
+    },
+    spirits: {
+      header: 'We have the best original spirits available.',
+      text: 'TBA',
     },
     spices: {
       header: 'We have the best spices available.',
-      text: 'Our spices are the very juicy and sweet.',
+      text: 'TBA',
+    },
+    herbs: {
+      header: 'We have the best herbs available.',
+      text: 'TBA',
     },
   },
   it: {
-    fruits: {
-      header: 'We have the best fruits available.',
-      text: 'Our fruits are the very juicy and sweet.',
+    dry: {
+      header: 'We have the best dry products available.',
+      text: 'TBA',
     },
-    vegetables: {
-      header: 'We have the best vegetables available.',
-      text: 'Our vegetables are the very juicy and sweet.',
+    fresh: {
+      header: 'We have the best fresh products available.',
+      text: 'TBA',
     },
-    breads: {
-      header: 'We have the best breads available.',
-      text: 'Our breads are the very juicy and sweet.',
+    frozen: {
+      header: 'We have the best frozen products available.',
+      text: 'TBA',
     },
-    sprites: {
-      header: 'We have the best sprites available.',
-      text: 'Our sprites are the very juicy and sweet.',
+    alcoholFree: {
+      header: 'We have the best alcohol free drinks available.',
+      text: 'TBA',
     },
-    herbs: {
-      header: 'We have the best herbs available.',
-      text: 'Our herbs are the very juicy and sweet.',
+    wineChamp: {
+      header: 'We have the best wine and champagne available.',
+      text: 'TBA',
+    },
+    spirits: {
+      header: 'We have the best original spirits available.',
+      text: 'TBA',
     },
     spices: {
       header: 'We have the best spices available.',
-      text: 'Our spices are the very juicy and sweet.',
+      text: 'TBA',
+    },
+    herbs: {
+      header: 'We have the best herbs available.',
+      text: 'TBA',
     },
   },
   fr: {
-    fruits: {
-      header: 'We have the best fruits available.',
-      text: 'Our fruits are the very juicy and sweet.',
+    dry: {
+      header: 'We have the best dry products available.',
+      text: 'TBA',
     },
-    vegetables: {
-      header: 'We have the best vegetables available.',
-      text: 'Our vegetables are the very juicy and sweet.',
+    fresh: {
+      header: 'We have the best fresh products available.',
+      text: 'TBA',
     },
-    breads: {
-      header: 'We have the best breads available.',
-      text: 'Our breads are the very juicy and sweet.',
+    frozen: {
+      header: 'We have the best frozen products available.',
+      text: 'TBA',
     },
-    sprites: {
-      header: 'We have the best sprites available.',
-      text: 'Our sprites are the very juicy and sweet.',
+    alcoholFree: {
+      header: 'We have the best alcohol free drinks available.',
+      text: 'TBA',
     },
-    herbs: {
-      header: 'We have the best herbs available.',
-      text: 'Our herbs are the very juicy and sweet.',
+    wineChamp: {
+      header: 'We have the best wine and champagne available.',
+      text: 'TBA',
+    },
+    spirits: {
+      header: 'We have the best original spirits available.',
+      text: 'TBA',
     },
     spices: {
       header: 'We have the best spices available.',
-      text: 'Our spices are the very juicy and sweet.',
+      text: 'TBA',
+    },
+    herbs: {
+      header: 'We have the best herbs available.',
+      text: 'TBA',
     },
   },
   de: {
-    fruits: {
-      header: 'We have the best fruits available.',
-      text: 'Our fruits are the very juicy and sweet.',
+    dry: {
+      header: 'We have the best dry products available.',
+      text: 'TBA',
     },
-    vegetables: {
-      header: 'We have the best vegetables available.',
-      text: 'Our vegetables are the very juicy and sweet.',
+    fresh: {
+      header: 'We have the best fresh products available.',
+      text: 'TBA',
     },
-    breads: {
-      header: 'We have the best breads available.',
-      text: 'Our breads are the very juicy and sweet.',
+    frozen: {
+      header: 'We have the best frozen products available.',
+      text: 'TBA',
     },
-    sprites: {
-      header: 'We have the best sprites available.',
-      text: 'Our sprites are the very juicy and sweet.',
+    alcoholFree: {
+      header: 'We have the best alcohol free drinks available.',
+      text: 'TBA',
     },
-    herbs: {
-      header: 'We have the best herbs available.',
-      text: 'Our herbs are the very juicy and sweet.',
+    wineChamp: {
+      header: 'We have the best wine and champagne available.',
+      text: 'TBA',
+    },
+    spirits: {
+      header: 'We have the best original spirits available.',
+      text: 'TBA',
     },
     spices: {
       header: 'We have the best spices available.',
-      text: 'Our spices are the very juicy and sweet.',
+      text: 'TBA',
+    },
+    herbs: {
+      header: 'We have the best herbs available.',
+      text: 'TBA',
     },
   },
   by: {
-    fruits: {
-      header: 'We have the best fruits available.',
-      text: 'Our fruits are the very juicy and sweet.',
+    dry: {
+      header: 'We have the best dry products available.',
+      text: 'TBA',
     },
-    vegetables: {
-      header: 'We have the best vegetables available.',
-      text: 'Our vegetables are the very juicy and sweet.',
+    fresh: {
+      header: 'We have the best fresh products available.',
+      text: 'TBA',
     },
-    breads: {
-      header: 'We have the best breads available.',
-      text: 'Our breads are the very juicy and sweet.',
+    frozen: {
+      header: 'We have the best frozen products available.',
+      text: 'TBA',
     },
-    sprites: {
-      header: 'We have the best sprites available.',
-      text: 'Our sprites are the very juicy and sweet.',
+    alcoholFree: {
+      header: 'We have the best alcohol free drinks available.',
+      text: 'TBA',
     },
-    herbs: {
-      header: 'We have the best herbs available.',
-      text: 'Our herbs are the very juicy and sweet.',
+    wineChamp: {
+      header: 'We have the best wine and champagne available.',
+      text: 'TBA',
+    },
+    spirits: {
+      header: 'We have the best original spirits available.',
+      text: 'TBA',
     },
     spices: {
       header: 'We have the best spices available.',
-      text: 'Our spices are the very juicy and sweet.',
+      text: 'TBA',
+    },
+    herbs: {
+      header: 'We have the best herbs available.',
+      text: 'TBA',
     },
   },
 };
 
 enum SelectionModal {
-  fruits = 'fruits',
-  vegetables = 'vegetables',
-  breads = 'breads',
-  sprites = 'sprites',
-  herbs = 'herbs',
+  dry = 'dry',
+  fresh = 'fresh',
+  frozen = 'frozen',
+  alcoholFree = 'alcoholFree',
+  wineChamp = 'wineChamp',
+  spirits = 'spirits',
   spices = 'spices',
+  herbs = 'herbs',
   none = '',
 }
 
@@ -263,9 +305,7 @@ export default function Products() {
       <div className="max-w-6xl mx-auto py-20">
         <Header
           description="Our products in detail"
-          text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quod
-        modi at quae. A, labore. A, voluptatem mollitia nostrum dolores sunt
-        odit asperiores. Impedit, pariatur."
+          text="In this section you can learn more about our products: their appearance, taste and characteristics for which consumers choose them."
         ></Header>
         <div className="mt-8">
           <h3 className="text-center xsm:text-sm lg:text-base font-medium text-gray-800">
@@ -328,7 +368,7 @@ export default function Products() {
               <button
                 className="xsm:px-2 lg:px-4 py-2 w-full border mt-4 border-mainGreen bg-mainGreen text-white text-xs tracking-wider uppercase focus:outline-none select-none"
                 onClick={() => {
-                  setCurrentModal(SelectionModal.fruits);
+                  setCurrentModal(SelectionModal.dry);
                   setTriggerModal(!triggerModal);
                 }}
               >
@@ -353,7 +393,7 @@ export default function Products() {
               <button
                 className="xsm:px-2 lg:px-4 py-2 w-full border mt-4 border-mainGreen  bg-mainGreen text-white text-xs tracking-wider uppercase focus:outline-none select-none"
                 onClick={() => {
-                  setCurrentModal(SelectionModal.vegetables);
+                  setCurrentModal(SelectionModal.fresh);
                   setTriggerModal(!triggerModal);
                 }}
               >
@@ -376,7 +416,7 @@ export default function Products() {
               <button
                 className="xsm:px-2 lg:px-4 py-2 w-full border mt-4 border-mainGreen  bg-mainGreen text-white text-xs tracking-wider uppercase focus:outline-none select-none"
                 onClick={() => {
-                  setCurrentModal(SelectionModal.breads);
+                  setCurrentModal(SelectionModal.frozen);
                   setTriggerModal(!triggerModal);
                 }}
               >
@@ -400,17 +440,17 @@ export default function Products() {
           </div>
         </div>
         <div className="flex xsm:flex-col lg:flex-row xsm:mt-10 lg:mt-20 items-center">
-          <div className="xsm:w-full lg:w-1/2 text-left pl-10">
+          <div className="xsm:w-full lg:w-1/2 text-right pr-10">
             <p className="uppercase text-xs text-gray-600 tracking-widest">
               {CountryText[countrySelected].subheader}
             </p>
-            <p className="xsm:text-2xl lg:text-3xl w-3/4 text-gray-600 font-light">
+            <p className="xsm:text-2xl w-3/4 float-right lg:text-3xl text-gray-600 font-light">
               {CountryText[countrySelected].headerPart3}
               <span className="text-gray-800 font-semibold">
                 {CountryText[countrySelected].headerPart4}
               </span>
             </p>
-            <p className="mt-4 w-3/4 xsm:text-xs lg:text-sm font-light text-gray-600 leading-relaxed">
+            <p className="mt-4 xsm:text-xs w-3/4 float-right lg:text-sm font-light text-gray-600 leading-relaxed">
               {CountryText[countrySelected].text2}
             </p>
           </div>
@@ -431,7 +471,7 @@ export default function Products() {
               <button
                 className="xsm:px-2 lg:px-4 py-2 w-full border mt-4 border-mainGreen  bg-mainGreen text-white text-xs tracking-wider uppercase focus:outline-none select-none"
                 onClick={() => {
-                  setCurrentModal(SelectionModal.sprites);
+                  setCurrentModal(SelectionModal.alcoholFree);
                   setTriggerModal(!triggerModal);
                 }}
               >
@@ -456,7 +496,7 @@ export default function Products() {
               <button
                 className="xsm:px-2 lg:px-4 py-2 w-full border mt-4 border-mainGreen  bg-mainGreen text-white text-xs tracking-wider uppercase focus:outline-none select-none"
                 onClick={() => {
-                  setCurrentModal(SelectionModal.herbs);
+                  setCurrentModal(SelectionModal.wineChamp);
                   setTriggerModal(!triggerModal);
                 }}
               >
@@ -479,7 +519,7 @@ export default function Products() {
               <button
                 className="px-4 py-2 w-full border mt-4 border-mainGreen  bg-mainGreen text-white text-xs tracking-wider uppercase focus:outline-none select-none"
                 onClick={() => {
-                  setCurrentModal(SelectionModal.spices);
+                  setCurrentModal(SelectionModal.spirits);
                   setTriggerModal(!triggerModal);
                 }}
               >
@@ -507,7 +547,7 @@ export default function Products() {
               <button
                 className="xsm:px-2 lg:px-4 py-2 w-full border mt-4 border-mainGreen bg-mainGreen text-white text-xs tracking-wider uppercase focus:outline-none select-none"
                 onClick={() => {
-                  setCurrentModal(SelectionModal.fruits);
+                  setCurrentModal(SelectionModal.spices);
                   setTriggerModal(!triggerModal);
                 }}
               >
@@ -530,7 +570,7 @@ export default function Products() {
               <button
                 className="xsm:px-2 lg:px-4 py-2 w-full border mt-4 border-mainGreen  bg-mainGreen text-white text-xs tracking-wider uppercase focus:outline-none select-none"
                 onClick={() => {
-                  setCurrentModal(SelectionModal.vegetables);
+                  setCurrentModal(SelectionModal.herbs);
                   setTriggerModal(!triggerModal);
                 }}
               >

@@ -1,6 +1,8 @@
 import React from 'react';
 
 export default function Newsletter() {
+  const mailChimpUrl =
+    'https://iliaroger.us6.list-manage.com/subscribe/post?u=9050139b1c88f955f9caab702&amp;id=9b0acf64a4';
   return (
     <div className="bg-bgColor py-20 relative overflow-hidden">
       <img
@@ -31,14 +33,32 @@ export default function Newsletter() {
         </div>
       </div>
       <div className="text-center mt-4">
-        <input
-          className="xsm:w-40 sm:w-48 md:w-60 lg:w-80 xl:w-96 xsm:text-xs lg:text-sm text-gray-600 font-light px-4 py-2 rounded-l-lg outline-none"
-          type="text"
-          placeholder="enter your email address"
-        />
-        <button className="px-4 py-2 xsm:text-xs lg:text-sm font-light text-white bg-mainGreen focus:outline-none hover:opacity-80 transition duration-300">
-          join the newsletter
-        </button>
+        <form
+          action={mailChimpUrl}
+          method="post"
+          id={`mc-embedded-subscribe-form`}
+          name="mc-embedded-subscribe-form"
+          className="validate"
+          target="_blank"
+        >
+          <input
+            className="xsm:w-40 sm:w-48 md:w-60 lg:w-80 xl:w-96 xsm:text-xs lg:text-sm text-gray-600 font-light px-4 py-2 rounded-l-lg outline-none"
+            placeholder="enter your email address"
+            type="email"
+            defaultValue=""
+            name="EMAIL"
+            id="mce-EMAIL"
+          />
+          <button
+            className="px-4 py-2 xsm:text-xs lg:text-sm font-light text-white bg-mainGreen focus:outline-none hover:opacity-80 transition duration-300"
+            type="submit"
+            defaultValue="Subscribe"
+            name="subscribe"
+            id="mc-embedded-subscribe"
+          >
+            join the newsletter
+          </button>
+        </form>
       </div>
     </div>
   );

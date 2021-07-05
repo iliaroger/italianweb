@@ -1,59 +1,73 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import Header from '../components/Header';
+import { SubmitHandler, useForm } from 'react-hook-form';
 import {
   LocationMarkerIcon,
   PhoneIcon,
   MailIcon,
   PaperAirplaneIcon,
+  CheckIcon,
 } from '@heroicons/react/outline';
 import { sendEmail } from '../backend/contact';
 
-export default function Footer() {
-  const [firstName, setFirstName] = useState<string>('');
-  const [lastName, setLastName] = useState<string>('');
-  const [email, setEmail] = useState<string>('');
-  const [phone, setPhone] = useState<string>('');
-  const [subject, setSubject] = useState<string>('');
-  const [message, setMessage] = useState<string>('');
-  const [errorMessage, setErrorMessage] = useState<boolean>(false);
+type Inputs = {
+  firstName: string;
+  lastName: string;
+  email: string;
+  inquiry: string;
+  message: string;
+  phone: string;
+};
 
-  const checkFormValidation = () => {
-    if (
-      firstName === '' ||
-      lastName === '' ||
-      email === '' ||
-      subject === '' ||
-      message === ''
-    ) {
-      showErrorNotification();
-    } else {
+export default function Footer() {
+  const [messageSend, setMessageSend] = useState(false);
+
+  const {
+    register,
+    handleSubmit,
+    reset,
+    formState: { errors },
+  } = useForm();
+  const onSubmit: SubmitHandler<Inputs> = (data) => {
+    if (Object.keys(data)?.length >= 0) {
       sendEmail(
-        'ilia.roger@outlook.com',
-        'ilia.roger@outlook.com', // also add an user email
-        'Praxis: Terminanfrage',
-        'Schönen guten Tag, ich würde gerne einen Termin bei Ihnen buchen.'
+        data.firstName,
+        data.lastName,
+        data.email,
+        data.inquiry,
+        data.message,
+        data.phone
       );
     }
+    reset({
+      firstName: '',
+      lastName: '',
+      email: '',
+      inquiry: '',
+      message: '',
+      phone: '',
+    });
+    triggerNotification();
   };
 
-  const showErrorNotification = () => {
-    setErrorMessage(true);
+  const triggerNotification = () => {
+    setMessageSend(true);
     setTimeout(() => {
-      setErrorMessage(false);
-    }, 4000);
+      setMessageSend(false);
+    }, 3000);
   };
 
   return (
     <>
       <div className="transform -translate-y-20" id="contact"></div>
       <div className="relative py-20">
-        <Header
-          description="Contact us to get started"
-          text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quod
-        modi at quae. A, labore. A, voluptatem mollitia nostrum dolores sunt
-        odit asperiores. Impedit, pariatur."
-        ></Header>
-        <div className="flex lg:flex-row justify-between xsm:flex-col xl:mt-8 xsm:mt-4 max-w-6xl mx-auto xsm:px-8 xl:px-0">
+        <div className="xsm:w-full lg:w-3/4 mx-auto">
+          <Header
+            description="Contact us to get started"
+            text="In this section you can find our contact information, as well as the option to write us a message if you have any questions or if you are interested in cooperation."
+          ></Header>
+        </div>
+        <div className="flex lg:flex-row justify-between xsm:flex-col mt-10 max-w-6xl mx-auto xsm:px-8 xl:px-0">
           <div className="lg:w-1/2 xsm:w-full">
             <h2 className="xl:text-2xl text-gray-800 font-semibold leading-tight xsm:text-xl">
               Business inquiries, questions or general informations. Write us!
@@ -133,105 +147,110 @@ export default function Footer() {
           </div>
           <div className="lg:w-8 lg:flex xsm:hidden" />
           <div className="relative lg:w-1/2 xsm:w-full xl:mt-0 xsm:mt-4">
-            <div
-              className={`absolute top-0 bg-mainGreen w-full rounded-t transition duration-150 p-6 ${
-                errorMessage ? 'opacity-100' : 'opacity-0'
-              }`}
-            >
-              <p className="text-white font- text-sm text-center">
-                Please fill out every required input field in the form!
-              </p>
-            </div>
-            <div className="w-full h-full xl:p-8 rounded shadow-xl bg-white xsm:p-4 xl:mt-0 xsm:mt-4">
-              <div className="flex xl:flex-row justify-center xsm:flex-col">
-                <div className="xl:w-1/2 xsm:w-full">
-                  <p className="text-gray-800 xl:text-sm font-normal xsm:text-base sm:text-lg tracking-normal">
-                    Name<span className="text-red-500 select-none"> *</span>
-                  </p>
-                  <input
-                    className="border w-full text-sm border-gray-200 mt-2 rounded xl:p-4 placeholder-gray-400 select-none xsm:p-2 sm:p-4"
-                    placeholder="Name"
-                    onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
-                      setFirstName(e.target.value)
-                    }
-                  ></input>
+            <form onSubmit={handleSubmit(onSubmit)}>
+              <div className="w-full h-full xl:p-8 rounded shadow-xl bg-white xsm:p-4 xl:mt-0 xsm:mt-4">
+                <div className="flex xl:flex-row justify-center xsm:flex-col">
+                  <div className="xl:w-1/2 xsm:w-full">
+                    <p className="text-gray-800 xl:text-sm font-normal xsm:text-base sm:text-lg tracking-normal">
+                      Name<span className="text-red-500 select-none"> *</span>
+                    </p>
+                    <input
+                      className="border w-full text-sm border-gray-200 mt-2 rounded xl:p-4 placeholder-gray-400 select-none xsm:p-2 sm:p-4"
+                      placeholder="Name"
+                      {...register('firstName', {
+                        required: true,
+                        maxLength: 40,
+                      })}
+                    ></input>
+                  </div>
+                  <div className="xl:w-1/2 xl:ml-8 xl:mt-0 xsm:mt-4">
+                    <p className="text-gray-800 xl:text-sm xsm:text-base font-normal sm:text-lg tracking-normal">
+                      Last Name
+                      <span className="text-red-500 select-none"> *</span>
+                    </p>
+                    <input
+                      className="border w-full text-sm border-gray-200 mt-2 rounded xl:p-4 placeholder-gray-400 select-none xsm:p-2 sm:p-4"
+                      placeholder="Last Name"
+                      {...register('lastName', {
+                        required: true,
+                        maxLength: 60,
+                      })}
+                    ></input>
+                  </div>
                 </div>
-                <div className="xl:w-1/2 xl:ml-8 xl:mt-0 xsm:mt-4">
-                  <p className="text-gray-800 xl:text-sm xsm:text-base font-normal sm:text-lg tracking-normal">
-                    Last Name
+                <div className="w-full xl:mt-8 xsm:mt-4">
+                  <p className="text-gray-800 xl:text-sm font-normal xsm:text-base sm:text-lg tracking-normal">
+                    Email Address
                     <span className="text-red-500 select-none"> *</span>
                   </p>
                   <input
                     className="border w-full text-sm border-gray-200 mt-2 rounded xl:p-4 placeholder-gray-400 select-none xsm:p-2 sm:p-4"
-                    placeholder="Last Name"
-                    onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
-                      setLastName(e.target.value)
-                    }
+                    placeholder="Email Address"
+                    {...register('email', {
+                      required: true,
+                      pattern: /^\S+@\S+$/i,
+                    })}
                   ></input>
                 </div>
+                <div className="w-full xl:mt-8 xsm:mt-4">
+                  <p className="text-gray-800 xl:text-sm font-normal xsm:text-base sm:text-lg tracking-normal">
+                    Phone number
+                  </p>
+                  <input
+                    className="border w-full text-sm border-gray-200 mt-2 rounded xl:p-4 placeholder-gray-400 select-none xsm:p-2 sm:p-4"
+                    placeholder="Phone Number"
+                    {...register('phone', {
+                      required: false,
+                      minLength: 6,
+                      maxLength: 12,
+                    })}
+                  ></input>
+                </div>
+                <div className="w-full xl:mt-8 xsm:mt-4">
+                  <p className="text-gray-800 xl:text-sm font-normal xsm:text-base sm:text-lg tracking-normal">
+                    Inquiry
+                    <span className="text-red-500 select-none"> *</span>
+                  </p>
+                  <input
+                    className="border w-full text-sm border-gray-200 mt-2 rounded xl:p-4 placeholder-gray-400 select-none xsm:p-2 sm:p-4"
+                    placeholder="Inquiry"
+                    {...register('inquiry', {
+                      required: true,
+                      maxLength: 80,
+                    })}
+                  ></input>
+                </div>
+                <div className="w-full xl:mt-8 xsm:mt-4">
+                  <p className="text-gray-800 xl:text-sm font-normal xsm:text-base sm:text-lg tracking-normal">
+                    Message<span className="text-red-500 select-none"> *</span>
+                  </p>
+                  <textarea
+                    className="border w-full h-28 text-sm border-gray-200 mt-2 rounded xl:p-4 placeholder-gray-400 select-none resize-none xsm:p-2 sm:p-4"
+                    placeholder="Message"
+                    {...register('message', {
+                      minLength: 2,
+                      required: true,
+                    })}
+                  ></textarea>
+                </div>
+                <button
+                  className="w-full rounded mt-4 p-4 bg-mainGreen flex flex-row justify-center focus:outline-none hover:opacity-80 transition duration-300"
+                  type="submit"
+                  onClick={(e: React.MouseEvent<HTMLElement>) => {}}
+                >
+                  {!messageSend ? (
+                    <PaperAirplaneIcon className="w-4 h-4 self-center text-white"></PaperAirplaneIcon>
+                  ) : null}
+
+                  <p className="ml-1 text-white xl:text-sm xsm:text-sm font-normal">
+                    {messageSend ? 'Message send' : 'Send'}
+                  </p>
+                  {messageSend ? (
+                    <CheckIcon className="w-4 h-4 self-center text-white ml-1"></CheckIcon>
+                  ) : null}
+                </button>
               </div>
-              <div className="w-full xl:mt-8 xsm:mt-4">
-                <p className="text-gray-800 xl:text-sm font-normal xsm:text-base sm:text-lg tracking-normal">
-                  Email Address
-                  <span className="text-red-500 select-none"> *</span>
-                </p>
-                <input
-                  className="border w-full text-sm border-gray-200 mt-2 rounded xl:p-4 placeholder-gray-400 select-none xsm:p-2 sm:p-4"
-                  placeholder="Email Address"
-                  onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
-                    setEmail(e.target.value)
-                  }
-                ></input>
-              </div>
-              <div className="w-full xl:mt-8 xsm:mt-4">
-                <p className="text-gray-800 xl:text-sm font-normal xsm:text-base sm:text-lg tracking-normal">
-                  Phone number
-                </p>
-                <input
-                  className="border w-full text-sm border-gray-200 mt-2 rounded xl:p-4 placeholder-gray-400 select-none xsm:p-2 sm:p-4"
-                  placeholder="Phone Number"
-                  onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
-                    setPhone(e.target.value)
-                  }
-                ></input>
-              </div>
-              <div className="w-full xl:mt-8 xsm:mt-4">
-                <p className="text-gray-800 xl:text-sm font-normal xsm:text-base sm:text-lg tracking-normal">
-                  Inquiry
-                  <span className="text-red-500 select-none"> *</span>
-                </p>
-                <input
-                  className="border w-full text-sm border-gray-200 mt-2 rounded xl:p-4 placeholder-gray-400 select-none xsm:p-2 sm:p-4"
-                  placeholder="Inquiry"
-                  onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
-                    setSubject(e.target.value)
-                  }
-                ></input>
-              </div>
-              <div className="w-full xl:mt-8 xsm:mt-4">
-                <p className="text-gray-800 xl:text-sm font-normal xsm:text-base sm:text-lg tracking-normal">
-                  Message<span className="text-red-500 select-none"> *</span>
-                </p>
-                <textarea
-                  className="border w-full h-28 text-sm border-gray-200 mt-2 rounded xl:p-4 placeholder-gray-400 select-none resize-none xsm:p-2 sm:p-4"
-                  placeholder="Message"
-                  onChange={(e: React.ChangeEvent<HTMLTextAreaElement>) =>
-                    setMessage(e.target.value)
-                  }
-                ></textarea>
-              </div>
-              <button
-                className="w-full rounded mt-4 p-4 bg-mainGreen flex flex-row justify-center focus:outline-none hover:opacity-80 transition duration-300"
-                onClick={() => {
-                  checkFormValidation();
-                }}
-              >
-                <PaperAirplaneIcon className="w-4 h-4 self-center text-white"></PaperAirplaneIcon>
-                <p className="ml-1 text-white xl:text-sm xsm:text-sm font-normal">
-                  Send message
-                </p>
-              </button>
-            </div>
+            </form>
           </div>
         </div>
         <div className="border-b w-5/6 mx-auto xl:my-20 xsm:my-10"></div>
