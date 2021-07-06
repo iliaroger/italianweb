@@ -1,10 +1,8 @@
-require('dotenv').config();
-
 const mail = require('@sendgrid/mail');
 
 mail.setApiKey(process.env.SENDGRID_API_KEY);
 
-module.exports = async (req, res) => {
+export default (req, res) => {
   const data = req.body;
   try {
     const message = {
@@ -15,7 +13,7 @@ module.exports = async (req, res) => {
     };
     mail
       .send(message)
-      .then(() => console.log('email send!'))
+      .then((data) => console.log(data))
       .catch((err) => console.log(err));
 
     res.end();
