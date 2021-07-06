@@ -11,7 +11,7 @@ export const sendEmail = async (
   try {
     const res = await axios({
       method: 'post',
-      url: '/api/email',
+      url: 'https://bioeticgoods.iliaroger.de/api/email',
       headers: {
         'Content-Type': 'application/json',
         'Access-Control-Allow-Credentials': true,
