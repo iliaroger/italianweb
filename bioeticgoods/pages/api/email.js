@@ -1,32 +1,25 @@
-const nodemailer = require('nodemailer');
+require('dotenv').config();
 
-export default async (req, res) => {
-  const { firstName, lastName, email, inquiry, text, phone } = req.body;
+const mail = require('@sendgrid/mail');
 
-  let transporter = nodemailer.createTransport({
-    host: 'smtp-mail.outlook.com',
-    port: 587,
-    secure: true,
-    auth: {
-      user: 'ilia.roger@outlook.com',
-      pass: 'Whiteboard30.',
-    },
-  });
+mail.setApiKey(process.env.SENDGRID_API_KEY);
 
-  transporter.sendMail(
-    {
-      from: {
-        name: 'Bio Etic Goods',
-        address: 'ilia.roger@outlook.com',
-      },
-      to: `ilia.roger@outlook.com, iliailia@me.com`,
-      subject: inquiry,
-      text: `First Name: ${firstName} \nLast Name: ${lastName} \nEmail: ${email} \nPhone: ${phone} \nMessage: ${text}`,
-    },
-    (err, info) => {
-      console.log(info);
-    }
-  );
+module.exports = async (req, res) => {
+  const data = req.body;
+  try {
+    const message = {
+      to: 'iliailia@me.com',
+      from: 'iliailia@me.com',
+      subject: data.inquiry,
+      text: `First Name: ${data.firstName} \nLast Name: ${data.lastName} \nEmail: ${data.email} \nPhone: ${data.phone} \nMessage: ${data.text}`,
+    };
+    mail
+      .send(message)
+      .then(() => console.log('email send!'))
+      .catch((err) => console.log(err));
 
-  res.end();
+    res.end();
+  } catch (err) {
+    throw new Error(err);
+  }
 };
