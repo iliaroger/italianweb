@@ -1,6 +1,6 @@
 const nodemailer = require('nodemailer');
 
-export default (req, res) => {
+export default async (req, res) => {
   const { firstName, lastName, email, inquiry, text, phone } = req.body;
 
   let transporter = nodemailer.createTransport({
