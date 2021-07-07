@@ -1,5 +1,5 @@
 import axios from 'axios';
-export const sendEmail = async (
+export const sendEmail = (
   firstName: string,
   lastName: string,
   email: string,
@@ -9,7 +9,7 @@ export const sendEmail = async (
 ) => {
   const data = { firstName, lastName, email, inquiry, text, phone };
   try {
-    const res = await axios({
+    const res = axios({
       method: 'post',
       url: '/api/email',
       data,
