@@ -7,7 +7,7 @@ export default (req, res) => {
   try {
     const message = {
       to: 'iliailia@me.com',
-      from: 'thepresethub@gmail.com',
+      from: 'iliailia@me.com',
       subject: data.inquiry,
       text: `First Name: ${data.firstName} \nLast Name: ${data.lastName} \nEmail: ${data.email} \nPhone: ${data.phone} \nMessage: ${data.text}`,
     };
