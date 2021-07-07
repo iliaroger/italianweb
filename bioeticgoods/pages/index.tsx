@@ -1,12 +1,13 @@
 import Head from 'next/head';
-import Menu from '../components/Menu';
-import Hero from '../components/Hero';
-import About from '../components/About';
-import Partners from '../components/Partners';
-import Products from '../components/Products';
-import Questions from '../components/Questions';
-import Newsletter from '../components/Newsletter';
-import Footer from '../components/Footer';
+import dynamic from 'next/dynamic';
+const Menu = dynamic(() => import('../components/Menu'));
+const Hero = dynamic(() => import('../components/Hero'));
+const Partners = dynamic(() => import('../components/Partners'));
+const About = dynamic(() => import('../components/About'));
+const Products = dynamic(() => import('../components/Products'));
+const Questions = dynamic(() => import('../components/Questions'));
+const Newsletter = dynamic(() => import('../components/Newsletter'));
+const Footer = dynamic(() => import('../components/Footer'));
 
 export default function Home() {
   return (
@@ -55,12 +56,7 @@ export default function Home() {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
         {/* font preloading */}
-        <link
-          rel="preload"
-          href="/fonts/sf-ultralight.woff"
-          as="font"
-          crossOrigin=""
-        />
+        <link href="/fonts/sf-ultralight.woff" as="font" crossOrigin="" />
         <link
           rel="preload"
           href="/fonts/sf-light.woff"

@@ -213,7 +213,7 @@ export default function About() {
           </div>
           <img
             className="w-2/4 h-96 xsm:hidden lg:block"
-            src="/images/foodBg1.webp"
+            src="/images/foodBg2.webp"
           ></img>
           <div className="lg:w-1/4 xsm:w-2/4 p-2 self-center transform xl:translate-x-20">
             <div className="flex flex-row justify-center">

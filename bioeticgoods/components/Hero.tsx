@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { ClipboardListIcon, MailIcon } from '@heroicons/react/outline';
 import { motion } from 'framer-motion';
 
