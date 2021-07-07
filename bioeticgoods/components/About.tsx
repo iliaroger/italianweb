@@ -85,6 +85,7 @@ export default function About() {
             <img
               className="xsm:w-1/3 sm:w-20 lg:w-1/3 mx-auto"
               src="/images/aboutImage1.png"
+              alt="point1"
             ></img>
             <p className="text-center mt-4 text-gray-600 font-light xsm:text-sm lg:text-base">
               Fresh from{' '}
@@ -110,6 +111,7 @@ export default function About() {
             <img
               className="xsm:w-1/3 sm:w-20 lg:w-1/3 mx-auto"
               src="/images/aboutImage2.png"
+              alt="point2"
             ></img>
             <p className="text-center mt-4 text-gray-600 font-light xsm:text-sm lg:text-base">
               100%{' '}
@@ -135,6 +137,7 @@ export default function About() {
             <img
               className="xsm:w-1/3 sm:w-20 lg:w-1/3 mx-auto"
               src="/images/aboutImage3.png"
+              alt="point3"
             ></img>
             <p className="text-center mt-4 text-gray-600 font-light xsm:text-sm lg:text-base">
               Premium{' '}
@@ -226,10 +229,12 @@ export default function About() {
               <img
                 className="xsm:w-1/2 sm:w-1/3 lg:w-28 p-2"
                 src="/images/euSwiss.png"
+                alt="eu and swiss"
               ></img>
               <img
                 className="xsm:w-1/2 sm:w-1/3 lg:w-28 p-2"
                 src="/images/eaeu.png"
+                alt="eaeu"
               ></img>
             </div>
             <p className="text-center mt-4 text-gray-600 font-light xsm:text-sm lg:text-base">
