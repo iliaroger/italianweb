@@ -6,10 +6,10 @@ export default (req, res) => {
   const data = req.body;
   try {
     const message = {
-      to: 'iliailia@me.com',
+      to: 'thepresethub@gmail.com',
       from: 'iliailia@me.com',
-      subject: data.inquiry,
-      text: `First Name: ${data.firstName} \nLast Name: ${data.lastName} \nEmail: ${data.email} \nPhone: ${data.phone} \nMessage: ${data.text}`,
+      subject: 'New Inquiry - Bioeticgoods',
+      text: `Subject: ${data.inquiry} \nFirst Name: ${data.firstName} \nLast Name: ${data.lastName} \nEmail: ${data.email} \nPhone: ${data.phone} \nMessage: ${data.text}`,
     };
     mail
       .send(message)
