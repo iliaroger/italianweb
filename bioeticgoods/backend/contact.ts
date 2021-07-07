@@ -14,7 +14,8 @@ export const sendEmail = (
       url: '/api/email',
       headers: {
         'Content-Type': 'application/json',
-        Authorization: `Bearer ${process.env.NEXT_PUBLIC_SENDGRID_API_KEY}`,
+        Authorization:
+          'Bearer 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',
       },
       data,
     });
