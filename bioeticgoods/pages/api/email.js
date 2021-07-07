@@ -4,6 +4,7 @@ mail.setApiKey(process.env.NEXT_PUBLIC_SENDGRID_API_KEY);
 
 export default (req, res) => {
   const data = req.body;
+  //change email
   try {
     const message = {
       to: 'iliailia@me.com',
