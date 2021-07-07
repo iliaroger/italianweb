@@ -293,14 +293,17 @@ export default function Products() {
       <img
         className="absolute left-0 xl:top-1/2 transform -translate-x-2 z-10 lg:block xsm:hidden"
         src="/images/aboutTwig1.png"
+        alt="twig"
       ></img>
       <img
         className="absolute right-0 lg:top-1/4 transform translate-x-1 z-10 lg:block xsm:hidden"
         src="/images/aboutTwig2.png"
+        alt="twig"
       ></img>
       <img
         className="absolute right-0 lg:top-3/4 transform translate-x-1 z-10 lg:block xsm:hidden"
         src="/images/aboutTwig2.png"
+        alt="twig"
       ></img>
       <div className="max-w-6xl mx-auto py-20">
         <Header
@@ -319,6 +322,7 @@ export default function Products() {
               }  cursor-pointer`}
               onClick={() => setCountrySelected(CountrySelected.swiss)}
               src="/images/swiss.png"
+              alt="swiss"
             ></img>
             <img
               className={`w-8 h-6 self-center filter select-none ${
@@ -326,6 +330,7 @@ export default function Products() {
               } cursor-pointer`}
               onClick={() => setCountrySelected(CountrySelected.italy)}
               src="/images/italy.png"
+              alt="italy"
             ></img>
             <img
               className={`w-8 h-6 self-center filter select-none ${
@@ -333,6 +338,7 @@ export default function Products() {
               } cursor-pointer`}
               onClick={() => setCountrySelected(CountrySelected.france)}
               src="/images/france.png"
+              alt="france"
             ></img>
             <img
               className={`w-8 h-6 self-center filter select-none ${
@@ -340,6 +346,7 @@ export default function Products() {
               } cursor-pointer`}
               onClick={() => setCountrySelected(CountrySelected.germany)}
               src="/images/germany.png"
+              alt="germany"
             ></img>
             <img
               className={`w-8 h-6 self-center filter select-none ${
@@ -347,6 +354,7 @@ export default function Products() {
               } cursor-pointer`}
               onClick={() => setCountrySelected(CountrySelected.belarus)}
               src="/images/belarus.png"
+              alt="belarus"
             ></img>
           </div>
         </div>
@@ -356,6 +364,7 @@ export default function Products() {
               <img
                 className="mx-auto w-20 mt-4 mb-4 select-none"
                 src="/images/dry.png"
+                alt="dry products"
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
               <p className="text-center xsm:text-sm lg:text-sm text-gray-600 whitespace-nowrap mt-4 font-extralight">
@@ -379,6 +388,7 @@ export default function Products() {
               <img
                 className="mx-auto w-20 mt-4 mb-4 select-none"
                 src="/images/fresh.png"
+                alt="fresh products"
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
               <p className="text-center lg:p-0 xsm:text-sm lg:text-sm text-gray-600 whitespace-nowrap mt-4 font-extralight">
@@ -404,6 +414,7 @@ export default function Products() {
               <img
                 className="mx-auto w-20 mt-4 mb-4 select-none"
                 src="/images/frozen.png"
+                alt="frozen products"
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
               <p className="text-center xsm:text-sm lg:text-sm text-gray-600 whitespace-nowrap mt-4 font-extralight">
@@ -459,6 +470,7 @@ export default function Products() {
               <img
                 className="mx-auto w-20 mt-4 mb-4 select-none"
                 src="/images/alcoholFree.png"
+                alt="alcohol free drinks"
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
               <p className="text-center text-gray-600 xsm:text-sm whitespace-nowrap lg:text-sm mt-4 font-extralight">
@@ -482,6 +494,7 @@ export default function Products() {
               <img
                 className="mx-auto w-20 mt-4 mb-4 select-none"
                 src="/images/wineChampagne.png"
+                alt="wine and champagne"
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
               <p className="text-center xsm:text-sm lg:text-sm whitespace-nowrap text-gray-600 mt-4 font-extralight">
@@ -507,6 +520,7 @@ export default function Products() {
               <img
                 className="mx-auto w-20 mt-4 mb-4 select-none"
                 src="/images/spirits.png"
+                alt="spirits"
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
               <p className="text-center xsm:text-sm lg:text-sm text-gray-600 whitespace-nowrap mt-4 font-extralight">
@@ -535,6 +549,7 @@ export default function Products() {
               <img
                 className="mx-auto w-20 mt-4 mb-4 select-none"
                 src="/images/spices.png"
+                alt="spices"
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
               <p className="text-center xsm:text-sm lg:text-sm whitespace-nowrap text-gray-600 mt-4 font-extralight">
@@ -558,6 +573,7 @@ export default function Products() {
               <img
                 className="mx-auto w-20 mt-4 mb-4 select-none"
                 src="/images/herbs.png"
+                alt="herbs"
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
               <p className="text-center lg:p-0 xsm:text-sm lg:text-sm whitespace-nowrap text-gray-600 mt-4 font-extralight">

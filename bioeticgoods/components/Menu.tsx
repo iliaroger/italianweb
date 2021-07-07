@@ -27,7 +27,7 @@ export default function Menu() {
                   <img
                     className="lg:h-8 xsm:h-8 md:h-6 md:w-20 lg:w-auto sm:h-10 select-none"
                     src="/images/beglogo.svg"
-                    alt=""
+                    alt="bio etic goods logo"
                   />
                 </a>
               </div>

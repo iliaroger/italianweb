@@ -8,16 +8,19 @@ export default function Newsletter() {
       <img
         className="absolute xsm:w-20 sm:w-32 md:w-40 lg:w-52 left-0 bottom-0 transform -translate-x-3 translate-y-2"
         src="/images/cta1.png"
+        alt="berries and lemons"
       ></img>
       <img
         className="absolute top-0 right-0 xsm:w-24 sm:w-32 md:w-40 lg:w-52 transform translate-x-10"
         src="/images/cta2.png"
+        alt="chilis"
       ></img>
       <div className="text-center">
         <div className="relative">
           <img
             className="absolute w-4 left-1/2 transform -translate-y-4 translate-x-6"
             src="/images/leaf.png"
+            alt="leaf"
           ></img>
           <h2 className="font-extralight xsm:text-xl lg:text-2xl text-gray-600">
             subscribe to{' '}

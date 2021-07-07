@@ -49,6 +49,7 @@ export default function LanguageSelector() {
             <img
               className="w-4 mr-1 select-none"
               src="/images/united.png"
+              alt="united kingdom"
             ></img>
             <span className="font-light md:text-xs lg:text-base select-none">
               English
@@ -78,7 +79,7 @@ export default function LanguageSelector() {
                       className="flex items-center p-2 transition duration-150 ease-in-out rounded-lg hover:bg-gray-50 focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-50"
                     >
                       <div className="flex items-center justify-center flex-shrink-0 w-10 h-10 text-white sm:h-12 sm:w-12">
-                        <img className="w-8" src={`${item.icon}`} />
+                        <img className="w-8" src={`${item.icon}`} alt="icon" />
                       </div>
                       <div className="ml-4">
                         <p className="text-sm font-medium text-gray-900">

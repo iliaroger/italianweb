@@ -12,6 +12,7 @@ export default function Header({ description, text }: PropTypes) {
         <img
           className="absolute w-4 left-1/2 transform -translate-y-4"
           src="/images/leaf.png"
+          alt="leaf"
         ></img>
         <h2 className="font-extralight xsm:text-2xl lg:text-4xl text-gray-600">
           we are{' '}

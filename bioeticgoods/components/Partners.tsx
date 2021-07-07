@@ -16,6 +16,7 @@ export default function Partners() {
             <img
               className="w-24 cursor-pointer transition duration-300 filter grayscale hover:filter hover:grayscale-0"
               src="/images/supplier1.png"
+              alt="supplier1"
             ></img>
           </a>
           <a
@@ -26,24 +27,28 @@ export default function Partners() {
             <img
               className="w-24 cursor-pointer transition duration-300 filter grayscale hover:filter hover:grayscale-0"
               src="/images/supplier2.png"
+              alt="supplier2"
             ></img>
           </a>
           <a rel="noopener noreferrer">
             <img
               className="w-24 cursor-pointer transition duration-300 filter grayscale hover:filter hover:grayscale-0"
               src="/images/supplier3.png"
+              alt="supplier3"
             ></img>
           </a>
           <a rel="noopener noreferrer">
             <img
               className="w-24 cursor-pointer transition duration-300 filter grayscale hover:filter hover:grayscale-0"
               src="/images/supplier4.png"
+              alt="supplier4"
             ></img>
           </a>
           <a target="_blank" href="https://www.almafrozenfood.it/">
             <img
               className="w-24 cursor-pointer transition duration-300 filter grayscale hover:filter hover:grayscale-0"
               src="/images/supplier5.png"
+              alt="supplier5"
             ></img>
           </a>
         </div>

@@ -93,14 +93,17 @@ export default function Hero() {
               <img
                 className="w-10  border border-white ml-1 select-none"
                 src="/images/swiss.png"
+                alt="swiss"
               ></img>
               <img
                 className="w-10 border border-white ml-1 select-none"
                 src="/images/eu.png"
+                alt="eu"
               ></img>
               <img
                 className="w-10 border ml-1 select-none"
                 src="/images/eaeu.png"
+                alt="eaeu"
               ></img>
             </div>
           </div>
@@ -111,7 +114,11 @@ export default function Hero() {
           animate="visible"
           className="lg:w-1/2 relative xsm:hidden sm:block lg:block"
         >
-          <img className="opacity-0" src="/images/flagtable.png"></img>
+          <img
+            className="opacity-0"
+            src="/images/flagtable.png"
+            alt="italian, swiss and belarus flag"
+          ></img>
           <motion.img
             initial={{ opacity: 0 }}
             animate={{

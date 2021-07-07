@@ -68,10 +68,12 @@ export default function About() {
       <img
         className="absolute left-0 top-1/4 transform -translate-x-2 z-10 md:w-20 lg:w-32 xl:w-36 xsm:invisible md:visible"
         src="/images/aboutTwig1.png"
+        alt="twig"
       ></img>
       <img
         className="absolute right-0 xsm:top-1/2 lg:top-40 xl:top-1/2 transform translate-x-1 z-10 md:w-20 lg:w-32 xl:w-36 xsm:invisible md:visible"
         src="/images/aboutTwig2.png"
+        alt="twig"
       ></img>
       <div className="max-w-6xl mx-auto py-20">
         <Header
@@ -158,6 +160,7 @@ export default function About() {
             <img
               className="xsm:w-1/3 sm:w-20 lg:w-1/3 mx-auto"
               src="/images/aboutImage4.png"
+              alt="about"
             ></img>
             <p className="text-center mt-4 text-gray-600 font-light xsm:text-sm lg:text-base">
               The best{' '}
@@ -186,10 +189,12 @@ export default function About() {
               <img
                 className="xsm:w-1/2 sm:w-1/3 lg:w-28 p-2"
                 src="/images/eaeu.png"
+                alt="eaeu"
               ></img>
               <img
                 className="xsm:w-1/2 sm:w-1/3 lg:w-28 p-2"
                 src="/images/euSwiss.png"
+                alt="eu and swiss"
               ></img>
             </div>
             <p className="text-center mt-4 text-gray-600 font-light xsm:text-sm lg:text-base">
@@ -214,6 +219,7 @@ export default function About() {
           <img
             className="w-2/4 h-96 xsm:hidden lg:block"
             src="/images/foodBg2.webp"
+            alt="pizza and ingredients"
           ></img>
           <div className="lg:w-1/4 xsm:w-2/4 p-2 self-center transform xl:translate-x-20">
             <div className="flex flex-row justify-center">
