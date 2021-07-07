@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { m } from 'framer-motion';
+
 export const sendEmail = (
   firstName: string,
   lastName: string,
