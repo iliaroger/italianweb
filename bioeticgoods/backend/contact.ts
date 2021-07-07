@@ -1,4 +1,5 @@
 import axios from 'axios';
+import { m } from 'framer-motion';
 export const sendEmail = (
   firstName: string,
   lastName: string,
@@ -14,8 +15,6 @@ export const sendEmail = (
       url: '/api/email',
       headers: {
         'Content-Type': 'application/json',
-        Authorization:
-          'Bearer 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',
       },
       data,
     });
