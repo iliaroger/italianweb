@@ -12,6 +12,10 @@ export const sendEmail = (
     const res = axios({
       method: 'post',
       url: '/api/email',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${process.env.NEXT_PUBLIC_SENDGRID_API_KEY}`,
+      },
       data,
     });
     return res;

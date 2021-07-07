@@ -15,7 +15,6 @@ export default (req, res) => {
       .send(message)
       .then((data) => console.log(data))
       .catch((err) => console.log(err));
-
     res.end();
   } catch (err) {
     throw new Error(err);
