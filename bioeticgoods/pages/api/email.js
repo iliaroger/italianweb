@@ -7,7 +7,7 @@ export default (req, res) => {
   try {
     const message = {
       to: 'iliailia@me.com',
-      from: 'info@bioeticgoods.iliaroger.de',
+      from: 'news@bioeticgoods.iliaroger.de',
       subject: data.inquiry,
       text: `First Name: ${data.firstName} \nLast Name: ${data.lastName} \nEmail: ${data.email} \nPhone: ${data.phone} \nMessage: ${data.text}`,
     };
