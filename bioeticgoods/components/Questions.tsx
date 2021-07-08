@@ -72,8 +72,8 @@ export default function Questions() {
                       </Disclosure.Button>
                       <Disclosure.Panel className="px-6 pb-4">
                         <p className="xsm:text-xs lg:text-sm tracking-normal text-gray-600">
-                          At the moment we work exclusively in the EU/Swiss and
-                          the EAEU.
+                          At the moment we work exclusively in the EU,
+                          Switzerland and the EAEU.
                         </p>
                       </Disclosure.Panel>
                     </div>

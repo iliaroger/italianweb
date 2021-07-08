@@ -88,171 +88,171 @@ const ModalInfo = {
   ch: {
     dry: {
       header: 'We have the best dry products available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
     fresh: {
       header: 'We have the best fresh products available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
     frozen: {
       header: 'We have the best frozen products available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
     alcoholFree: {
       header: 'We have the best alcohol free drinks available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
     wineChamp: {
       header: 'We have the best wine and champagne available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
     spirits: {
       header: 'We have the best original spirits available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
     spices: {
       header: 'We have the best spices available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
     herbs: {
       header: 'We have the best herbs available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
   },
   it: {
     dry: {
       header: 'We have the best dry products available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
     fresh: {
       header: 'We have the best fresh products available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
     frozen: {
       header: 'We have the best frozen products available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
     alcoholFree: {
       header: 'We have the best alcohol free drinks available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
     wineChamp: {
       header: 'We have the best wine and champagne available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
     spirits: {
       header: 'We have the best original spirits available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
     spices: {
       header: 'We have the best spices available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
     herbs: {
       header: 'We have the best herbs available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
   },
   fr: {
     dry: {
       header: 'We have the best dry products available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
     fresh: {
       header: 'We have the best fresh products available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
     frozen: {
       header: 'We have the best frozen products available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
     alcoholFree: {
       header: 'We have the best alcohol free drinks available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
     wineChamp: {
       header: 'We have the best wine and champagne available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
     spirits: {
       header: 'We have the best original spirits available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
     spices: {
       header: 'We have the best spices available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
     herbs: {
       header: 'We have the best herbs available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
   },
   de: {
     dry: {
       header: 'We have the best dry products available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
     fresh: {
       header: 'We have the best fresh products available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
     frozen: {
       header: 'We have the best frozen products available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
     alcoholFree: {
       header: 'We have the best alcohol free drinks available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
     wineChamp: {
       header: 'We have the best wine and champagne available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
     spirits: {
       header: 'We have the best original spirits available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
     spices: {
       header: 'We have the best spices available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
     herbs: {
       header: 'We have the best herbs available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
   },
   by: {
     dry: {
       header: 'We have the best dry products available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
     fresh: {
       header: 'We have the best fresh products available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
     frozen: {
       header: 'We have the best frozen products available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
     alcoholFree: {
       header: 'We have the best alcohol free drinks available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
     wineChamp: {
       header: 'We have the best wine and champagne available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
     spirits: {
       header: 'We have the best original spirits available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
     spices: {
       header: 'We have the best spices available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
     herbs: {
       header: 'We have the best herbs available.',
-      text: 'TBA',
+      text: 'Contact us to receive the product catalogue',
     },
   },
 };

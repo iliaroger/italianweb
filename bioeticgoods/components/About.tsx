@@ -36,7 +36,7 @@ export default function About() {
       text: 'We take care of our customers. All products comply with all necessary standards and are carefully checked. We work with the best logistics companies so that your orders arrive to you in the best possible way!',
     },
     organic: {
-      header: '100% Exclusivity',
+      header: '100% exclusivity',
       text: 'All our products are sold only by us. We have exclusive supply contracts with all our manufacturers. Thus, we care about quality and can guarantee it!',
     },
     quality: {
@@ -115,11 +115,11 @@ export default function About() {
             ></img>
             <p className="text-center mt-4 text-gray-600 font-light xsm:text-sm lg:text-base">
               100%{' '}
-              <span className="font-semibold text-gray-800">Exclusivity</span>
+              <span className="font-semibold text-gray-800">exclusivity</span>
             </p>
             <p className="text-center xsm:w-full sm:w-3/4 lg:w-full mx-auto font-light xsm:text-xs lg:text-sm mt-2 text-gray-600">
-                 Our 100% organic-marked goods obey to a set standard regarding
-              organic production.
+                 Our goods are selected from a pool of exclusive and renowned
+              suppliers from Europe and EAEU.
             </p>
             <div className="text-center mt-4">
               <button
@@ -190,14 +190,19 @@ export default function About() {
           <div className="lg:w-1/4 xsm:w-2/4 p-2 self-center transform xl:-translate-x-20">
             <div className="flex flex-row justify-center">
               <img
-                className="xsm:w-1/2 sm:w-1/3 lg:w-28 p-2"
+                className="xsm:w-1/3 sm:w-1/3 lg:w-1/3 p-2"
                 src="/images/eaeu.png"
                 alt="eaeu"
               ></img>
               <img
-                className="xsm:w-1/2 sm:w-1/3 lg:w-28 p-2"
-                src="/images/euSwiss.png"
-                alt="eu and swiss"
+                className="xsm:w-1/3 sm:w-1/3 lg:w-1/3 p-2"
+                src="/images/eu.png"
+                alt="eu"
+              ></img>
+              <img
+                className="xsm:w-1/3 sm:w-1/3 lg:w-1/3 p-2"
+                src="/images/swiss.png"
+                alt="swiss"
               ></img>
             </div>
             <p className="text-center mt-4 text-gray-600 font-light xsm:text-sm lg:text-base">
@@ -227,12 +232,17 @@ export default function About() {
           <div className="lg:w-1/4 xsm:w-2/4 p-2 self-center transform xl:translate-x-20">
             <div className="flex flex-row justify-center">
               <img
-                className="xsm:w-1/2 sm:w-1/3 lg:w-28 p-2"
-                src="/images/euSwiss.png"
-                alt="eu and swiss"
+                className="xsm:w-1/3 sm:w-1/3 lg:w-1/3 p-2"
+                src="/images/eu.png"
+                alt="eu"
               ></img>
               <img
-                className="xsm:w-1/2 sm:w-1/3 lg:w-28 p-2"
+                className="xsm:w-1/3 sm:w-1/3 lg:w-1/3 p-2"
+                src="/images/swiss.png"
+                alt="swiss"
+              ></img>
+              <img
+                className="xsm:w-1/3 sm:w-1/3 lg:w-1/3 p-2"
                 src="/images/eaeu.png"
                 alt="eaeu"
               ></img>

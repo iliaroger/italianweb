@@ -55,9 +55,9 @@ export default function Hero() {
             Acquainted with traditions
           </p>
           <p className="font-light w-3/4 xsm:text-sm lg:text-base text-gray-600 mt-8">
-            Hello and welcome to Bio Etic Goods. We act as a broker and
-            distributor in the food and beverage sector. We specialize in dry,
-            fresh and frozen products, wine and spirits, spices and herbs.
+            We act as a broker and distributor in the food and beverage sector.
+            We specialize in dry, fresh and frozen products, wine and spirits,
+            spices and herbs.
           </p>
           <div className="mt-4">
             <button

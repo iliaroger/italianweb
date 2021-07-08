@@ -5,7 +5,7 @@ import { BadgeCheckIcon } from '@heroicons/react/outline';
 interface PropTypes {
   trigger: boolean;
   description: string;
-  text: string;
+  text: string | JSX.Element;
 }
 
 export default function Modal({ trigger, description, text }: PropTypes) {
@@ -69,7 +69,7 @@ export default function Modal({ trigger, description, text }: PropTypes) {
                   {description}
                 </Dialog.Title>
                 <hr className="w-6 mx-auto mt-1"></hr>
-                <div className="mt-2">
+                <div className="mt-2 max-h-80 overflow-y-scroll">
                   <p className="xsm:text-xs lg:text-sm tracking-normal text-gray-500 text-center">
                     {text}
                   </p>
