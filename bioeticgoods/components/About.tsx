@@ -190,17 +190,17 @@ export default function About() {
           <div className="lg:w-1/4 xsm:w-2/4 p-2 self-center transform xl:-translate-x-20">
             <div className="flex flex-row justify-center">
               <img
-                className="xsm:w-1/3 sm:w-1/3 lg:w-1/3 p-2"
+                className="xsm:w-1/3 sm:w-1/3 lg:w-1/3 p-1"
                 src="/images/eaeu.png"
                 alt="eaeu"
               ></img>
               <img
-                className="xsm:w-1/3 sm:w-1/3 lg:w-1/3 p-2"
+                className="xsm:w-1/3 sm:w-1/3 lg:w-1/3 p-1"
                 src="/images/eu.png"
                 alt="eu"
               ></img>
               <img
-                className="xsm:w-1/3 sm:w-1/3 lg:w-1/3 p-2"
+                className="xsm:w-1/3 sm:w-1/3 lg:w-1/3 p-1"
                 src="/images/swiss.png"
                 alt="swiss"
               ></img>
@@ -232,17 +232,17 @@ export default function About() {
           <div className="lg:w-1/4 xsm:w-2/4 p-2 self-center transform xl:translate-x-20">
             <div className="flex flex-row justify-center">
               <img
-                className="xsm:w-1/3 sm:w-1/3 lg:w-1/3 p-2"
+                className="xsm:w-1/3 sm:w-1/3 lg:w-1/3 p-1"
                 src="/images/eu.png"
                 alt="eu"
               ></img>
               <img
-                className="xsm:w-1/3 sm:w-1/3 lg:w-1/3 p-2"
+                className="xsm:w-1/3 sm:w-1/3 lg:w-1/3 p-1"
                 src="/images/swiss.png"
                 alt="swiss"
               ></img>
               <img
-                className="xsm:w-1/3 sm:w-1/3 lg:w-1/3 p-2"
+                className="xsm:w-1/3 sm:w-1/3 lg:w-1/3 p-1"
                 src="/images/eaeu.png"
                 alt="eaeu"
               ></img>
