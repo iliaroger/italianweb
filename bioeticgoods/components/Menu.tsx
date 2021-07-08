@@ -22,11 +22,11 @@ export default function Menu() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6">
             <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
               <div className="flex justify-start lg:w-0 lg:flex-1">
-                <a href="#">
+                <a href="#start">
                   <span className="sr-only">BioEticGoods</span>
                   <img
-                    className="lg:h-8 xsm:h-8 md:h-6 md:w-20 lg:w-auto sm:h-10 select-none"
-                    src="/images/beglogo.svg"
+                    className="w-28 select-none"
+                    src="/images/beglogo.png"
                     alt="bio etic goods logo"
                   />
                 </a>

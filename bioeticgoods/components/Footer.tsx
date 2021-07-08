@@ -405,8 +405,27 @@ export default function Footer() {
               via email.
             </p>
             <p className="text-gray-800 xl:text-lg self-center font-semibold mt-4 xsm:text-lg">
-              Our headquater - London, UK (Shelton Street 71-75)
+              Our headquater
             </p>
+            <div className="flex flex-col xl:w-full mt-2 xsm:w-full">
+              <div className="flex flex-row">
+                <LocationMarkerIcon className="w-4 h-4 text-gray-600"></LocationMarkerIcon>
+                <div className="ml-1">
+                  <p className="text-gray-600 text-sm font-light">
+                    Shelton Street 71-75
+                  </p>
+                  <p className="text-gray-600 text-sm font-light">
+                    London WC2H 9JQ, United Kingdom
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-row mt-2">
+                <MailIcon className="text-gray-600 w-4 h-4 self-center"></MailIcon>
+                <p className="text-gray-600 text-sm ml-1 font-light">
+                  info@bioeticgoods.com
+                </p>
+              </div>
+            </div>
             <img
               className="w-full xl:h-80 object-cover rounded mt-4"
               src="/images/headquarter.jpeg"
@@ -418,63 +437,15 @@ export default function Footer() {
               monday till friday.
             </p>
             <div className="flex xl:flex-row xsm:flex-col sm:flex-row">
-              <div className="xl:w-1/3 mt-4 xsm:w-full">
+              <div className="xl:w-1/2 mt-4 xsm:w-full">
                 <p className="font-bold text-sm text-gray-800">
-                  Bio Etic Goods (United Kingdom) LLC
+                  Bio Etic Goods (BY) LLC
                 </p>
                 <div className="flex flex-row mt-2">
                   <LocationMarkerIcon className="w-4 h-4 text-gray-600"></LocationMarkerIcon>
                   <div className="ml-1">
                     <p className="text-gray-600 text-sm font-light">
-                      Shelton Street 71-75
-                    </p>
-                    <p className="text-gray-600 text-sm font-light">
-                      London WC2H 9JQ, United Kingdom
-                    </p>
-                  </div>
-                </div>
-                <div className="flex flex-row mt-2">
-                  <PhoneIcon className="text-gray-600 w-4 h-4 self-center"></PhoneIcon>
-                  <p className="text-gray-600 text-sm ml-1 font-light">TBA</p>
-                </div>
-                <div className="flex flex-row mt-2">
-                  <MailIcon className="text-gray-600 w-4 h-4 self-center"></MailIcon>
-                  <p className="text-gray-600 text-sm ml-1 font-light">
-                    info@bioeticgoods.com
-                  </p>
-                </div>
-              </div>
-              <div className="xl:w-1/3 mt-4 xsm:w-full">
-                <p className="font-bold text-sm text-gray-800">
-                  Bio Etic Goods (Schweiz) GmbH
-                </p>
-                <div className="flex flex-row mt-2">
-                  <LocationMarkerIcon className="w-4 h-4 text-gray-600"></LocationMarkerIcon>
-                  <div className="ml-1">
-                    <p className="text-gray-600 text-sm font-light">TBA</p>
-                    <p className="text-gray-600 text-sm font-light">TBA</p>
-                  </div>
-                </div>
-                <div className="flex flex-row mt-2">
-                  <PhoneIcon className="text-gray-600 w-4 h-4 self-center"></PhoneIcon>
-                  <p className="text-gray-600 text-sm ml-1 font-light">TBA</p>
-                </div>
-                <div className="flex flex-row mt-2">
-                  <MailIcon className="text-gray-600 w-4 h-4 self-center"></MailIcon>
-                  <p className="text-gray-600 text-sm ml-1 font-light">
-                    info@bioeticgoods.com
-                  </p>
-                </div>
-              </div>
-              <div className="xl:w-1/3 mt-4 xsm:w-full">
-                <p className="font-bold text-sm text-gray-800">
-                  Bio Etic Goods (Belarus) LLC
-                </p>
-                <div className="flex flex-row mt-2">
-                  <LocationMarkerIcon className="w-4 h-4 text-gray-600"></LocationMarkerIcon>
-                  <div className="ml-1">
-                    <p className="text-gray-600 text-sm font-light">
-                      Mogilevskaya, 19B, Ufficio B/N
+                      Mogilevskaya, 19B, Office B/N
                     </p>
                     <p className="text-gray-600 text-sm font-light">
                       246010 Gomel, Belarus
@@ -487,6 +458,28 @@ export default function Footer() {
                     +375 (33) 682-19-41
                   </p>
                 </div>
+                <div className="flex flex-row mt-2">
+                  <MailIcon className="text-gray-600 w-4 h-4 self-center"></MailIcon>
+                  <p className="text-gray-600 text-sm ml-1 font-light">
+                    info@bioeticgoods.com
+                  </p>
+                </div>
+              </div>
+              <div className="xl:w-1/2 mt-4 xsm:w-full">
+                <p className="font-bold text-sm text-gray-800">
+                  Bio Etic Goods (Schweiz) GmbH
+                </p>
+                {/* <div className="flex flex-row mt-2">
+                  <LocationMarkerIcon className="w-4 h-4 text-gray-600"></LocationMarkerIcon>
+                  <div className="ml-1">
+                    <p className="text-gray-600 text-sm font-light">TBA</p>
+                    <p className="text-gray-600 text-sm font-light">TBA</p>
+                  </div>
+                </div> */}
+                {/* <div className="flex flex-row mt-2">
+                  <PhoneIcon className="text-gray-600 w-4 h-4 self-center"></PhoneIcon>
+                  <p className="text-gray-600 text-sm ml-1 font-light">TBA</p>
+                </div> */}
                 <div className="flex flex-row mt-2">
                   <MailIcon className="text-gray-600 w-4 h-4 self-center"></MailIcon>
                   <p className="text-gray-600 text-sm ml-1 font-light">
@@ -610,7 +603,7 @@ export default function Footer() {
             <div className="flex flex-row">
               <img
                 className="h-8 w-auto self-center"
-                src="/images/beglogo.svg"
+                src="/images/beglogo.png"
                 alt="Logo"
               />
             </div>
