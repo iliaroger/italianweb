@@ -408,7 +408,10 @@ export default function Footer() {
               Our headquater
             </p>
             <div className="flex flex-col xl:w-full mt-2 xsm:w-full">
-              <div className="flex flex-row">
+              <p className="font-bold text-sm text-gray-800">
+                Bio Etic Goods Int'l Limited
+              </p>
+              <div className="flex flex-row mt-2">
                 <LocationMarkerIcon className="w-4 h-4 text-gray-600"></LocationMarkerIcon>
                 <div className="ml-1">
                   <p className="text-gray-600 text-sm font-light">
