@@ -23,8 +23,8 @@ export default function Questions() {
                         <span
                           className={
                             open
-                              ? 'text-left font-light text-mainGreen py-6 px-2 xl:text-base xsm:text-sm'
-                              : 'text-left font-light text-gray-600 py-6 px-2 xl:text-base xsm:text-sm'
+                              ? 'text-left font-light text-mainGreen py-6 px-2 xl:text-base xsm:text-sm  transform'
+                              : 'text-left font-light text-gray-600 py-6 px-2 xl:text-base xsm:text-sm  transform'
                           }
                         >
                           Can I see the current listing of your products?
