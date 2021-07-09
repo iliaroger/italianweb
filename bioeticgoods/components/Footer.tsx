@@ -408,7 +408,7 @@ export default function Footer() {
               Our headquater
             </p>
             <div className="flex flex-col xl:w-full mt-2 xsm:w-full">
-              <p className="font-bold text-sm text-gray-800">
+              <p className="font-semibold text-sm text-gray-800">
                 Bio Etic Goods Int'l Limited
               </p>
               <div className="flex flex-row mt-2">
@@ -441,7 +441,7 @@ export default function Footer() {
             </p>
             <div className="flex xl:flex-row xsm:flex-col sm:flex-row">
               <div className="xl:w-1/2 mt-4 xsm:w-full">
-                <p className="font-bold text-sm text-gray-800">
+                <p className="font-semibold text-sm text-gray-800">
                   Bio Etic Goods (BY) LLC
                 </p>
                 <div className="flex flex-row mt-2">
@@ -469,7 +469,7 @@ export default function Footer() {
                 </div>
               </div>
               <div className="xl:w-1/2 mt-4 xsm:w-full">
-                <p className="font-bold text-sm text-gray-800">
+                <p className="font-semibold text-sm text-gray-800">
                   Bio Etic Goods (Schweiz) GmbH
                 </p>
                 {/* <div className="flex flex-row mt-2">
