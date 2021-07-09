@@ -384,6 +384,7 @@ export default function Footer() {
             trigger={triggerModal}
             description={ModalInfo[currentModal].header}
             text={ModalInfo[currentModal].text}
+            overflow={true}
           ></Modal>
         ) : (
           ''

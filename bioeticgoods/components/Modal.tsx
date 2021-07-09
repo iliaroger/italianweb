@@ -6,9 +6,15 @@ interface PropTypes {
   trigger: boolean;
   description: string;
   text: string | JSX.Element;
+  overflow?: boolean;
 }
 
-export default function Modal({ trigger, description, text }: PropTypes) {
+export default function Modal({
+  trigger,
+  description,
+  text,
+  overflow = false,
+}: PropTypes) {
   const [modalState, setModalState] = useState<boolean>(false);
 
   const openModal = () => {
@@ -69,7 +75,11 @@ export default function Modal({ trigger, description, text }: PropTypes) {
                   {description}
                 </Dialog.Title>
                 <hr className="w-6 mx-auto mt-1"></hr>
-                <div className="mt-2 max-h-80 overflow-y-scroll">
+                <div
+                  className={`mt-2 max-h-80 ${
+                    overflow ? 'overflow-y-scroll' : ''
+                  }`}
+                >
                   <p className="xsm:text-xs lg:text-sm tracking-normal text-gray-500 text-center">
                     {text}
                   </p>
