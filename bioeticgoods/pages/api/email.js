@@ -1,5 +1,5 @@
 const aws = require('aws-sdk');
-
+require('dotenv').config();
 aws.config.update({
   region: 'eu-central-1',
   credentials: {
