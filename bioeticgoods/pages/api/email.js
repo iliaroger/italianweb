@@ -51,6 +51,8 @@ module.exports = (req, res) => {
     .sendEmail(params)
     .promise();
 
+  console.log(sendPromise);
+
   // Handle promise's fulfilled/rejected states
   sendPromise
     .then(function (data) {
