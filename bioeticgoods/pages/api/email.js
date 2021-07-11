@@ -3,8 +3,8 @@ const aws = require('aws-sdk');
 aws.config.update({
   region: 'eu-central-1',
   credentials: {
-    accessKeyId: process.env.AWS_ACCESS_KEY_ID_PROD,
-    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY_PRDO,
+    accessKeyId: process.env.ACCESS_KEY,
+    secretAccessKey: process.env.SECRET_KEY,
   },
 });
 
