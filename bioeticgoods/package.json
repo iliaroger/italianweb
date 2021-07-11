@@ -14,7 +14,7 @@
     "@headlessui/react": "^1.2.0",
     "@heroicons/react": "^1.0.1",
     "@next/bundle-analyzer": "^11.0.1",
-    "@sendgrid/mail": "^7.4.5",
+    "aws-sdk": "^2.943.0",
     "axios": "^0.21.1",
     "cross-env": "^7.0.3",
     "dotenv": "^10.0.0",

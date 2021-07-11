@@ -1,23 +1,63 @@
-const mail = require('@sendgrid/mail');
+const aws = require('aws-sdk');
 
-mail.setApiKey(process.env.NEXT_PUBLIC_SENDGRID_API_KEY);
+aws.config.update({
+  region: 'eu-central-1',
+  credentials: {
+    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+  },
+});
 
-export default (req, res) => {
-  const data = req.body;
-  //change email
-  try {
-    const message = {
-      to: 'iliailia@me.com',
-      from: 'info@bioeticgoods.iliaroger.de',
-      subject: 'New Inquiry - Bioeticgoods',
-      text: `Subject: ${data.inquiry} \nFirst Name: ${data.firstName} \nLast Name: ${data.lastName} \nEmail: ${data.email} \nPhone: ${data.phone} \nMessage: ${data.text}`,
-    };
-    mail
-      .send(message)
-      .then((data) => console.log(data))
-      .catch((err) => console.log(err));
-    res.end();
-  } catch (err) {
-    throw new Error(err);
-  }
+module.exports = (req, res) => {
+  const { firstName, lastName, email, phone, inquiry, text } = req.body;
+  let params = {
+    Destination: {
+      /* required */
+      CcAddresses: ['iliailia@me.com'],
+      ToAddresses: ['iliailia@me.com', 'thepresethub@gmail.com'],
+    },
+    Message: {
+      Body: {
+        Html: {
+          Charset: 'UTF-8',
+          Data: `
+            <div>
+              <p>Bio Etic Goods: New Message</p>
+              <p>First Name: ${firstName}</p>
+              <p>Last Name: ${lastName}</p>
+              <p>Email: ${email}</p>
+              <p>Phone: ${phone}</p>
+              <br></br>
+              <p>Message: ${text}</p>
+            </div>
+          `,
+        },
+        Text: {
+          Charset: 'UTF-8',
+          Data: `First Name: ${firstName} \nLast Name: ${lastName} \nEmail: ${email} \nPhone: ${phone} \nMessage: ${text}`,
+        },
+      },
+      Subject: {
+        Charset: 'UTF-8',
+        Data: inquiry,
+      },
+    },
+    Source: 'iliailia@me.com',
+    ReplyToAddresses: [email],
+  };
+
+  // Create the promise and SES service object
+  let sendPromise = new aws.SES({ apiVersion: '2010-12-01' })
+    .sendEmail(params)
+    .promise();
+
+  // Handle promise's fulfilled/rejected states
+  sendPromise
+    .then(function (data) {
+      console.log(data.MessageId);
+    })
+    .catch(function (err) {
+      console.error(err, err.stack);
+    });
+  res.end();
 };
