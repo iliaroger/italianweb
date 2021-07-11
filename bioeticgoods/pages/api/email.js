@@ -10,6 +10,7 @@ aws.config.update({
 // settings
 module.exports = (req, res) => {
   const { firstName, lastName, email, phone, inquiry, text } = req.body;
+  console.log(req.body);
   let params = {
     Destination: {
       /* required */
@@ -50,8 +51,6 @@ module.exports = (req, res) => {
   let sendPromise = new aws.SES({ apiVersion: '2010-12-01' })
     .sendEmail(params)
     .promise();
-
-  console.log(sendPromise);
 
   // Handle promise's fulfilled/rejected states
   sendPromise
