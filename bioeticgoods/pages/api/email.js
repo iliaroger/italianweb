@@ -61,5 +61,4 @@ module.exports = (req, res) => {
       console.log('there was an error: ' + err);
       console.error(err, err.stack);
     });
-  res.end();
 };
