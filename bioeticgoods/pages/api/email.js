@@ -4,13 +4,12 @@ aws.config.update({
   region: 'eu-central-1',
   credentials: {
     accessKeyId: process.env.AWS_ACCESS_KEY_ID_BEG,
-    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY_BEG,
+    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY_BEGd,
   },
 });
 // settings
 module.exports = (req, res) => {
   const { firstName, lastName, email, phone, inquiry, text } = req.body;
-  console.log(req.body);
   let params = {
     Destination: {
       /* required */
