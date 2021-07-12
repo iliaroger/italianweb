@@ -4,7 +4,7 @@ aws.config.update({
   region: 'eu-central-1',
   credentials: {
     accessKeyId: process.env.AWS_ACCESS_KEY_ID_BEG,
-    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY_BEGd,
+    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY_BEG,
   },
 });
 // settings
