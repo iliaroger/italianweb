@@ -54,9 +54,11 @@ module.exports = (req, res) => {
   // Handle promise's fulfilled/rejected states
   sendPromise
     .then(function (data) {
+      console.log('data send: ' + data);
       console.log(data.MessageId);
     })
     .catch(function (err) {
+      console.log('there was an error: ' + err);
       console.error(err, err.stack);
     });
   res.end();
