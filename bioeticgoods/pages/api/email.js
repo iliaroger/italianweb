@@ -8,7 +8,7 @@ aws.config.update({
   },
 });
 // settings
-module.exports = (req, res) => {
+module.exports = async (req, res) => {
   const { firstName, lastName, email, phone, inquiry, text } = req.body;
   let params = {
     Destination: {
@@ -47,12 +47,12 @@ module.exports = (req, res) => {
   };
 
   // Create the promise and SES service object
-  let sendPromise = new aws.SES({ apiVersion: '2010-12-01' })
+  let sendPromise = await new aws.SES({ apiVersion: '2010-12-01' })
     .sendEmail(params)
     .promise();
 
   // Handle promise's fulfilled/rejected states
-  sendPromise
+  await sendPromise
     .then(function (data) {
       console.log('data send: ' + data);
       console.log(data.MessageId);
