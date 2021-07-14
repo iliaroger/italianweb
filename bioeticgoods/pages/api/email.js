@@ -48,4 +48,6 @@ module.exports = async (req, res) => {
 
   // Create the promise and SES service object
   await new aws.SES({ apiVersion: '2010-12-01' }).sendEmail(params).promise();
+
+  res.end();
 };
