@@ -52,7 +52,7 @@ module.exports = async (req, res) => {
     .promise();
 
   // Handle promise's fulfilled/rejected states
-  await sendPromise
+  sendPromise
     .then(function (data) {
       console.log('data send: ' + data);
       console.log(data.MessageId);
