@@ -14,7 +14,7 @@ module.exports = async (req, res) => {
     Destination: {
       /* required */
       CcAddresses: ['iliailia@me.com'],
-      ToAddresses: ['iliailia@me.com', 'thepresethub@gmail.com'],
+      ToAddresses: ['thepresethub@gmail.com'],
     },
     Message: {
       Body: {
