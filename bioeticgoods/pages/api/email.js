@@ -7,7 +7,7 @@ aws.config.update({
     secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY_BEG,
   },
 });
-// settings
+// email settings
 module.exports = async (req, res) => {
   const { firstName, lastName, email, phone, inquiry, text } = req.body;
   let params = {
