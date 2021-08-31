@@ -3,6 +3,7 @@ import { ChevronDownIcon } from '@heroicons/react/solid';
 import { Fragment, useEffect } from 'react';
 import { useRouter } from 'next/router';
 
+// english
 const languages = [
   {
     name: 'English',
