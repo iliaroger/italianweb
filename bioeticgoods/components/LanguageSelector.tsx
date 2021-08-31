@@ -31,7 +31,7 @@ const languages = [
   {
     name: 'Français',
     description: 'Changer la langue en français',
-    href: 'https://it.bioeticgoods.com',
+    href: 'https://fr.bioeticgoods.com',
     icon: '/images/france.png',
   },
 ];
