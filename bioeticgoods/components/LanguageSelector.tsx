@@ -7,31 +7,31 @@ const languages = [
   {
     name: 'English',
     description: 'Change language to english',
-    href: '##',
+    href: 'https://bioeticgoods.com',
     icon: '/images/united.png',
   },
   {
     name: 'Italiano',
     description: 'Cambia lingua in italiano',
-    href: '##',
+    href: 'https://it.bioeticgoods.com',
     icon: '/images/italy.png',
   },
   {
     name: 'Pусский',
     description: 'Сменить язык на русский',
-    href: '##',
+    href: 'https://ru.bioeticgoods.com',
     icon: '/images/russia.png',
   },
   {
     name: 'Deutsch',
     description: 'Sprache zu deutsch ändern',
-    href: '##',
+    href: 'https://de.bioeticgoods.com',
     icon: '/images/germany.png',
   },
   {
     name: 'Français',
     description: 'Changer la langue en français',
-    href: '##',
+    href: 'https://it.bioeticgoods.com',
     icon: '/images/france.png',
   },
 ];
