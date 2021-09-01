@@ -9,8 +9,8 @@ export default function Questions() {
       <div className="transform -translate-y-20" id="questions"></div>
       <div className="max-w-6xl mx-auto py-20">
         <Header
-          description="Frequently asked questions"
-          text="In this section you can find answers to frequently asked questions regarding our products, suppliers or other general topics."
+          description="Часто задаваемые вопросы"
+          text="В этом разделе вы можете найти ответы на часто задаваемые вопросы, касающиеся нашей продукции, поставщиков или других общих тем."
         ></Header>
         <div className="w-full flex flex-col mt-10">
           <div className="w-full xl:px-4">
@@ -27,7 +27,8 @@ export default function Questions() {
                               : 'text-left font-light text-gray-600 py-6 px-2 xl:text-base xsm:text-sm  transform'
                           }
                         >
-                          Can I see the current listing of your products?
+                          Могу ли я ознакомиться с текущим списком вашей
+                          продукции?
                         </span>
                         <ChevronUpIcon
                           className={`${
@@ -39,9 +40,9 @@ export default function Questions() {
                       </Disclosure.Button>
                       <Disclosure.Panel className="px-6 pb-4">
                         <p className="xsm:text-xs lg:text-sm tracking-normal text-gray-600">
-                          Sure! All our products are presented in the "Our
-                          Products" section, where you can familiarize yourself
-                          with them in more detail.
+                          Конечно! Вся наша продукция представлена в разделе
+                          "Наши Продукция", где вы можете ознакомиться с ними
+                          более подробно.
                         </p>
                       </Disclosure.Panel>
                     </div>
@@ -60,7 +61,7 @@ export default function Questions() {
                               : 'text-left font-light text-gray-600 py-6 px-2 xl:text-base xsm:text-sm'
                           }
                         >
-                          In which regions are you represented?
+                          В каких регионах вы представлены?
                         </span>
                         <ChevronUpIcon
                           className={`${
@@ -72,8 +73,8 @@ export default function Questions() {
                       </Disclosure.Button>
                       <Disclosure.Panel className="px-6 pb-4">
                         <p className="xsm:text-xs lg:text-sm tracking-normal text-gray-600">
-                          At the moment we work exclusively in the EU,
-                          Switzerland and the EAEU.
+                          В настоящее время мы работаем исключительно в странах
+                          ЕС, Швейцарии и ЕАЭС.
                         </p>
                       </Disclosure.Panel>
                     </div>
@@ -92,7 +93,7 @@ export default function Questions() {
                               : 'text-left font-light text-gray-600 py-6 px-2 xl:text-base xsm:text-sm'
                           }
                         >
-                          How can I contact you?
+                          Как я могу связаться с вами?
                         </span>
                         <ChevronUpIcon
                           className={`${
@@ -104,9 +105,9 @@ export default function Questions() {
                       </Disclosure.Button>
                       <Disclosure.Panel className="px-6 pb-4">
                         <p className="xsm:text-xs lg:text-sm tracking-normal text-gray-600">
-                          You can fill out the form in the "Contact" section,
-                          write to our mail or call the phone number indicated
-                          there.
+                          Вы можете заполнить форму в разделе "Контакты",
+                          написать на нашу почту или позвонить по телефону,
+                          указанному там.
                         </p>
                       </Disclosure.Panel>
                     </div>
@@ -125,8 +126,8 @@ export default function Questions() {
                               : 'text-left font-light text-gray-600 py-6 px-2 xl:text-base xsm:text-sm'
                           }
                         >
-                          What should I do if I want to promptly receive
-                          information about your company?
+                          Что мне делать, если я хочу оперативно получать
+                          информацию о вашей компании?
                         </span>
                         <ChevronUpIcon
                           className={`${
@@ -138,9 +139,9 @@ export default function Questions() {
                       </Disclosure.Button>
                       <Disclosure.Panel className="px-6 pb-4">
                         <p className="xsm:text-xs lg:text-sm tracking-normal text-gray-600">
-                          In this case, you can subscribe to the newsletter in
-                          the column below or ask us about your specific topic
-                          via email.
+                          В этом случае вы можете подписаться на информационный
+                          бюллетень в колонке ниже или задать нам вопрос по
+                          вашей конкретной теме по электронной почте.
                         </p>
                       </Disclosure.Panel>
                     </div>
@@ -159,7 +160,7 @@ export default function Questions() {
                               : 'text-left font-light text-gray-600 py-6 px-2 xl:text-base xsm:text-sm'
                           }
                         >
-                          How fast will my inquiry be processed?
+                          Как быстро будет обработан мой запрос?
                         </span>
                         <ChevronUpIcon
                           className={`${
@@ -171,8 +172,8 @@ export default function Questions() {
                       </Disclosure.Button>
                       <Disclosure.Panel className="px-6 pb-4">
                         <p className="xsm:text-xs lg:text-sm tracking-normal text-gray-600">
-                          Our customer support will contact you within 1-3
-                          business days via email.
+                          Наша служба поддержки свяжется с вами в течение 1-3
+                          рабочих дней по электронной почте.
                         </p>
                       </Disclosure.Panel>
                     </div>

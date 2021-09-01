@@ -391,22 +391,22 @@ export default function Footer() {
         )}
         <div className="xsm:w-full lg:w-3/4 mx-auto">
           <Header
-            description="Contact us to get started"
-            text="In this section you can find our contact information, as well as the option to write us a message if you have any questions or if you are interested in cooperation."
+            description="Свяжитесь с нами, чтобы начать работу"
+            text="В этом разделе вы найдете нашу контактную информацию, а также возможность написать нам сообщение, если у вас возникли вопросы или если вы заинтересованы в сотрудничестве."
           ></Header>
         </div>
         <div className="flex lg:flex-row justify-between xsm:flex-col mt-10 max-w-6xl mx-auto xsm:px-8 xl:px-0">
           <div className="lg:w-1/2 xsm:w-full">
             <h2 className="xl:text-2xl text-gray-800 font-semibold leading-tight xsm:text-xl">
-              Business inquiries, questions or general informations. Write us!
+              Деловые запросы, вопросы или общая информация. Напишите нам!
             </h2>
             <p className="text-gray-600 mt-4 font-light xl:text-sm xsm:text-sm">
-              Specific questions regarding our products or orders can be
-              discussed via email or skype. For all other questions contact us
-              via email.
+              Конкретные вопросы, касающиеся нашей продукции или заказов, могут
+              быть обсудить по электронной почте или skype. По всем остальным
+              вопросам обращайтесь к нам по электронной почте.
             </p>
             <p className="text-gray-800 xl:text-lg self-center font-semibold mt-4 xsm:text-lg">
-              Our headquater
+              Наш головной офис
             </p>
             <div className="flex flex-col xl:w-full mt-2 xsm:w-full">
               <p className="font-semibold text-sm text-gray-800">
@@ -436,9 +436,9 @@ export default function Footer() {
               alt="office lugano"
             ></img>
             <p className="text-gray-600 font-light mt-4 xl:text-sm xsm:text-sm">
-              Contact us via email or phone. Our business operates under the
-              following weekly hours (except holidays): 08:00 - 17:00 (CET)
-              monday till friday.
+              Свяжитесь с нами по электронной почте или по телефону. Наша
+              компания работает в следующие следующие еженедельные часы (кроме
+              праздников): 08:00 - 17:00 (CET) с понедельника по пятницу.
             </p>
             <div className="flex xl:flex-row xsm:flex-col sm:flex-row">
               <div className="xl:w-1/2 mt-4 xsm:w-full">
@@ -500,11 +500,11 @@ export default function Footer() {
                 <div className="flex xl:flex-row justify-center xsm:flex-col">
                   <div className="xl:w-1/2 xsm:w-full">
                     <p className="text-gray-800 text-sm font-normal tracking-normal">
-                      Name<span className="text-red-500 select-none"> *</span>
+                      Имя<span className="text-red-500 select-none"> *</span>
                     </p>
                     <input
                       className="border w-full text-sm border-gray-200 mt-2 rounded xl:p-4 placeholder-gray-400 select-none xsm:p-2 sm:p-4"
-                      placeholder="Name"
+                      placeholder="Имя"
                       {...register('firstName', {
                         required: true,
                         maxLength: 40,
@@ -513,12 +513,12 @@ export default function Footer() {
                   </div>
                   <div className="xl:w-1/2 xl:ml-8 xl:mt-0 xsm:mt-4">
                     <p className="text-gray-800 text-sm font-normal tracking-normal">
-                      Last Name
+                      Фамилия
                       <span className="text-red-500 select-none"> *</span>
                     </p>
                     <input
                       className="border w-full text-sm border-gray-200 mt-2 rounded xl:p-4 placeholder-gray-400 select-none xsm:p-2 sm:p-4"
-                      placeholder="Last Name"
+                      placeholder="Фамилия"
                       {...register('lastName', {
                         required: true,
                         maxLength: 60,
@@ -528,12 +528,12 @@ export default function Footer() {
                 </div>
                 <div className="w-full xl:mt-8 xsm:mt-4">
                   <p className="text-gray-800 text-sm font-normal tracking-normal">
-                    Email Address
+                    Адрес электронной почты
                     <span className="text-red-500 select-none"> *</span>
                   </p>
                   <input
                     className="border w-full text-sm border-gray-200 mt-2 rounded xl:p-4 placeholder-gray-400 select-none xsm:p-2 sm:p-4"
-                    placeholder="Email Address"
+                    placeholder="Адрес электронной почты"
                     {...register('email', {
                       required: true,
                       pattern: /^\S+@\S+$/i,
@@ -542,11 +542,11 @@ export default function Footer() {
                 </div>
                 <div className="w-full xl:mt-8 xsm:mt-4">
                   <p className="text-gray-800 text-sm font-normal tracking-normal">
-                    Phone number
+                    Номер телефона
                   </p>
                   <input
                     className="border w-full text-sm border-gray-200 mt-2 rounded xl:p-4 placeholder-gray-400 select-none xsm:p-2 sm:p-4"
-                    placeholder="Phone Number"
+                    placeholder="Номер телефона"
                     {...register('phone', {
                       required: false,
                       minLength: 6,
@@ -556,12 +556,12 @@ export default function Footer() {
                 </div>
                 <div className="w-full xl:mt-8 xsm:mt-4">
                   <p className="text-gray-800 text-sm font-normal tracking-normal">
-                    Inquiry
+                    Запрос
                     <span className="text-red-500 select-none"> *</span>
                   </p>
                   <input
                     className="border w-full text-sm border-gray-200 mt-2 rounded xl:p-4 placeholder-gray-400 select-none xsm:p-2 sm:p-4"
-                    placeholder="Inquiry"
+                    placeholder="Запрос"
                     {...register('inquiry', {
                       required: true,
                       maxLength: 80,
@@ -570,11 +570,12 @@ export default function Footer() {
                 </div>
                 <div className="w-full xl:mt-8 xsm:mt-4">
                   <p className="text-gray-800 text-sm font-normal tracking-normal">
-                    Message<span className="text-red-500 select-none"> *</span>
+                    Сообщение
+                    <span className="text-red-500 select-none"> *</span>
                   </p>
                   <textarea
                     className="border w-full h-28 text-sm border-gray-200 mt-2 rounded xl:p-4 placeholder-gray-400 select-none resize-none xsm:p-2 sm:p-4"
-                    placeholder="Message"
+                    placeholder="Сообщение"
                     {...register('message', {
                       minLength: 2,
                       required: true,
@@ -591,7 +592,7 @@ export default function Footer() {
                   ) : null}
 
                   <p className="ml-1 text-white xl:text-sm xsm:text-sm font-normal">
-                    {messageSend ? 'Message send' : 'Send'}
+                    {messageSend ? 'Сообщение отправлено' : 'Отправить'}
                   </p>
                   {messageSend ? (
                     <CheckIcon className="w-4 h-4 self-center text-white ml-1"></CheckIcon>
@@ -612,9 +613,9 @@ export default function Footer() {
               />
             </div>
             <p className="text-gray-600 mt-4 font-normal xl:w-3/4 xsm:w-full xl:text-sm xsm:text-sm tracking-normal">
-              We act as a broker and distrubutor in the food and beverage
-              sector. We spezialize in frozen products, spirits, spices and
-              herbs.
+              Мы выступаем в качестве брокера и дистрибьютора в секторе
+              продуктов питания и напитков секторе. Мы специализируемся на
+              замороженных продуктах, спиртных напитках, специях и травы.
             </p>
 
             <div className="flex flex-row mt-2">
@@ -627,14 +628,14 @@ export default function Footer() {
           <div className="flex xl:flex-row xl:w-1/2 justify-center xsm:hidden sm:flex xsm:flex-col xl:mt-0 xsm:mt-8 sm:flex-row">
             <div className="xl:w-1/3 xsm:w-full sm:w-1/3">
               <h6 className="text-gray-800 font-semibold xl:text-base xsm:text-base">
-                General
+                Общий
               </h6>
               <div className="mt-2 xl:text-sm xsm:text-sm">
                 <a
                   className="text-gray-600 hover:text-mainGreen transition duration-150 tracking-normal"
                   href="#start"
                 >
-                  Start
+                  Начало
                 </a>
               </div>
               <div className="mt-2 xl:text-sm xsm:text-sm">
@@ -642,7 +643,7 @@ export default function Footer() {
                   className="text-gray-600 hover:text-mainGreen transition duration-150 tracking-normal"
                   href="#about"
                 >
-                  About Us
+                  О нас
                 </a>
               </div>
               <div className="mt-2 xl:text-sm xsm:text-sm">
@@ -650,7 +651,7 @@ export default function Footer() {
                   className="text-gray-600 hover:text-mainGreen transition duration-150 tracking-normal"
                   href="#products"
                 >
-                  Our Products
+                  Наши продукты
                 </a>
               </div>
               <div className="mt-2 xl:text-sm xsm:text-sm">
@@ -658,7 +659,7 @@ export default function Footer() {
                   className="text-gray-600 hover:text-mainGreen transition duration-150 tracking-normal"
                   href="#questions"
                 >
-                  Questions
+                  Вопросы
                 </a>
               </div>
               <div className="mt-2 xl:text-sm xsm:text-sm">
@@ -666,13 +667,13 @@ export default function Footer() {
                   className="text-gray-600 hover:text-mainGreen transition duration-150 tracking-normal"
                   href="#contact"
                 >
-                  Contact
+                  Контакт
                 </a>
               </div>
             </div>
             <div className="xl:w-1/3 xl:mt-0 xsm:mt-4 sm:mt-0 sm:w-1/3">
               <h6 className="text-gray-800 font-semibold xl:text-base xsm:text-base">
-                Languages
+                Языки
               </h6>
               <div className="mt-2 xl:text-sm xsm:text-sm">
                 <a
@@ -727,7 +728,7 @@ export default function Footer() {
             </div>
             <div className="xl:w-1/3 xl:mt-0 xsm:mt-4 sm:mt-0 sm:w-1/3">
               <h6 className="text-gray-800 font-semibold xl:text-base xsm:text-base">
-                Miscellaneous
+                Разное
               </h6>
               <div className="mt-2 xl:text-sm xsm:text-sm">
                 <a
@@ -737,7 +738,7 @@ export default function Footer() {
                     setTriggerModal(!triggerModal);
                   }}
                 >
-                  Legal Disclosure
+                  Юридическое раскрытие
                 </a>
               </div>
               <div className="mt-2 xl:text-sm xsm:text-sm">
@@ -748,7 +749,7 @@ export default function Footer() {
                     setTriggerModal(!triggerModal);
                   }}
                 >
-                  Data Protection
+                  Защита данных
                 </a>
               </div>
               <div className="mt-2 xl:text-sm xsm:text-sm">
@@ -759,7 +760,7 @@ export default function Footer() {
                     setTriggerModal(!triggerModal);
                   }}
                 >
-                  Sitemap
+                  Карта сайта
                 </a>
               </div>
             </div>
