@@ -13,9 +13,9 @@ enum CountrySelected {
 
 const CountryText = {
   ch: {
-    subheader: 'Fresh from our swiss suppliers',
+    subheader: 'Свежие продукты от наших швейцарских поставщиков',
     headerPart1: '220+ ',
-    headerPart2: 'divers food products',
+    headerPart2: 'разнообразные продукты питания',
     headerPart3: '115+ ',
     headerPart4: 'alcohol free, wine & champagne, spirits',
     headerPart5: '115+ ',
@@ -29,7 +29,7 @@ const CountryText = {
   it: {
     subheader: 'Fresh from our italian suppliers',
     headerPart1: '320+ ',
-    headerPart2: 'divers food products',
+    headerPart2: 'разнообразные продукты питания',
     headerPart3: '80+ ',
     headerPart4: 'alcohol free, wine & champagne, spirits',
     headerPart5: '115+ ',
@@ -43,7 +43,7 @@ const CountryText = {
   fr: {
     subheader: 'Fresh from our french suppliers',
     headerPart1: '190+ ',
-    headerPart2: 'divers food products',
+    headerPart2: 'разнообразные продукты питания',
     headerPart3: '340+ ',
     headerPart4: 'alcohol free, wine & champagne, spirits',
     headerPart5: '115+ ',
@@ -57,7 +57,7 @@ const CountryText = {
   de: {
     subheader: 'Fresh from our german suppliers',
     headerPart1: '190+ ',
-    headerPart2: 'divers food products',
+    headerPart2: 'разнообразные продукты питания',
     headerPart3: '340+ ',
     headerPart4: 'alcohol free, wine & champagne, spirits',
     headerPart5: '115+ ',
@@ -71,7 +71,7 @@ const CountryText = {
   by: {
     subheader: 'Fresh from our belarusian suppliers',
     headerPart1: '190+ ',
-    headerPart2: 'divers food products',
+    headerPart2: 'разнообразные продукты питания',
     headerPart3: '340+ ',
     headerPart4: 'alcohol free, wine & champagne, spirits',
     headerPart5: '115+ ',
@@ -307,12 +307,12 @@ export default function Products() {
       ></img>
       <div className="max-w-6xl mx-auto py-20">
         <Header
-          description="Our products in detail"
-          text="In this section you can learn more about our products: their appearance, taste and characteristics for which consumers choose them."
+          description="Наши продукты в деталях"
+          text="В этом разделе вы можете узнать больше о наших продуктах: их внешний вид, вкус и характеристики, за которые их выбирают потребители."
         ></Header>
         <div className="mt-8">
           <h3 className="text-center xsm:text-sm lg:text-base font-medium text-gray-800">
-            Change suppliers region
+            Изменить регион поставщиков
           </h3>
           <hr className="w-10 mx-auto mt-1"></hr>
           <div className="flex flex-row justify-center mt-2 gap-x-2">
@@ -368,11 +368,11 @@ export default function Products() {
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
               <p className="text-center xsm:text-sm lg:text-sm text-gray-600 whitespace-nowrap mt-4 font-extralight">
-                dry{' '}
-                <span className="text-gray-800 font-semibold">products</span>
+                сухие{' '}
+                <span className="text-gray-800 font-semibold">продукты</span>
               </p>
               <p className="mt-1 text-center font-light text-xs text-mainGreen italic">
-                50 items
+                50 товаров
               </p>
               <button
                 className="xsm:px-2 lg:px-4 py-2 w-full border mt-4 border-mainGreen bg-mainGreen text-white text-xs tracking-wider uppercase focus:outline-none select-none"
@@ -381,7 +381,7 @@ export default function Products() {
                   setTriggerModal(!triggerModal);
                 }}
               >
-                Read more
+                Читать дальше{' '}
               </button>
             </div>
             <div className="w-1/4 bg-white rounded border border-mainGreen transition duration-300 hover:border hover:border-mainGreen overflow-hidden hover:shadow-xl h-full">
@@ -392,13 +392,14 @@ export default function Products() {
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
               <p className="text-center lg:p-0 xsm:text-sm lg:text-sm text-gray-600 whitespace-nowrap mt-4 font-extralight">
-                fresh{''}
+                свежие
+                {''}
                 <span className="text-gray-800 font-semibold px-1">
-                  products
+                  продукты
                 </span>
               </p>
               <p className="mt-1 text-center font-light text-xs text-mainGreen italic">
-                32 items
+                32 товаров
               </p>
               <button
                 className="xsm:px-2 lg:px-4 py-2 w-full border mt-4 border-mainGreen  bg-mainGreen text-white text-xs tracking-wider uppercase focus:outline-none select-none"
@@ -407,7 +408,7 @@ export default function Products() {
                   setTriggerModal(!triggerModal);
                 }}
               >
-                Read more
+                Читать дальше
               </button>
             </div>
             <div className="w-1/4 bg-white rounded border border-mainGreen transition duration-300 hover:border hover:border-mainGreen overflow-hidden hover:shadow-xl h-full">
@@ -418,11 +419,11 @@ export default function Products() {
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
               <p className="text-center xsm:text-sm lg:text-sm text-gray-600 whitespace-nowrap mt-4 font-extralight">
-                frozen{' '}
-                <span className="text-gray-800 font-semibold">products</span>
+                замороженные <br></br>
+                <span className="text-gray-800 font-semibold">продукты</span>
               </p>
               <p className="mt-1 text-center font-light text-xs text-mainGreen italic">
-                20 items
+                20 товаров
               </p>
               <button
                 className="xsm:px-2 lg:px-4 py-2 w-full border mt-4 border-mainGreen  bg-mainGreen text-white text-xs tracking-wider uppercase focus:outline-none select-none"
@@ -431,7 +432,7 @@ export default function Products() {
                   setTriggerModal(!triggerModal);
                 }}
               >
-                Read more
+                Читать дальше
               </button>
             </div>
           </div>
@@ -474,11 +475,11 @@ export default function Products() {
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
               <p className="text-center text-gray-600 xsm:text-sm whitespace-nowrap lg:text-sm mt-4 font-extralight">
-                alcohol{' '}
-                <span className="text-gray-800 font-semibold">free</span>
+                без{' '}
+                <span className="text-gray-800 font-semibold">алкоголя</span>
               </p>
               <p className="mt-1 text-center font-light text-xs text-mainGreen italic">
-                50 items
+                50 товаров
               </p>
               <button
                 className="xsm:px-2 lg:px-4 py-2 w-full border mt-4 border-mainGreen  bg-mainGreen text-white text-xs tracking-wider uppercase focus:outline-none select-none"
@@ -487,7 +488,7 @@ export default function Products() {
                   setTriggerModal(!triggerModal);
                 }}
               >
-                Read more
+                Читать дальше
               </button>
             </div>
             <div className="w-1/4 bg-white rounded border border-mainGreen transition duration-300 hover:border hover:border-mainGreen overflow-hidden hover:shadow-xl h-full">
@@ -498,13 +499,13 @@ export default function Products() {
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
               <p className="text-center xsm:text-sm lg:text-sm whitespace-nowrap text-gray-600 mt-4 font-extralight">
-                wine
+                вино
                 <span className="text-gray-800 font-semibold pl-1">
-                  &amp; champagne
+                  &amp; <br></br> шампанское
                 </span>
               </p>
               <p className="mt-1 text-center font-light text-xs text-mainGreen italic">
-                32 items
+                32 товаров
               </p>
               <button
                 className="xsm:px-2 lg:px-4 py-2 w-full border mt-4 border-mainGreen  bg-mainGreen text-white text-xs tracking-wider uppercase focus:outline-none select-none"
@@ -513,7 +514,7 @@ export default function Products() {
                   setTriggerModal(!triggerModal);
                 }}
               >
-                Read more
+                Читать дальше
               </button>
             </div>
             <div className="w-1/4 bg-white rounded border border-mainGreen transition duration-300 hover:border hover:border-mainGreen overflow-hidden hover:shadow-xl h-full">
@@ -524,11 +525,11 @@ export default function Products() {
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
               <p className="text-center xsm:text-sm lg:text-sm text-gray-600 whitespace-nowrap mt-4 font-extralight">
-                original{' '}
-                <span className="text-gray-800 font-semibold">spirits</span>
+                оригинальные <br></br>
+                <span className="text-gray-800 font-semibold">напитки</span>
               </p>
               <p className="mt-1 text-center font-light text-xs text-mainGreen italic">
-                20 items
+                20 товаров
               </p>
               <button
                 className="px-4 py-2 w-full border mt-4 border-mainGreen  bg-mainGreen text-white text-xs tracking-wider uppercase focus:outline-none select-none"
@@ -537,7 +538,7 @@ export default function Products() {
                   setTriggerModal(!triggerModal);
                 }}
               >
-                Read more
+                Читать дальше
               </button>
             </div>
           </div>
@@ -553,11 +554,11 @@ export default function Products() {
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
               <p className="text-center xsm:text-sm lg:text-sm whitespace-nowrap text-gray-600 mt-4 font-extralight">
-                fresh{' '}
-                <span className="text-gray-800 font-semibold">spices</span>
+                свежие{' '}
+                <span className="text-gray-800 font-semibold">приправы</span>
               </p>
               <p className="mt-1 text-center font-light text-xs text-mainGreen italic">
-                50 items
+                50 товаров
               </p>
               <button
                 className="xsm:px-2 lg:px-4 py-2 w-full border mt-4 border-mainGreen bg-mainGreen text-white text-xs tracking-wider uppercase focus:outline-none select-none"
@@ -566,7 +567,7 @@ export default function Products() {
                   setTriggerModal(!triggerModal);
                 }}
               >
-                Read more
+                Читать дальше
               </button>
             </div>
             <div className="w-1/4 bg-white rounded border border-mainGreen transition duration-300 hover:border hover:border-mainGreen overflow-hidden hover:shadow-xl h-full">
@@ -577,11 +578,12 @@ export default function Products() {
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
               <p className="text-center lg:p-0 xsm:text-sm lg:text-sm whitespace-nowrap text-gray-600 mt-4 font-extralight">
-                fresh{''}
-                <span className="text-gray-800 font-semibold px-1">herbs</span>
+                свежие
+                {''}
+                <span className="text-gray-800 font-semibold px-1">травы</span>
               </p>
               <p className="mt-1 text-center font-light text-xs text-mainGreen italic">
-                32 items
+                32 товаров
               </p>
               <button
                 className="xsm:px-2 lg:px-4 py-2 w-full border mt-4 border-mainGreen  bg-mainGreen text-white text-xs tracking-wider uppercase focus:outline-none select-none"
@@ -590,7 +592,7 @@ export default function Products() {
                   setTriggerModal(!triggerModal);
                 }}
               >
-                Read more
+                Читать дальше
               </button>
             </div>
           </div>

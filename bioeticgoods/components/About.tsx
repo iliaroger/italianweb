@@ -105,7 +105,7 @@ export default function About() {
                   setTriggerModal(!triggerModal);
                 }}
               >
-                ЧИТАТЬ ДАЛЕЕ
+                Читать дальше
               </button>
             </div>
           </div>
@@ -133,7 +133,7 @@ export default function About() {
                   setTriggerModal(!triggerModal);
                 }}
               >
-                ЧИТАТЬ ДАЛЕЕ
+                Читать дальше
               </button>
             </div>
           </div>
@@ -159,7 +159,7 @@ export default function About() {
                   setTriggerModal(!triggerModal);
                 }}
               >
-                Читать далее
+                Читать дальше
               </button>
             </div>
           </div>
@@ -186,7 +186,7 @@ export default function About() {
                   setTriggerModal(!triggerModal);
                 }}
               >
-                Читать далее
+                Читать дальше
               </button>
             </div>
           </div>
@@ -225,7 +225,7 @@ export default function About() {
                   setTriggerModal(!triggerModal);
                 }}
               >
-                ЧИТАТЬ ДАЛЕЕ
+                Читать дальше
               </button>
             </div>
           </div>
@@ -267,7 +267,7 @@ export default function About() {
                   setTriggerModal(!triggerModal);
                 }}
               >
-                Читать далее
+                Читать дальше
               </button>
             </div>
           </div>
