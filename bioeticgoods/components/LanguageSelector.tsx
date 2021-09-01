@@ -49,11 +49,11 @@ export default function LanguageSelector() {
           >
             <img
               className="w-4 mr-1 select-none"
-              src="/images/united.png"
+              src="/images/russia.png"
               alt="united kingdom"
             ></img>
             <span className="font-light md:text-xs lg:text-base select-none">
-              English
+              Pусский
             </span>
             <ChevronDownIcon
               className={`${open ? '' : 'text-opacity-70'}
