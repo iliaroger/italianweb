@@ -15,7 +15,7 @@ const CountryText = {
   ch: {
     subheader: 'Fresh from our swiss suppliers',
     headerPart1: '220+ ',
-    headerPart2: 'divers food products',
+    headerPart2: 'diverse food products',
     headerPart3: '115+ ',
     headerPart4: 'alcohol free, wine & champagne, spirits',
     headerPart5: '115+ ',
@@ -29,7 +29,7 @@ const CountryText = {
   it: {
     subheader: 'Fresh from our italian suppliers',
     headerPart1: '320+ ',
-    headerPart2: 'divers food products',
+    headerPart2: 'diverse food products',
     headerPart3: '80+ ',
     headerPart4: 'alcohol free, wine & champagne, spirits',
     headerPart5: '115+ ',
@@ -43,7 +43,7 @@ const CountryText = {
   fr: {
     subheader: 'Fresh from our french suppliers',
     headerPart1: '190+ ',
-    headerPart2: 'divers food products',
+    headerPart2: 'diverse food products',
     headerPart3: '340+ ',
     headerPart4: 'alcohol free, wine & champagne, spirits',
     headerPart5: '115+ ',
@@ -57,7 +57,7 @@ const CountryText = {
   de: {
     subheader: 'Fresh from our german suppliers',
     headerPart1: '190+ ',
-    headerPart2: 'divers food products',
+    headerPart2: 'diverse food products',
     headerPart3: '340+ ',
     headerPart4: 'alcohol free, wine & champagne, spirits',
     headerPart5: '115+ ',
@@ -71,7 +71,7 @@ const CountryText = {
   by: {
     subheader: 'Fresh from our belarusian suppliers',
     headerPart1: '190+ ',
-    headerPart2: 'divers food products',
+    headerPart2: 'diverse food products',
     headerPart3: '340+ ',
     headerPart4: 'alcohol free, wine & champagne, spirits',
     headerPart5: '115+ ',
@@ -307,12 +307,12 @@ export default function Products() {
       ></img>
       <div className="max-w-6xl mx-auto py-20">
         <Header
-          description="Our products in detail"
+          description="our products in detail"
           text="In this section you can learn more about our products: their appearance, taste and characteristics for which consumers choose them."
         ></Header>
         <div className="mt-8">
           <h3 className="text-center xsm:text-sm lg:text-base font-medium text-gray-800">
-            Change suppliers region
+            Change supplier region
           </h3>
           <hr className="w-10 mx-auto mt-1"></hr>
           <div className="flex flex-row justify-center mt-2 gap-x-2">
@@ -392,7 +392,8 @@ export default function Products() {
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
               <p className="text-center lg:p-0 xsm:text-sm lg:text-sm text-gray-600 whitespace-nowrap mt-4 font-extralight">
-                fresh{''}
+                fresh
+                {''}
                 <span className="text-gray-800 font-semibold px-1">
                   products
                 </span>
@@ -418,7 +419,7 @@ export default function Products() {
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
               <p className="text-center xsm:text-sm lg:text-sm text-gray-600 whitespace-nowrap mt-4 font-extralight">
-                frozen{' '}
+                frozen
                 <span className="text-gray-800 font-semibold">products</span>
               </p>
               <p className="mt-1 text-center font-light text-xs text-mainGreen italic">
@@ -524,7 +525,7 @@ export default function Products() {
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
               <p className="text-center xsm:text-sm lg:text-sm text-gray-600 whitespace-nowrap mt-4 font-extralight">
-                original{' '}
+                original
                 <span className="text-gray-800 font-semibold">spirits</span>
               </p>
               <p className="mt-1 text-center font-light text-xs text-mainGreen italic">
@@ -577,7 +578,8 @@ export default function Products() {
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
               <p className="text-center lg:p-0 xsm:text-sm lg:text-sm whitespace-nowrap text-gray-600 mt-4 font-extralight">
-                fresh{''}
+                fresh
+                {''}
                 <span className="text-gray-800 font-semibold px-1">herbs</span>
               </p>
               <p className="mt-1 text-center font-light text-xs text-mainGreen italic">
