@@ -591,7 +591,7 @@ export default function Footer() {
                   ) : null}
 
                   <p className="ml-1 text-white xl:text-sm xsm:text-sm font-normal">
-                    {messageSend ? 'Message send' : 'Send'}
+                    {messageSend ? 'Message sent' : 'Send'}
                   </p>
                   {messageSend ? (
                     <CheckIcon className="w-4 h-4 self-center text-white ml-1"></CheckIcon>
