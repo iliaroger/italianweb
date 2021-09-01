@@ -46,18 +46,18 @@ export default function Hero() {
           className="lg:w-1/2 xsm:w-full xsm:pl-8 xsm:py-6 sm:py-0 lg:py-0 md:pl-20"
         >
           <p className="font-extralight xsm:text-xl lg:text-3xl text-gray-600">
-            Welcome to
+            Добро пожаловать в
           </p>
           <h1 className="font-bold xsm:text-4xl lg:text-6xl text-gray-800 mt-1">
             Bio Etic Goods
           </h1>
           <p className="font-medium xsm:text-lg lg:text-xl text-mainGreen mt-1">
-            Acquainted with traditions
+            Ознакомление с традициями
           </p>
           <p className="font-light w-3/4 xsm:text-sm lg:text-base text-gray-600 mt-8">
-            We act as a broker and distributor in the food and beverage sector.
-            We specialize in dry, fresh and frozen products, wine and spirits,
-            spices and herbs.
+            Мы выступаем в качестве брокера и дистрибьютора в секторе продуктов
+            питания и напитков. Мы специализируемся на сухих, свежих и
+            замороженных продуктах, вине и спиртных напитках, специях и травах.
           </p>
           <div className="mt-4">
             <button
@@ -69,7 +69,7 @@ export default function Hero() {
             >
               <div className="flex flex-row items-center">
                 <ClipboardListIcon className="xsm:w-4 lg:w-5"></ClipboardListIcon>
-                <p className="ml-1 xsm:text-sm lg:text-base">About Us</p>
+                <p className="ml-1 xsm:text-sm lg:text-base">О Нас</p>
               </div>
             </button>
             <button
@@ -81,13 +81,13 @@ export default function Hero() {
             >
               <div className="flex flex-row items-center">
                 <MailIcon className="xsm:w-4 lg:w-5"></MailIcon>
-                <p className="ml-1 xsm:text-sm lg:text-base">Contact</p>
+                <p className="ml-1 xsm:text-sm lg:text-base">Контакт</p>
               </div>
             </button>
           </div>
           <div className="mt-8">
             <p className="text-gray-600 font-light text-sm">
-              We operate in the following regions:
+              Мы работаем в следующих регионах:
             </p>
             <div className="flex flex-row mt-1">
               <img

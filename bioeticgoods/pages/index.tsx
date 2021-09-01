@@ -13,23 +13,23 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Bio Etic Goods - Acquainted with traditions</title>
+        <title>Bio Etic Goods - Ознакомление с традициями</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta
           name="title"
-          content="Bio Etic Goods - Acquainted with traditions"
+          content="Bio Etic Goods - Ознакомление с традициями"
         />
         <meta
           name="description"
-          content="We act as a broker and distributor in the food and beverage sector. We specialize in frozen products, spirits, spices and herbs."
+          content="Мы выступаем в качестве брокера и дистрибьютора в секторе продуктов питания и напитков. Мы специализируемся на замороженных продуктах, спиртных напитках, специях и травах."
         />
         <meta
           name="keywords"
-          content="food, broker, distributor, spirits, spices, herbs, frozen products"
+          content="продукты питания, брокер, дистрибьютор, спиртные напитки, специи, травы, замороженные продукты"
         />
         <meta name="robots" content="index, follow" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="language" content="English"></meta>
+        <meta name="language" content="Russian"></meta>
         <link
           rel="apple-touch-icon"
           sizes="76x76"

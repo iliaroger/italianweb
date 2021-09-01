@@ -42,31 +42,31 @@ export default function Menu() {
                   href="#start"
                   className="lg:text-base md:text-xs font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
                 >
-                  Start
+                  Начало
                 </a>
                 <a
                   href="#about"
                   className="lg:text-base md:text-xs font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
                 >
-                  About Us
+                  О нас
                 </a>
                 <a
                   href="#products"
                   className="lg:text-base md:text-xs font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
                 >
-                  Our Products
+                  Наша Продукция
                 </a>
                 <a
                   href="#questions"
                   className="lg:text-base md:text-xs font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
                 >
-                  Questions
+                  Вопросы
                 </a>
                 <a
                   href="#contact"
                   className="lg:text-base md:text-xs font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
                 >
-                  Contact
+                  Контакты
                 </a>
               </Popover.Group>
               <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
@@ -116,7 +116,7 @@ export default function Menu() {
                         href="#start"
                         className="xsm:text-sm font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
                       >
-                        Start
+                        Начало
                       </a>
                     </div>
                     <div className="flex flex-row items-center gap-x-1">
@@ -125,7 +125,7 @@ export default function Menu() {
                         href="#about"
                         className="xsm:text-sm font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
                       >
-                        About Us
+                        О нас
                       </a>
                     </div>
                     <div className="flex flex-row items-center gap-x-1">
@@ -134,7 +134,7 @@ export default function Menu() {
                         href="#products"
                         className="xsm:text-sm font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
                       >
-                        Our Products
+                        Наша Продукция
                       </a>
                     </div>
                     <div className="flex flex-row items-center gap-x-1">
@@ -143,7 +143,7 @@ export default function Menu() {
                         href="#questions"
                         className="xsm:text-sm font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
                       >
-                        Questions
+                        Вопросы
                       </a>
                     </div>
                     <div>
@@ -153,7 +153,7 @@ export default function Menu() {
                           href="#contact"
                           className="xsm:text-sm font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
                         >
-                          Contact
+                          Контакты
                         </a>
                       </div>
                     </div>

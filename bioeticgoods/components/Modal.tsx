@@ -91,7 +91,7 @@ export default function Modal({
                     className="inline-flex justify-center px-4 py-2 text-xs uppercase font-light text-white bg-mainGreen border border-transparent rounded-md tracking-wider hover:bg-mainGreen focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 hover:opacity-80 transition duration-300 focus-visible:ring-blue-500"
                     onClick={() => setModalState(false)}
                   >
-                    Close
+                    Закрыть
                   </button>
                 </div>
               </div>

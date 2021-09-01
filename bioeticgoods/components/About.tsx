@@ -28,28 +28,28 @@ export default function About() {
 
   const modalInfo: ModalType = {
     eaeu: {
-      header: 'Import from EAEU to EU/CH',
-      text: 'We are involved in the import, wholesale and promotion of products from EAEU manufacturers to European and Swiss markets. We create partnerships, provide regulatory and procedural, logistical and marketing support for products and for all business activities up to the final consumer. Manufacturers use us to distribute their brands effectively and easily.',
+      header: 'Импорт из EAEU в EU/CH',
+      text: 'Мы занимаемся импортом, оптовой торговлей и продвижением продукции производителей из ЕАЭС на европейский и швейцарский рынки. Мы создаем партнерские отношения, обеспечиваем нормативно-процедурную, логистическую и маркетинговую поддержку продукции и всей коммерческой деятельности вплоть до конечного потребителя. Производители используют нас для эффективного и простого распространения своих брендов.',
     },
     fresh: {
-      header: 'Fresh from our suppliers',
-      text: 'We take care of our customers. All products comply with all necessary standards and are carefully checked. We work with the best logistics companies so that your orders arrive to you in the best possible way!',
+      header: 'Свежее от наших поставщиков',
+      text: 'Мы заботимся о наших клиентах. Вся продукция соответствует всем необходимым стандартам и проходит тщательную проверку. Мы работаем с лучшими логистическими компаниями, чтобы ваши заказы доставлялись к вам в наилучшем виде!',
     },
     organic: {
-      header: '100% exclusivity',
-      text: 'All our products are sold only by us. We have exclusive supply contracts with all our manufacturers. Thus, we care about quality and can guarantee it!',
+      header: '100% эксклюзивность',
+      text: 'Все наши товары продаются только у нас. Со всеми производителями у нас заключены эксклюзивные контракты на поставку. Таким образом, мы заботимся о качестве и можем его гарантировать!',
     },
     quality: {
-      header: 'Premium quality',
-      text: 'Everything we put on our store shelves is of exceptional quality. We conclude contracts only with the best manufacturers. Take our word for it or just try yourself!',
+      header: 'Премиальное качество',
+      text: 'Все, что мы выставляем на полки наших магазинов, отличается исключительным качеством. Мы заключаем контракты только с лучшими производителями. Поверьте нам на слово или просто попробуйте сами!',
     },
     natural: {
-      header: 'The best ingredients',
-      text: 'All our products are made not only by professionals in their field, but also from the best ingredients. Flour or cheese, vegetables or fruits - everything that you find in the composition will delight you with its taste and quality.',
+      header: 'Лучшие ингредиенты',
+      text: 'Все наши продукты изготавливаются не только профессионалами в своей области, но и из лучших ингредиентов. Мука или сыр, овощи или фрукты - все, что вы найдете в составе, порадует вас своим вкусом и качеством.',
     },
     euea: {
-      header: 'Import from EU/CH to EAEU',
-      text: 'We are involved in the import, wholesale and promotion of products from Swiss and European manufacturers to EAEU market. We create partnerships, provide regulatory and procedural, logistical and marketing support for products and for all business activities up to the final consumer. Manufacturers use us to distribute their brands effectively and easily.',
+      header: 'Импорт из  EU/CH в EAEU',
+      text: 'Мы занимаемся импортом, оптовой продажей и продвижением продукции швейцарских и европейских производителей на рынок ЕАЭС. Мы создаем партнерские отношения, обеспечиваем нормативно-процедурную, логистическую и маркетинговую поддержку продукции и всей коммерческой деятельности вплоть до конечного потребителя. Производители используют нас для эффективного и простого распространения своих брендов.',
     },
   };
 
@@ -77,8 +77,8 @@ export default function About() {
       ></img>
       <div className="max-w-6xl mx-auto py-20">
         <Header
-          description="Learn more about us"
-          text="We are engaged in export-import activities and we take care of making the traditional products of each country known to the world. We supply foodstuffs products to commercial enterprises of all categories (Large-scale retail trade, Retails, Ho.Re.Ca. sector)."
+          description="узнайте больше о нас "
+          text="Мы занимаемся экспортно-импортной деятельностью и заботимся о том, чтобы традиционные продукты каждой страны были известны всему миру. Мы поставляем продукты питания коммерческим предприятиям всех категорий (крупная розничная торговля, розничная торговля, сектор Ho.Re.Ca.)."
         ></Header>
         <div className="flex flex-row flex-wrap mt-12">
           <div className="lg:w-1/4 xsm:w-2/4 p-2 transform lg:translate-y-24">
@@ -88,12 +88,14 @@ export default function About() {
               alt="point1"
             ></img>
             <p className="text-center mt-4 text-gray-600 font-light xsm:text-sm lg:text-base">
-              Fresh from{' '}
-              <span className="font-semibold text-gray-800">our suppliers</span>
+              Свежее от{' '}
+              <span className="font-semibold text-gray-800">
+                наших поставщиков
+              </span>
             </p>
             <p className="text-center xsm:w-full sm:w-3/4 lg:w-full mx-auto font-light xsm:text-xs lg:text-sm mt-2 text-gray-600">
-              We picking the best suppliers from all regions to ensure a high
-              standard for all our products.
+              Мы выбираем лучших поставщиков из всех регионов, чтобы обеспечить
+              высокий стандарт всей нашей продукции.
             </p>
             <div className="text-center mt-4">
               <button
@@ -103,7 +105,7 @@ export default function About() {
                   setTriggerModal(!triggerModal);
                 }}
               >
-                Read More
+                ЧИТАТЬ ДАЛЕЕ
               </button>
             </div>
           </div>
@@ -115,11 +117,13 @@ export default function About() {
             ></img>
             <p className="text-center mt-4 text-gray-600 font-light xsm:text-sm lg:text-base">
               100%{' '}
-              <span className="font-semibold text-gray-800">exclusivity</span>
+              <span className="font-semibold text-gray-800">
+                эксклюзивность
+              </span>
             </p>
             <p className="text-center xsm:w-full sm:w-3/4 lg:w-full mx-auto font-light xsm:text-xs lg:text-sm mt-2 text-gray-600">
-                 Our goods are selected from a pool of exclusive and renowned
-              suppliers from Europe and EAEU.
+                 Наши товары отбираются из пула эксклюзивных и известных
+              поставщиков из Европы и ЕАЭС.
             </p>
             <div className="text-center mt-4">
               <button
@@ -129,7 +133,7 @@ export default function About() {
                   setTriggerModal(!triggerModal);
                 }}
               >
-                Read More
+                ЧИТАТЬ ДАЛЕЕ
               </button>
             </div>
           </div>
@@ -140,12 +144,12 @@ export default function About() {
               alt="point3"
             ></img>
             <p className="text-center mt-4 text-gray-600 font-light xsm:text-sm lg:text-base">
-              Premium{' '}
-              <span className="font-semibold text-gray-800">quality</span>
+              Премиальное{' '}
+              <span className="font-semibold text-gray-800">качество</span>
             </p>
             <p className="text-center xsm:w-full sm:w-3/4 lg:w-full mx-auto font-light xsm:text-xs lg:text-sm mt-2 text-gray-600">
-              We constantly audit our suppliers and refresh the selection of our
-              goods to ensure premium quality.
+              Мы постоянно проводим аудит наших поставщиков и обновляем
+              ассортимент товаров, чтобы обеспечить высокое качество.
             </p>
             <div className="text-center mt-4">
               <button
@@ -155,7 +159,7 @@ export default function About() {
                   setTriggerModal(!triggerModal);
                 }}
               >
-                Read More
+                Читать далее
               </button>
             </div>
           </div>
@@ -166,12 +170,13 @@ export default function About() {
               alt="about"
             ></img>
             <p className="text-center mt-4 text-gray-600 font-light xsm:text-sm lg:text-base">
-              The best{' '}
-              <span className="font-semibold text-gray-800">ingredients</span>
+              Лучшие{' '}
+              <span className="font-semibold text-gray-800"> ингредиенты</span>
             </p>
             <p className="text-center xsm:w-full sm:w-3/4 lg:w-full mx-auto font-light xsm:text-xs lg:text-sm mt-2 text-gray-600">
-              Our 100% natural-marked goods are produced under strict conditions
-              and reviewed by our quality assurance team upon arrival.
+              Наши товары с маркировкой 100% натуральности производятся в
+              строгих условиях и проверяются нашей командой контроля качества по
+              прибытии.
             </p>
             <div className="text-center mt-4">
               <button
@@ -181,7 +186,7 @@ export default function About() {
                   setTriggerModal(!triggerModal);
                 }}
               >
-                Read More
+                Читать далее
               </button>
             </div>
           </div>
@@ -206,11 +211,11 @@ export default function About() {
               ></img>
             </div>
             <p className="text-center mt-4 text-gray-600 font-light xsm:text-sm lg:text-base">
-              Import from{' '}
-              <span className="font-semibold text-gray-800">EAEU to EU/CH</span>
+              Импорт из{' '}
+              <span className="font-semibold text-gray-800">EAEU в EU/CH</span>
             </p>
             <p className="text-center xsm:w-full sm:w-3/4 lg:w-full mx-auto font-light xsm:text-xs lg:text-sm mt-2 text-gray-600">
-              We import our goods and products from EAEU to EU/CH.
+              Мы импортируем наши товары и продукты из EAEU в EU/CH.
             </p>
             <div className="text-center mt-4">
               <button
@@ -220,7 +225,7 @@ export default function About() {
                   setTriggerModal(!triggerModal);
                 }}
               >
-                Read More
+                ЧИТАТЬ ДАЛЕЕ
               </button>
             </div>
           </div>
@@ -248,11 +253,11 @@ export default function About() {
               ></img>
             </div>
             <p className="text-center mt-4 text-gray-600 font-light xsm:text-sm lg:text-base">
-              Import from{' '}
-              <span className="font-semibold text-gray-800">EU/CH to EAEU</span>
+              Импорт из{' '}
+              <span className="font-semibold text-gray-800">EU/CH в EAEU</span>
             </p>
             <p className="text-center xsm:w-full sm:w-3/4 lg:w-full mx-auto font-light xsm:text-xs lg:text-sm mt-2 text-gray-600">
-              We import our goods and products from EU/CH to EAEU.
+              Мы импортируем наши товары и продукты из EU/CH в EAEU.
             </p>
             <div className="text-center mt-4">
               <button
@@ -262,7 +267,7 @@ export default function About() {
                   setTriggerModal(!triggerModal);
                 }}
               >
-                Read More
+                Читать далее
               </button>
             </div>
           </div>
