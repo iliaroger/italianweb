@@ -13,8 +13,8 @@ module.exports = async (req, res) => {
   let params = {
     Destination: {
       /* required */
-      CcAddresses: ['iliailia@me.com'],
-      ToAddresses: ['thepresethub@gmail.com'],
+      CcAddresses: ['info@bioeticgoods.com'],
+      ToAddresses: ['iliailia@me.com'],
     },
     Message: {
       Body: {
@@ -42,7 +42,7 @@ module.exports = async (req, res) => {
         Data: inquiry,
       },
     },
-    Source: 'iliailia@me.com',
+    Source: 'info@bioeticgoods.com',
     ReplyToAddresses: [email],
   };
 
