@@ -391,22 +391,23 @@ export default function Footer() {
         )}
         <div className="xsm:w-full lg:w-3/4 mx-auto">
           <Header
-            description="Contact us to get started"
-            text="In this section you can find our contact information, as well as the option to write us a message if you have any questions or if you are interested in cooperation."
+            description="Contactez nous pour commencer"
+            text="Dans cette section, vous trouverez nos coordonnées, ainsi que la possibilité de nous écrire un message si vous avez des questions ou si vous êtes intéressé par une coopération."
           ></Header>
         </div>
         <div className="flex lg:flex-row justify-between xsm:flex-col mt-10 max-w-6xl mx-auto xsm:px-8 xl:px-0">
           <div className="lg:w-1/2 xsm:w-full">
             <h2 className="xl:text-2xl text-gray-800 font-semibold leading-tight xsm:text-xl">
-              Business inquiries, questions or general informations. Write us!
+              Demandes d'informations commerciales, questions ou informations
+              générales. Écrivez-nous !
             </h2>
             <p className="text-gray-600 mt-4 font-light xl:text-sm xsm:text-sm">
-              Specific questions regarding our products or orders can be
-              discussed via email or skype. For all other questions contact us
-              via email.
+              Les questions spécifiques concernant nos produits ou nos commandes
+              peuvent être être discutées par email ou skype. Pour toute autre
+              question, contactez-nous par e-mail.
             </p>
             <p className="text-gray-800 xl:text-lg self-center font-semibold mt-4 xsm:text-lg">
-              Our headquater
+              Notre siège social
             </p>
             <div className="flex flex-col xl:w-full mt-2 xsm:w-full">
               <p className="font-semibold text-sm text-gray-800">
@@ -436,9 +437,9 @@ export default function Footer() {
               alt="office lugano"
             ></img>
             <p className="text-gray-600 font-light mt-4 xl:text-sm xsm:text-sm">
-              Contact us via email or phone. Our business operates under the
-              following weekly hours (except holidays): 08:00 - 17:00 (CET)
-              monday till friday.
+              Contactez-nous par courriel ou par téléphone. Notre entreprise
+              fonctionne selon les heures hebdomadaires suivantes (sauf jours
+              fériés) : 08:00 - 17:00 (CET) du lundi au vendredi.
             </p>
             <div className="flex xl:flex-row xsm:flex-col sm:flex-row">
               <div className="xl:w-1/2 mt-4 xsm:w-full">
@@ -500,11 +501,11 @@ export default function Footer() {
                 <div className="flex xl:flex-row justify-center xsm:flex-col">
                   <div className="xl:w-1/2 xsm:w-full">
                     <p className="text-gray-800 text-sm font-normal tracking-normal">
-                      Name<span className="text-red-500 select-none"> *</span>
+                      Nom<span className="text-red-500 select-none"> *</span>
                     </p>
                     <input
                       className="border w-full text-sm border-gray-200 mt-2 rounded xl:p-4 placeholder-gray-400 select-none xsm:p-2 sm:p-4"
-                      placeholder="Name"
+                      placeholder="Nom"
                       {...register('firstName', {
                         required: true,
                         maxLength: 40,
@@ -513,12 +514,12 @@ export default function Footer() {
                   </div>
                   <div className="xl:w-1/2 xl:ml-8 xl:mt-0 xsm:mt-4">
                     <p className="text-gray-800 text-sm font-normal tracking-normal">
-                      Last Name
+                      Nom de famille
                       <span className="text-red-500 select-none"> *</span>
                     </p>
                     <input
                       className="border w-full text-sm border-gray-200 mt-2 rounded xl:p-4 placeholder-gray-400 select-none xsm:p-2 sm:p-4"
-                      placeholder="Last Name"
+                      placeholder="Nom de famille"
                       {...register('lastName', {
                         required: true,
                         maxLength: 60,
@@ -528,12 +529,12 @@ export default function Footer() {
                 </div>
                 <div className="w-full xl:mt-8 xsm:mt-4">
                   <p className="text-gray-800 text-sm font-normal tracking-normal">
-                    Email Address
+                    Adresse électronique
                     <span className="text-red-500 select-none"> *</span>
                   </p>
                   <input
                     className="border w-full text-sm border-gray-200 mt-2 rounded xl:p-4 placeholder-gray-400 select-none xsm:p-2 sm:p-4"
-                    placeholder="Email Address"
+                    placeholder="Adresse électronique"
                     {...register('email', {
                       required: true,
                       pattern: /^\S+@\S+$/i,
@@ -542,11 +543,11 @@ export default function Footer() {
                 </div>
                 <div className="w-full xl:mt-8 xsm:mt-4">
                   <p className="text-gray-800 text-sm font-normal tracking-normal">
-                    Phone number
+                    Numéro de téléphone
                   </p>
                   <input
                     className="border w-full text-sm border-gray-200 mt-2 rounded xl:p-4 placeholder-gray-400 select-none xsm:p-2 sm:p-4"
-                    placeholder="Phone Number"
+                    placeholder="Numéro de téléphone"
                     {...register('phone', {
                       required: false,
                       minLength: 6,
@@ -556,12 +557,12 @@ export default function Footer() {
                 </div>
                 <div className="w-full xl:mt-8 xsm:mt-4">
                   <p className="text-gray-800 text-sm font-normal tracking-normal">
-                    Inquiry
+                    Demande de renseignements
                     <span className="text-red-500 select-none"> *</span>
                   </p>
                   <input
                     className="border w-full text-sm border-gray-200 mt-2 rounded xl:p-4 placeholder-gray-400 select-none xsm:p-2 sm:p-4"
-                    placeholder="Inquiry"
+                    placeholder="Demande de renseignements"
                     {...register('inquiry', {
                       required: true,
                       maxLength: 80,
@@ -591,7 +592,7 @@ export default function Footer() {
                   ) : null}
 
                   <p className="ml-1 text-white xl:text-sm xsm:text-sm font-normal">
-                    {messageSend ? 'Message sent' : 'Send'}
+                    {messageSend ? 'Message envoyé' : 'Envoyer'}
                   </p>
                   {messageSend ? (
                     <CheckIcon className="w-4 h-4 self-center text-white ml-1"></CheckIcon>
@@ -612,9 +613,10 @@ export default function Footer() {
               />
             </div>
             <p className="text-gray-600 mt-4 font-normal xl:w-3/4 xsm:w-full xl:text-sm xsm:text-sm tracking-normal">
-              We act as a broker and distrubutor in the food and beverage
-              sector. We spezialize in frozen products, spirits, spices and
-              herbs.
+              Nous agissons en tant que courtier et distributeur dans le secteur
+              de l'alimentation et des boissons. boissons. Nous sommes
+              spécialisés dans les produits surgelés, les spiritueux, les épices
+              et les herbes. herbes aromatiques.
             </p>
 
             <div className="flex flex-row mt-2">
@@ -627,14 +629,14 @@ export default function Footer() {
           <div className="flex xl:flex-row xl:w-1/2 justify-center xsm:hidden sm:flex xsm:flex-col xl:mt-0 xsm:mt-8 sm:flex-row">
             <div className="xl:w-1/3 xsm:w-full sm:w-1/3">
               <h6 className="text-gray-800 font-semibold xl:text-base xsm:text-base">
-                General
+                Général
               </h6>
               <div className="mt-2 xl:text-sm xsm:text-sm">
                 <a
                   className="text-gray-600 hover:text-mainGreen transition duration-150 tracking-normal"
                   href="#start"
                 >
-                  Start
+                  Début
                 </a>
               </div>
               <div className="mt-2 xl:text-sm xsm:text-sm">
@@ -642,7 +644,7 @@ export default function Footer() {
                   className="text-gray-600 hover:text-mainGreen transition duration-150 tracking-normal"
                   href="#about"
                 >
-                  About Us
+                  A propos de nous
                 </a>
               </div>
               <div className="mt-2 xl:text-sm xsm:text-sm">
@@ -650,7 +652,7 @@ export default function Footer() {
                   className="text-gray-600 hover:text-mainGreen transition duration-150 tracking-normal"
                   href="#products"
                 >
-                  Our Products
+                  Nos produits
                 </a>
               </div>
               <div className="mt-2 xl:text-sm xsm:text-sm">
@@ -672,7 +674,7 @@ export default function Footer() {
             </div>
             <div className="xl:w-1/3 xl:mt-0 xsm:mt-4 sm:mt-0 sm:w-1/3">
               <h6 className="text-gray-800 font-semibold xl:text-base xsm:text-base">
-                Languages
+                Langues
               </h6>
               <div className="mt-2 xl:text-sm xsm:text-sm">
                 <a
@@ -727,7 +729,7 @@ export default function Footer() {
             </div>
             <div className="xl:w-1/3 xl:mt-0 xsm:mt-4 sm:mt-0 sm:w-1/3">
               <h6 className="text-gray-800 font-semibold xl:text-base xsm:text-base">
-                Miscellaneous
+                Divers
               </h6>
               <div className="mt-2 xl:text-sm xsm:text-sm">
                 <a
@@ -737,7 +739,7 @@ export default function Footer() {
                     setTriggerModal(!triggerModal);
                   }}
                 >
-                  Legal Disclosure
+                  Divulgation légale
                 </a>
               </div>
               <div className="mt-2 xl:text-sm xsm:text-sm">
@@ -748,7 +750,7 @@ export default function Footer() {
                     setTriggerModal(!triggerModal);
                   }}
                 >
-                  Data Protection
+                  Protection des données
                 </a>
               </div>
               <div className="mt-2 xl:text-sm xsm:text-sm">
@@ -759,7 +761,7 @@ export default function Footer() {
                     setTriggerModal(!triggerModal);
                   }}
                 >
-                  Sitemap
+                  Plan du site
                 </a>
               </div>
             </div>

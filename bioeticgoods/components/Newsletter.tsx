@@ -23,14 +23,14 @@ export default function Newsletter() {
             alt="leaf"
           ></img>
           <h2 className="font-extralight xsm:text-xl lg:text-2xl text-gray-600">
-            subscribe to{' '}
+            s'abonner à{' '}
             <span className="font-semibold text-gray-800">bio etic goods</span>
           </h2>
         </div>
         <div className="flex flex-row items-center justify-center gap-x-2">
           <hr className="w-10"></hr>
           <p className="font-light text-gray-600 text-header text-xs mt-1 tracking-widest uppercase">
-            to stay up to date
+            pour rester à jour
           </p>
           <hr className="w-10"></hr>
         </div>
@@ -46,7 +46,7 @@ export default function Newsletter() {
         >
           <input
             className="xsm:w-40 sm:w-48 md:w-60 lg:w-80 xl:w-96 xsm:text-xs lg:text-sm text-gray-600 font-light px-4 py-2 rounded-l-lg outline-none"
-            placeholder="enter your email address"
+            placeholder="saisissez votre adresse e-mail"
             type="email"
             defaultValue=""
             name="EMAIL"
@@ -59,7 +59,7 @@ export default function Newsletter() {
             name="subscribe"
             id="mc-embedded-subscribe"
           >
-            join the newsletter
+            s'inscrire à la newsletter
           </button>
         </form>
       </div>
