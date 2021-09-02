@@ -391,22 +391,23 @@ export default function Footer() {
         )}
         <div className="xsm:w-full lg:w-3/4 mx-auto">
           <Header
-            description="Contact us to get started"
-            text="In this section you can find our contact information, as well as the option to write us a message if you have any questions or if you are interested in cooperation."
+            description="Kontaktieren Sie uns um loszulegen"
+            text="In diesem Abschnitt finden Sie unsere Kontaktinformationen sowie die Möglichkeit, uns eine Nachricht zu schreiben, wenn Sie Fragen haben oder an einer Zusammenarbeit interessiert sind."
           ></Header>
         </div>
         <div className="flex lg:flex-row justify-between xsm:flex-col mt-10 max-w-6xl mx-auto xsm:px-8 xl:px-0">
           <div className="lg:w-1/2 xsm:w-full">
             <h2 className="xl:text-2xl text-gray-800 font-semibold leading-tight xsm:text-xl">
-              Business inquiries, questions or general informations. Write us!
+              Geschäftsanfragen, Fragen oder allgemeine Informationen. Schreiben
+              Sie uns!
             </h2>
             <p className="text-gray-600 mt-4 font-light xl:text-sm xsm:text-sm">
-              Specific questions regarding our products or orders can be
-              discussed via email or skype. For all other questions contact us
-              via email.
+              Spezifische Fragen zu unseren Produkten oder Bestellungen können
+              Sie per E-Mail oder Skype mit uns besprechen. Für alle anderen
+              Fragen kontaktieren Sie uns per E-Mail.
             </p>
             <p className="text-gray-800 xl:text-lg self-center font-semibold mt-4 xsm:text-lg">
-              Our headquater
+              Unser Hauptsitz
             </p>
             <div className="flex flex-col xl:w-full mt-2 xsm:w-full">
               <p className="font-semibold text-sm text-gray-800">
@@ -436,9 +437,9 @@ export default function Footer() {
               alt="office lugano"
             ></img>
             <p className="text-gray-600 font-light mt-4 xl:text-sm xsm:text-sm">
-              Contact us via email or phone. Our business operates under the
-              following weekly hours (except holidays): 08:00 - 17:00 (CET)
-              monday till friday.
+              Kontaktieren Sie uns per E-Mail oder Telefon. Wir arbeiten unter
+              den folgenden Wochenstunden (außer an Feiertagen): 08:00 - 17:00
+              (CET) Montag bis Freitag.
             </p>
             <div className="flex xl:flex-row xsm:flex-col sm:flex-row">
               <div className="xl:w-1/2 mt-4 xsm:w-full">
@@ -500,11 +501,12 @@ export default function Footer() {
                 <div className="flex xl:flex-row justify-center xsm:flex-col">
                   <div className="xl:w-1/2 xsm:w-full">
                     <p className="text-gray-800 text-sm font-normal tracking-normal">
-                      Name<span className="text-red-500 select-none"> *</span>
+                      Vorname
+                      <span className="text-red-500 select-none"> *</span>
                     </p>
                     <input
                       className="border w-full text-sm border-gray-200 mt-2 rounded xl:p-4 placeholder-gray-400 select-none xsm:p-2 sm:p-4"
-                      placeholder="Name"
+                      placeholder="Vorname"
                       {...register('firstName', {
                         required: true,
                         maxLength: 40,
@@ -513,12 +515,12 @@ export default function Footer() {
                   </div>
                   <div className="xl:w-1/2 xl:ml-8 xl:mt-0 xsm:mt-4">
                     <p className="text-gray-800 text-sm font-normal tracking-normal">
-                      Last Name
+                      Nachname
                       <span className="text-red-500 select-none"> *</span>
                     </p>
                     <input
                       className="border w-full text-sm border-gray-200 mt-2 rounded xl:p-4 placeholder-gray-400 select-none xsm:p-2 sm:p-4"
-                      placeholder="Last Name"
+                      placeholder="Nachname"
                       {...register('lastName', {
                         required: true,
                         maxLength: 60,
@@ -528,12 +530,12 @@ export default function Footer() {
                 </div>
                 <div className="w-full xl:mt-8 xsm:mt-4">
                   <p className="text-gray-800 text-sm font-normal tracking-normal">
-                    Email Address
+                    Email Adresse
                     <span className="text-red-500 select-none"> *</span>
                   </p>
                   <input
                     className="border w-full text-sm border-gray-200 mt-2 rounded xl:p-4 placeholder-gray-400 select-none xsm:p-2 sm:p-4"
-                    placeholder="Email Address"
+                    placeholder="Email Adresse"
                     {...register('email', {
                       required: true,
                       pattern: /^\S+@\S+$/i,
@@ -542,11 +544,11 @@ export default function Footer() {
                 </div>
                 <div className="w-full xl:mt-8 xsm:mt-4">
                   <p className="text-gray-800 text-sm font-normal tracking-normal">
-                    Phone number
+                    Telefonnummer
                   </p>
                   <input
                     className="border w-full text-sm border-gray-200 mt-2 rounded xl:p-4 placeholder-gray-400 select-none xsm:p-2 sm:p-4"
-                    placeholder="Phone Number"
+                    placeholder="Telefonnummer"
                     {...register('phone', {
                       required: false,
                       minLength: 6,
@@ -556,12 +558,12 @@ export default function Footer() {
                 </div>
                 <div className="w-full xl:mt-8 xsm:mt-4">
                   <p className="text-gray-800 text-sm font-normal tracking-normal">
-                    Inquiry
+                    Anfrage
                     <span className="text-red-500 select-none"> *</span>
                   </p>
                   <input
                     className="border w-full text-sm border-gray-200 mt-2 rounded xl:p-4 placeholder-gray-400 select-none xsm:p-2 sm:p-4"
-                    placeholder="Inquiry"
+                    placeholder="Anfrage"
                     {...register('inquiry', {
                       required: true,
                       maxLength: 80,
@@ -570,11 +572,12 @@ export default function Footer() {
                 </div>
                 <div className="w-full xl:mt-8 xsm:mt-4">
                   <p className="text-gray-800 text-sm font-normal tracking-normal">
-                    Message<span className="text-red-500 select-none"> *</span>
+                    Nachricht
+                    <span className="text-red-500 select-none"> *</span>
                   </p>
                   <textarea
                     className="border w-full h-28 text-sm border-gray-200 mt-2 rounded xl:p-4 placeholder-gray-400 select-none resize-none xsm:p-2 sm:p-4"
-                    placeholder="Message"
+                    placeholder="Nachricht"
                     {...register('message', {
                       minLength: 2,
                       required: true,
@@ -591,7 +594,7 @@ export default function Footer() {
                   ) : null}
 
                   <p className="ml-1 text-white xl:text-sm xsm:text-sm font-normal">
-                    {messageSend ? 'Message sent' : 'Send'}
+                    {messageSend ? 'Nachricht gesendet' : 'Senden'}
                   </p>
                   {messageSend ? (
                     <CheckIcon className="w-4 h-4 self-center text-white ml-1"></CheckIcon>
@@ -612,9 +615,9 @@ export default function Footer() {
               />
             </div>
             <p className="text-gray-600 mt-4 font-normal xl:w-3/4 xsm:w-full xl:text-sm xsm:text-sm tracking-normal">
-              We act as a broker and distrubutor in the food and beverage
-              sector. We spezialize in frozen products, spirits, spices and
-              herbs.
+              Wir agieren als Makler und Vertreiber im Lebensmittel- und
+              Getränkesektor Sektor. Wir sind spezialisiert auf
+              Tiefkühlprodukte, Spirituosen, Gewürze und Kräuter.
             </p>
 
             <div className="flex flex-row mt-2">
@@ -627,7 +630,7 @@ export default function Footer() {
           <div className="flex xl:flex-row xl:w-1/2 justify-center xsm:hidden sm:flex xsm:flex-col xl:mt-0 xsm:mt-8 sm:flex-row">
             <div className="xl:w-1/3 xsm:w-full sm:w-1/3">
               <h6 className="text-gray-800 font-semibold xl:text-base xsm:text-base">
-                General
+                Allgemein
               </h6>
               <div className="mt-2 xl:text-sm xsm:text-sm">
                 <a
@@ -642,7 +645,7 @@ export default function Footer() {
                   className="text-gray-600 hover:text-mainGreen transition duration-150 tracking-normal"
                   href="#about"
                 >
-                  About Us
+                  Über Uns
                 </a>
               </div>
               <div className="mt-2 xl:text-sm xsm:text-sm">
@@ -650,7 +653,7 @@ export default function Footer() {
                   className="text-gray-600 hover:text-mainGreen transition duration-150 tracking-normal"
                   href="#products"
                 >
-                  Our Products
+                  Unsere Produkte
                 </a>
               </div>
               <div className="mt-2 xl:text-sm xsm:text-sm">
@@ -658,7 +661,7 @@ export default function Footer() {
                   className="text-gray-600 hover:text-mainGreen transition duration-150 tracking-normal"
                   href="#questions"
                 >
-                  Questions
+                  Fragen
                 </a>
               </div>
               <div className="mt-2 xl:text-sm xsm:text-sm">
@@ -666,13 +669,13 @@ export default function Footer() {
                   className="text-gray-600 hover:text-mainGreen transition duration-150 tracking-normal"
                   href="#contact"
                 >
-                  Contact
+                  Kontakt
                 </a>
               </div>
             </div>
             <div className="xl:w-1/3 xl:mt-0 xsm:mt-4 sm:mt-0 sm:w-1/3">
               <h6 className="text-gray-800 font-semibold xl:text-base xsm:text-base">
-                Languages
+                Sprachen
               </h6>
               <div className="mt-2 xl:text-sm xsm:text-sm">
                 <a
@@ -727,7 +730,7 @@ export default function Footer() {
             </div>
             <div className="xl:w-1/3 xl:mt-0 xsm:mt-4 sm:mt-0 sm:w-1/3">
               <h6 className="text-gray-800 font-semibold xl:text-base xsm:text-base">
-                Miscellaneous
+                Sonstiges
               </h6>
               <div className="mt-2 xl:text-sm xsm:text-sm">
                 <a
@@ -737,7 +740,7 @@ export default function Footer() {
                     setTriggerModal(!triggerModal);
                   }}
                 >
-                  Legal Disclosure
+                  Impressum
                 </a>
               </div>
               <div className="mt-2 xl:text-sm xsm:text-sm">
@@ -748,7 +751,7 @@ export default function Footer() {
                     setTriggerModal(!triggerModal);
                   }}
                 >
-                  Data Protection
+                  Datenschutz
                 </a>
               </div>
               <div className="mt-2 xl:text-sm xsm:text-sm">
