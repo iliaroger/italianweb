@@ -46,18 +46,19 @@ export default function Hero() {
           className="lg:w-1/2 xsm:w-full xsm:pl-8 xsm:py-6 sm:py-0 lg:py-0 md:pl-20"
         >
           <p className="font-extralight xsm:text-xl lg:text-3xl text-gray-600">
-            Welcome to
+            Bienvenue à
           </p>
           <h1 className="font-bold xsm:text-4xl lg:text-6xl text-gray-800 mt-1">
             Bio Etic Goods
           </h1>
           <p className="font-medium xsm:text-lg lg:text-xl text-mainGreen mt-1">
-            Acquainted with traditions
+            Connaissance des traditions
           </p>
           <p className="font-light w-3/4 xsm:text-sm lg:text-base text-gray-600 mt-8">
-            We act as a broker and distributor in the food and beverage sector.
-            We specialize in dry, fresh and frozen products, wine and spirits,
-            spices and herbs.
+            Nous agissons en tant que courtier et distributeur dans le secteur
+            de l'alimentation et des boissons. Nous sommes spécialisés dans les
+            produits secs, frais et surgelés, les vins et spiritueux, épices et
+            herbes aromatiques.
           </p>
           <div className="mt-4">
             <button
@@ -69,7 +70,9 @@ export default function Hero() {
             >
               <div className="flex flex-row items-center">
                 <ClipboardListIcon className="xsm:w-4 lg:w-5"></ClipboardListIcon>
-                <p className="ml-1 xsm:text-sm lg:text-base">About Us</p>
+                <p className="ml-1 xsm:text-sm lg:text-base">
+                  A propos de nous
+                </p>
               </div>
             </button>
             <button
@@ -87,7 +90,7 @@ export default function Hero() {
           </div>
           <div className="mt-8">
             <p className="text-gray-600 font-light text-sm">
-              We operate in the following regions:
+              Nous opérons dans les régions suivantes :
             </p>
             <div className="flex flex-row mt-1">
               <img

@@ -42,19 +42,19 @@ export default function Menu() {
                   href="#start"
                   className="lg:text-base md:text-xs font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
                 >
-                  Start
+                  Début
                 </a>
                 <a
                   href="#about"
                   className="lg:text-base md:text-xs font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
                 >
-                  About Us
+                  A propos de nous
                 </a>
                 <a
                   href="#products"
                   className="lg:text-base md:text-xs font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
                 >
-                  Our Products
+                  Nos produits
                 </a>
                 <a
                   href="#questions"
@@ -116,7 +116,7 @@ export default function Menu() {
                         href="#start"
                         className="xsm:text-sm font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
                       >
-                        Start
+                        Début
                       </a>
                     </div>
                     <div className="flex flex-row items-center gap-x-1">
@@ -125,7 +125,7 @@ export default function Menu() {
                         href="#about"
                         className="xsm:text-sm font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
                       >
-                        About Us
+                        A propos de nous
                       </a>
                     </div>
                     <div className="flex flex-row items-center gap-x-1">
@@ -134,7 +134,7 @@ export default function Menu() {
                         href="#products"
                         className="xsm:text-sm font-light text-gray-600 hover:text-gray-800 select-none transition duration-150"
                       >
-                        Our Products
+                        Nos produits
                       </a>
                     </div>
                     <div className="flex flex-row items-center gap-x-1">
