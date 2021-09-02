@@ -13,246 +13,246 @@ enum CountrySelected {
 
 const CountryText = {
   ch: {
-    subheader: 'Fresh from our swiss suppliers',
+    subheader: 'Fresco dai nostri fornitori svizzeri',
     headerPart1: '220+ ',
-    headerPart2: 'diverse food products',
+    headerPart2: 'prodotti alimentari diversi',
     headerPart3: '115+ ',
-    headerPart4: 'alcohol free, wine & champagne, spirits',
+    headerPart4: 'senza alcol, vino e champagne, liquori',
     headerPart5: '115+ ',
-    headerPart6: 'spices and herbs',
-    text: 'Try our sortiment which ranges from dry foods, fresh vegetables and fruits to frozen goods like fish and ice cream. We evaluate the catalog of our suppliers every month to guarantee an always changing experience for our customers. ',
+    headerPart6: 'spezie ed erbe',
+    text: 'Provate il nostro assortimento che spazia dagli alimenti secchi, verdura e frutta fresca ai surgelati come il pesce e i gelati. Valutiamo il catalogo dei nostri fornitori ogni mese per garantire ai nostri clienti un esperienza sempre diversa.',
     text2:
-      'New brands and new drinks hit the world stage monthly. In order not to lose track of what beverage or drink is up-and-coming we evaluate together with our suppliers the next catalog of products that our customers will certainly enjoy.',
+      'Nuovi marchi e nuove bevande si affacciano ogni mese sulla scena mondiale. Per non perdere la traccia di quale bevanda o bevanda sia in ascesa, valutiamo insieme ai nostri fornitori il prossimo catalogo di prodotti che i nostri clienti apprezzeranno sicuramente.',
     text3:
-      'With the ever changing world market we ensure the quickest delivery of sensible products like spices and herbs. By ordering directly from the producers themselves, we reduce not only the cost for our customers but also ensure that the product will arrive in time.',
+      'Con il mercato mondiale in continua evoluzione garantiamo la consegna più rapida di prodotti sensibili come le spezie e le erbe. Ordinando direttamente dai produttori stessi, riduciamo non solo il costo per i nostri clienti, ma ci assicuriamo anche che il prodotto arrivi in tempo.',
   },
   it: {
-    subheader: 'Fresh from our italian suppliers',
+    subheader: 'Fresco dai nostri fornitori italiani',
     headerPart1: '320+ ',
-    headerPart2: 'diverse food products',
+    headerPart2: 'prodotti alimentari diversi',
     headerPart3: '80+ ',
-    headerPart4: 'alcohol free, wine & champagne, spirits',
+    headerPart4: 'senza alcol, vino e champagne, liquori',
     headerPart5: '115+ ',
-    headerPart6: 'spices and herbs',
-    text: 'Try our sortiment which ranges from dry foods, fresh vegetables and fruits to frozen goods like fish and ice cream. We evaluate the catalog of our suppliers every month to guarantee an always changing experience for our customers. ',
+    headerPart6: 'spezie ed erbe',
+    text: 'Provate il nostro assortimento che spazia dagli alimenti secchi, verdura e frutta fresca ai surgelati come il pesce e i gelati. Valutiamo il catalogo dei nostri fornitori ogni mese per garantire ai nostri clienti un esperienza sempre diversa.',
     text2:
-      'New brands and new drinks hit the world stage monthly. In order not to lose track of what beverage or drink is up-and-coming we evaluate together with our suppliers the next catalog of products that our customers will certainly enjoy.',
+      'Nuovi marchi e nuove bevande si affacciano ogni mese sulla scena mondiale. Per non perdere la traccia di quale bevanda o bevanda sia in ascesa, valutiamo insieme ai nostri fornitori il prossimo catalogo di prodotti che i nostri clienti apprezzeranno sicuramente.',
     text3:
-      'With the ever changing world market we ensure the quickest delivery of sensible products like spices and herbs. By ordering directly from the producers themselves, we reduce not only the cost for our customers but also ensure that the product will arrive in time.',
+      'Con il mercato mondiale in continua evoluzione garantiamo la consegna più rapida di prodotti sensibili come le spezie e le erbe. Ordinando direttamente dai produttori stessi, riduciamo non solo il costo per i nostri clienti, ma ci assicuriamo anche che il prodotto arrivi in tempo.',
   },
   fr: {
-    subheader: 'Fresh from our french suppliers',
+    subheader: 'Fresco dai nostri fornitori francesi',
     headerPart1: '190+ ',
-    headerPart2: 'diverse food products',
+    headerPart2: 'prodotti alimentari diversi',
     headerPart3: '340+ ',
-    headerPart4: 'alcohol free, wine & champagne, spirits',
+    headerPart4: 'senza alcol, vino e champagne, liquori',
     headerPart5: '115+ ',
-    headerPart6: 'spices and herbs',
-    text: 'Try our sortiment which ranges from dry foods, fresh vegetables and fruits to frozen goods like fish and ice cream. We evaluate the catalog of our suppliers every month to guarantee an always changing experience for our customers. ',
+    headerPart6: 'spezie ed erbe',
+    text: 'Provate il nostro assortimento che spazia dagli alimenti secchi, verdura e frutta fresca ai surgelati come il pesce e i gelati. Valutiamo il catalogo dei nostri fornitori ogni mese per garantire ai nostri clienti un esperienza sempre diversa.',
     text2:
-      'New brands and new drinks hit the world stage monthly. In order not to lose track of what beverage or drink is up-and-coming we evaluate together with our suppliers the next catalog of products that our customers will certainly enjoy.',
+      'Nuovi marchi e nuove bevande si affacciano ogni mese sulla scena mondiale. Per non perdere la traccia di quale bevanda o bevanda sia in ascesa, valutiamo insieme ai nostri fornitori il prossimo catalogo di prodotti che i nostri clienti apprezzeranno sicuramente.',
     text3:
-      'With the ever changing world market we ensure the quickest delivery of sensible products like spices and herbs. By ordering directly from the producers themselves, we reduce not only the cost for our customers but also ensure that the product will arrive in time.',
+      'Con il mercato mondiale in continua evoluzione garantiamo la consegna più rapida di prodotti sensibili come le spezie e le erbe. Ordinando direttamente dai produttori stessi, riduciamo non solo il costo per i nostri clienti, ma ci assicuriamo anche che il prodotto arrivi in tempo.',
   },
   de: {
-    subheader: 'Fresh from our german suppliers',
+    subheader: 'Fresco dai nostri fornitori tedeschi',
     headerPart1: '190+ ',
-    headerPart2: 'diverse food products',
+    headerPart2: 'prodotti alimentari diversi',
     headerPart3: '340+ ',
-    headerPart4: 'alcohol free, wine & champagne, spirits',
+    headerPart4: 'senza alcol, vino e champagne, liquori',
     headerPart5: '115+ ',
-    headerPart6: 'spices and herbs',
-    text: 'Try our sortiment which ranges from dry foods, fresh vegetables and fruits to frozen goods like fish and ice cream. We evaluate the catalog of our suppliers every month to guarantee an always changing experience for our customers. ',
+    headerPart6: 'spezie ed erbe',
+    text: 'Provate il nostro assortimento che spazia dagli alimenti secchi, verdura e frutta fresca ai surgelati come il pesce e i gelati. Valutiamo il catalogo dei nostri fornitori ogni mese per garantire ai nostri clienti un esperienza sempre diversa.',
     text2:
-      'New brands and new drinks hit the world stage monthly. In order not to lose track of what beverage or drink is up-and-coming we evaluate together with our suppliers the next catalog of products that our customers will certainly enjoy.',
+      'Nuovi marchi e nuove bevande si affacciano ogni mese sulla scena mondiale. Per non perdere la traccia di quale bevanda o bevanda sia in ascesa, valutiamo insieme ai nostri fornitori il prossimo catalogo di prodotti che i nostri clienti apprezzeranno sicuramente.',
     text3:
-      'With the ever changing world market we ensure the quickest delivery of sensible products like spices and herbs. By ordering directly from the producers themselves, we reduce not only the cost for our customers but also ensure that the product will arrive in time.',
+      'Con il mercato mondiale in continua evoluzione garantiamo la consegna più rapida di prodotti sensibili come le spezie e le erbe. Ordinando direttamente dai produttori stessi, riduciamo non solo il costo per i nostri clienti, ma ci assicuriamo anche che il prodotto arrivi in tempo.',
   },
   by: {
-    subheader: 'Fresh from our belarusian suppliers',
+    subheader: 'Fresco dai nostri fornitori bielorussi',
     headerPart1: '190+ ',
-    headerPart2: 'diverse food products',
+    headerPart2: 'prodotti alimentari diversi',
     headerPart3: '340+ ',
-    headerPart4: 'alcohol free, wine & champagne, spirits',
+    headerPart4: 'senza alcol, vino e champagne, liquori',
     headerPart5: '115+ ',
-    headerPart6: 'spices and herbs',
-    text: 'Try our sortiment which ranges from dry foods, fresh vegetables and fruits to frozen goods like fish and ice cream. We evaluate the catalog of our suppliers every month to guarantee an always changing experience for our customers. ',
+    headerPart6: 'spezie ed erbe',
+    text: 'Provate il nostro assortimento che spazia dagli alimenti secchi, verdura e frutta fresca ai surgelati come il pesce e i gelati. Valutiamo il catalogo dei nostri fornitori ogni mese per garantire ai nostri clienti un esperienza sempre diversa.',
     text2:
-      'New brands and new drinks hit the world stage monthly. In order not to lose track of what beverage or drink is up-and-coming we evaluate together with our suppliers the next catalog of products that our customers will certainly enjoy.',
+      'Nuovi marchi e nuove bevande si affacciano ogni mese sulla scena mondiale. Per non perdere la traccia di quale bevanda o bevanda sia in ascesa, valutiamo insieme ai nostri fornitori il prossimo catalogo di prodotti che i nostri clienti apprezzeranno sicuramente.',
     text3:
-      'With the ever changing world market we ensure the quickest delivery of sensible products like spices and herbs. By ordering directly from the producers themselves, we reduce not only the cost for our customers but also ensure that the product will arrive in time.',
+      'Con il mercato mondiale in continua evoluzione garantiamo la consegna più rapida di prodotti sensibili come le spezie e le erbe. Ordinando direttamente dai produttori stessi, riduciamo non solo il costo per i nostri clienti, ma ci assicuriamo anche che il prodotto arrivi in tempo.',
   },
 };
 
 const ModalInfo = {
   ch: {
     dry: {
-      header: 'We have the best dry products available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo i migliori prodotti secchi disponibili',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
     fresh: {
-      header: 'We have the best fresh products available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo i migliori prodotti freschi disponibili',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
     frozen: {
-      header: 'We have the best frozen products available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo i migliori prodotti congelati disponibili',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
     alcoholFree: {
-      header: 'We have the best alcohol free drinks available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo le migliori bevande senza alcol disponibili',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
     wineChamp: {
-      header: 'We have the best wine and champagne available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo il miglior vino e champagne disponibile',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
     spirits: {
-      header: 'We have the best original spirits available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo i migliori distillati originali disponibili',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
     spices: {
-      header: 'We have the best spices available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo le migliori spezie disponibili',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
     herbs: {
-      header: 'We have the best herbs available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo le migliori erbe disponibili',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
   },
   it: {
     dry: {
-      header: 'We have the best dry products available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo i migliori prodotti secchi disponibili',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
     fresh: {
-      header: 'We have the best fresh products available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo i migliori prodotti freschi disponibili',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
     frozen: {
-      header: 'We have the best frozen products available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo i migliori prodotti congelati disponibili',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
     alcoholFree: {
-      header: 'We have the best alcohol free drinks available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo le migliori bevande senza alcol disponibili',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
     wineChamp: {
-      header: 'We have the best wine and champagne available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo il miglior vino e champagne disponibile',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
     spirits: {
-      header: 'We have the best original spirits available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo i migliori distillati originali disponibili',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
     spices: {
-      header: 'We have the best spices available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo le migliori spezie disponibili',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
     herbs: {
-      header: 'We have the best herbs available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo le migliori erbe disponibili',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
   },
   fr: {
     dry: {
-      header: 'We have the best dry products available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo i migliori prodotti secchi disponibili',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
     fresh: {
-      header: 'We have the best fresh products available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo i migliori prodotti freschi disponibili',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
     frozen: {
-      header: 'We have the best frozen products available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo i migliori prodotti congelati disponibili',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
     alcoholFree: {
-      header: 'We have the best alcohol free drinks available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo le migliori bevande senza alcol disponibili',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
     wineChamp: {
-      header: 'We have the best wine and champagne available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo il miglior vino e champagne disponibile',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
     spirits: {
-      header: 'We have the best original spirits available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo i migliori distillati originali disponibili',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
     spices: {
-      header: 'We have the best spices available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo le migliori spezie disponibili',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
     herbs: {
-      header: 'We have the best herbs available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo le migliori erbe disponibili',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
   },
   de: {
     dry: {
-      header: 'We have the best dry products available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo i migliori prodotti secchi disponibili',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
     fresh: {
-      header: 'We have the best fresh products available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo i migliori prodotti freschi disponibili',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
     frozen: {
-      header: 'We have the best frozen products available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo i migliori prodotti congelati disponibili',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
     alcoholFree: {
-      header: 'We have the best alcohol free drinks available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo le migliori bevande senza alcol disponibili',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
     wineChamp: {
-      header: 'We have the best wine and champagne available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo il miglior vino e champagne disponibile',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
     spirits: {
-      header: 'We have the best original spirits available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo i migliori distillati originali disponibili',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
     spices: {
-      header: 'We have the best spices available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo le migliori spezie disponibili',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
     herbs: {
-      header: 'We have the best herbs available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo le migliori erbe disponibili',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
   },
   by: {
     dry: {
-      header: 'We have the best dry products available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo i migliori prodotti secchi disponibili',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
     fresh: {
-      header: 'We have the best fresh products available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo i migliori prodotti freschi disponibili',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
     frozen: {
-      header: 'We have the best frozen products available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo i migliori prodotti congelati disponibili',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
     alcoholFree: {
-      header: 'We have the best alcohol free drinks available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo le migliori bevande senza alcol disponibili',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
     wineChamp: {
-      header: 'We have the best wine and champagne available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo il miglior vino e champagne disponibile',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
     spirits: {
-      header: 'We have the best original spirits available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo i migliori distillati originali disponibili',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
     spices: {
-      header: 'We have the best spices available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo le migliori spezie disponibili',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
     herbs: {
-      header: 'We have the best herbs available',
-      text: 'Contact us to receive the product catalogue.',
+      header: 'Abbiamo le migliori erbe disponibili',
+      text: 'Contattateci per ricevere il catalogo dei prodotti.',
     },
   },
 };
@@ -307,12 +307,12 @@ export default function Products() {
       ></img>
       <div className="max-w-6xl mx-auto py-20">
         <Header
-          description="our products in detail"
-          text="In this section you can learn more about our products: their appearance, taste and characteristics for which consumers choose them."
+          description="i nostri prodotti in dettaglio"
+          text="In questa sezione puoi conoscere meglio i nostri prodotti: il loro aspetto, il loro gusto e le caratteristiche per cui i consumatori li scelgono."
         ></Header>
         <div className="mt-8">
           <h3 className="text-center xsm:text-sm lg:text-base font-medium text-gray-800">
-            Change supplier region
+            Cambia la regione del fornitore
           </h3>
           <hr className="w-10 mx-auto mt-1"></hr>
           <div className="flex flex-row justify-center mt-2 gap-x-2">
@@ -358,7 +358,7 @@ export default function Products() {
             ></img>
           </div>
         </div>
-        <div className="flex xsm:flex-col lg:flex-row mt-10 items-center">
+        <div className="flex xsm:flex-col lg:flex-row mt-10 articoli-center">
           <div className="xsm:w-full xsm:order-2 lg:order-none lg:w-1/2 flex flex-row p-1 xsm:gap-x-2 lg:gap-x-4 justify-center xsm:mt-4 lg:mt-0 flex-wrap">
             <div className="w-1/4 bg-white rounded border border-mainGreen transition duration-300 hover:border hover:border-mainGreen overflow-hidden hover:shadow-xl h-full">
               <img
@@ -368,11 +368,11 @@ export default function Products() {
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
               <p className="text-center xsm:text-sm lg:text-sm text-gray-600 whitespace-nowrap mt-4 font-extralight">
-                dry{' '}
-                <span className="text-gray-800 font-semibold">products</span>
+                asciutto{' '}
+                <span className="text-gray-800 font-semibold">prodotti</span>
               </p>
               <p className="mt-1 text-center font-light text-xs text-mainGreen italic">
-                50 items
+                50 articoli
               </p>
               <button
                 className="xsm:px-2 lg:px-4 py-2 w-full border mt-4 border-mainGreen bg-mainGreen text-white text-xs tracking-wider uppercase focus:outline-none select-none"
@@ -381,7 +381,7 @@ export default function Products() {
                   setTriggerModal(!triggerModal);
                 }}
               >
-                Read more
+                Leggi tutto
               </button>
             </div>
             <div className="w-1/4 bg-white rounded border border-mainGreen transition duration-300 hover:border hover:border-mainGreen overflow-hidden hover:shadow-xl h-full">
@@ -392,14 +392,14 @@ export default function Products() {
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
               <p className="text-center lg:p-0 xsm:text-sm lg:text-sm text-gray-600 whitespace-nowrap mt-4 font-extralight">
-                fresh
+                fresco
                 {''}
                 <span className="text-gray-800 font-semibold px-1">
-                  products
+                  prodotti
                 </span>
               </p>
               <p className="mt-1 text-center font-light text-xs text-mainGreen italic">
-                32 items
+                32 articoli
               </p>
               <button
                 className="xsm:px-2 lg:px-4 py-2 w-full border mt-4 border-mainGreen  bg-mainGreen text-white text-xs tracking-wider uppercase focus:outline-none select-none"
@@ -408,7 +408,7 @@ export default function Products() {
                   setTriggerModal(!triggerModal);
                 }}
               >
-                Read more
+                Leggi tutto
               </button>
             </div>
             <div className="w-1/4 bg-white rounded border border-mainGreen transition duration-300 hover:border hover:border-mainGreen overflow-hidden hover:shadow-xl h-full">
@@ -419,11 +419,11 @@ export default function Products() {
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
               <p className="text-center xsm:text-sm lg:text-sm text-gray-600 whitespace-nowrap mt-4 font-extralight">
-                frozen
-                <span className="text-gray-800 font-semibold">products</span>
+                congelato{' '}
+                <span className="text-gray-800 font-semibold">prodotti</span>
               </p>
               <p className="mt-1 text-center font-light text-xs text-mainGreen italic">
-                20 items
+                20 articoli
               </p>
               <button
                 className="xsm:px-2 lg:px-4 py-2 w-full border mt-4 border-mainGreen  bg-mainGreen text-white text-xs tracking-wider uppercase focus:outline-none select-none"
@@ -432,7 +432,7 @@ export default function Products() {
                   setTriggerModal(!triggerModal);
                 }}
               >
-                Read more
+                Leggi tutto
               </button>
             </div>
           </div>
@@ -451,7 +451,7 @@ export default function Products() {
             </p>
           </div>
         </div>
-        <div className="flex xsm:flex-col lg:flex-row xsm:mt-10 lg:mt-20 items-center">
+        <div className="flex xsm:flex-col lg:flex-row xsm:mt-10 lg:mt-20 articoli-center">
           <div className="xsm:w-full lg:w-1/2 text-right pr-10">
             <p className="uppercase text-xs text-gray-600 tracking-widest">
               {CountryText[countrySelected].subheader}
@@ -475,11 +475,11 @@ export default function Products() {
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
               <p className="text-center text-gray-600 xsm:text-sm whitespace-nowrap lg:text-sm mt-4 font-extralight">
-                alcohol{' '}
-                <span className="text-gray-800 font-semibold">free</span>
+                senza{' '}
+                <span className="text-gray-800 font-semibold">alcool</span>
               </p>
               <p className="mt-1 text-center font-light text-xs text-mainGreen italic">
-                50 items
+                50 articoli
               </p>
               <button
                 className="xsm:px-2 lg:px-4 py-2 w-full border mt-4 border-mainGreen  bg-mainGreen text-white text-xs tracking-wider uppercase focus:outline-none select-none"
@@ -488,7 +488,7 @@ export default function Products() {
                   setTriggerModal(!triggerModal);
                 }}
               >
-                Read more
+                Leggi tutto
               </button>
             </div>
             <div className="w-1/4 bg-white rounded border border-mainGreen transition duration-300 hover:border hover:border-mainGreen overflow-hidden hover:shadow-xl h-full">
@@ -499,13 +499,13 @@ export default function Products() {
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
               <p className="text-center xsm:text-sm lg:text-sm whitespace-nowrap text-gray-600 mt-4 font-extralight">
-                wine
+                vino
                 <span className="text-gray-800 font-semibold pl-1">
                   &amp; champagne
                 </span>
               </p>
               <p className="mt-1 text-center font-light text-xs text-mainGreen italic">
-                32 items
+                32 articoli
               </p>
               <button
                 className="xsm:px-2 lg:px-4 py-2 w-full border mt-4 border-mainGreen  bg-mainGreen text-white text-xs tracking-wider uppercase focus:outline-none select-none"
@@ -514,7 +514,7 @@ export default function Products() {
                   setTriggerModal(!triggerModal);
                 }}
               >
-                Read more
+                Leggi tutto
               </button>
             </div>
             <div className="w-1/4 bg-white rounded border border-mainGreen transition duration-300 hover:border hover:border-mainGreen overflow-hidden hover:shadow-xl h-full">
@@ -525,11 +525,11 @@ export default function Products() {
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
               <p className="text-center xsm:text-sm lg:text-sm text-gray-600 whitespace-nowrap mt-4 font-extralight">
-                original
-                <span className="text-gray-800 font-semibold">spirits</span>
+                originale{' '}
+                <span className="text-gray-800 font-semibold">liquori</span>
               </p>
               <p className="mt-1 text-center font-light text-xs text-mainGreen italic">
-                20 items
+                20 articoli
               </p>
               <button
                 className="px-4 py-2 w-full border mt-4 border-mainGreen  bg-mainGreen text-white text-xs tracking-wider uppercase focus:outline-none select-none"
@@ -538,12 +538,12 @@ export default function Products() {
                   setTriggerModal(!triggerModal);
                 }}
               >
-                Read more
+                Leggi tutto
               </button>
             </div>
           </div>
         </div>
-        <div className="flex xsm:flex-col lg:flex-row mt-20 items-center">
+        <div className="flex xsm:flex-col lg:flex-row mt-20 articoli-center">
           <div className="xsm:w-full xsm:order-2 lg:order-none lg:w-1/2 flex flex-row p-1  xsm:gap-x-2 lg:gap-x-4 justify-center xsm:mt-4 lg:mt-0 flex-wrap">
             <div className="w-1/4"></div>
             <div className="w-1/4 bg-white rounded border border-mainGreen transition duration-300 hover:border hover:border-mainGreen overflow-hidden hover:shadow-xl h-full">
@@ -554,11 +554,11 @@ export default function Products() {
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
               <p className="text-center xsm:text-sm lg:text-sm whitespace-nowrap text-gray-600 mt-4 font-extralight">
-                fresh{' '}
-                <span className="text-gray-800 font-semibold">spices</span>
+                fresco{' '}
+                <span className="text-gray-800 font-semibold">spezie</span>
               </p>
               <p className="mt-1 text-center font-light text-xs text-mainGreen italic">
-                50 items
+                50 articoli
               </p>
               <button
                 className="xsm:px-2 lg:px-4 py-2 w-full border mt-4 border-mainGreen bg-mainGreen text-white text-xs tracking-wider uppercase focus:outline-none select-none"
@@ -567,7 +567,7 @@ export default function Products() {
                   setTriggerModal(!triggerModal);
                 }}
               >
-                Read more
+                Leggi tutto
               </button>
             </div>
             <div className="w-1/4 bg-white rounded border border-mainGreen transition duration-300 hover:border hover:border-mainGreen overflow-hidden hover:shadow-xl h-full">
@@ -578,12 +578,12 @@ export default function Products() {
               ></img>
               <hr className="mx-auto w-1/4 mt-2"></hr>
               <p className="text-center lg:p-0 xsm:text-sm lg:text-sm whitespace-nowrap text-gray-600 mt-4 font-extralight">
-                fresh
+                fresco
                 {''}
-                <span className="text-gray-800 font-semibold px-1">herbs</span>
+                <span className="text-gray-800 font-semibold px-1">erbe</span>
               </p>
               <p className="mt-1 text-center font-light text-xs text-mainGreen italic">
-                32 items
+                32 articoli
               </p>
               <button
                 className="xsm:px-2 lg:px-4 py-2 w-full border mt-4 border-mainGreen  bg-mainGreen text-white text-xs tracking-wider uppercase focus:outline-none select-none"
@@ -592,7 +592,7 @@ export default function Products() {
                   setTriggerModal(!triggerModal);
                 }}
               >
-                Read more
+                Leggi tutto
               </button>
             </div>
           </div>
